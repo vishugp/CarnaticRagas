@@ -16,7 +16,7 @@ class RaagPlayer:
                 'R3':1.186,
                 'G1':6/5,
                 'G2':81/64,
-                'G3':1.321,
+                'G3':81/64 + 1e-2,
                 'M1':4/3,
                 'M2':45/32,
                 'P':3/2,
@@ -35,7 +35,7 @@ class RaagPlayer:
 
   def aaro_avro(self, raag):
     freq_tuple = [(n,self.notes_list[n]) for n in raag]
-    return [(note,self.base*v) for note,v in freq_tuple + [('S2',2),('   ',0),('S2',2)] + freq_tuple[::-1]]
+    return [(note,self.base*v) for note,v in freq_tuple + [('S2',2),('\n',0),('\rS2',2)] + freq_tuple[::-1]]
 
   def generate_note(self, notes):
     
@@ -46,7 +46,8 @@ class RaagPlayer:
                       output=True)
     
     for (n,freq) in notes:
-      print(n, freq)
+      if n in ['S','P']: n+=' '
+      print(n, end=" ")
       samples = [int(np.sin(2*np.pi*n*freq/self.RATE) * 32767) for n in range(int(self.RATE*self.DURATION))]
       packed_samples = wave.struct.pack('h'*len(samples), *samples)  # 'h' for signed short
       stream.write(packed_samples)
