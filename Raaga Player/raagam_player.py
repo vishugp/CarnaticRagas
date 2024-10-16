@@ -48,20 +48,21 @@ class RaagPlayer:
   def __init__(self, play_notes = []):
     if play_notes == []: return
     # print(play_notes)
+    # print(play_notes)
+    # if len(play_notes)!=2: 
+    # self.generate_note(self.aaro_avro(play_notes))
+    
+  # else:
+    print(play_notes)
+    aaro = play_notes[0]
+    avro = play_notes[1]
+    
+    aaro = aaro[:-1] + ['S2' if 'S' in aaro[-1] else aaro[-1]]
+    avro = [i if i!='S' else 'S2' for i in avro[:-1]] + [avro[-1]]
 
-    if len(play_notes)!=2: 
-      self.generate_note(self.aaro_avro(play_notes))
-      
-    else:
-      print(play_notes)
-      aaro = play_notes[0]
-      avro = play_notes[1]
-      
-      aaro = aaro[:-1] + ['S2' if 'S' in aaro[-1] else aaro[-1]]
-      avro = [i if i!='S' else 'S2' for i in avro[:-1]] + [avro[-1]]
-
-      aaroavro = [(n,self.notes_list[n]*self.base) for n in aaro] + [('\n',0)] + [(n,self.notes_list[n]*self.base) for n in avro]
-      self.generate_note(aaroavro)
+    aaroavro = [(n,self.notes_list[n]*self.base) for n in aaro] + [('\n',0)] + [(n,self.notes_list[n]*self.base) for n in avro]
+    print(aaroavro)
+    self.generate_note(aaroavro)
 
 
 
@@ -79,7 +80,7 @@ class RaagPlayer:
                       output=True)
     
     for (n,freq) in notes:
-      if n in ['S','P']: n+=' '
+      if n in ['S','P']: n+=''
       print(n, end=" ")
       
       samples = [int(np.sin(2*np.pi*n*freq/self.RATE) * 32767) for n in range(int(self.RATE*self.DURATION))]
