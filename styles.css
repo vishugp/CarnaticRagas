@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center;     /* Vertically center the content */
+    height: 100vh;           /* Make body take the full height */
+    margin: 0;               /* Remove default margin */
+    overflow: hidden;        /* Prevent body overflow */
+}
+
+#main {
+    text-align: center; /* Center-align the contents of the #main div */
+    width: 100%;        /* Allow the content to fill the width */
+}
+
+#trail {
+    width: 750px;
+    height: 30px;
+    padding: 10px;
+    margin: 0 auto; /* Center the trail horizontally */
+}
+
+#trail .trailpart {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 0 10px;
+    position: relative;
+    background: #f0f0f0;
+    color: #333;
+    margin-right: 10px;
+}
+
+#trail .trailpart:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -15px;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #e5e5e7;
+}
+
+#explanation {
+    position: absolute;
+    text-align: center;
+    top: 300px;
+    left: 565px;
+    width: 140px;
+    color: #000000;
+}
+
+#percentage {
+    font-size: 5.5em;
+}
