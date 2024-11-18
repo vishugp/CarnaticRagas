@@ -59,25 +59,42 @@ function createSunburst(json) {
         .on("mouseover", mouseover)
         .on("mouseleave", mouseleave);
 
-    function mouseover(event, d) {
-        const percentage = ((100 * d.value) / root.value).toFixed(1);
-        const raagaName = d.data.raaga || "";
+    const labels = svg.selectAll("text")
+        .data(root.descendants())
+        .enter().append("text")
+        .attr("transform", function (d) {
+            const angle = (d.x0 + d.x1) / 2 * (180 / Math.PI) - 90;
+            const r = ((d.depth ) / maxDepth) * radius; // Center of the band
+            return `rotate(${angle}) translate(${r},0) rotate(${angle > 90 ? 180 : 0})`;
+        })
+        .attr("text-anchor", d => ((d.x0 + d.x1) / 2) > Math.PI ? "end" : "start")
+        .style("font-size", "12px")
+        .style("fill", "black")
+        // .style("visibility", "hidden") // Hide by default
+        .text(d => d.data.name);
 
+    function mouseover(event, d) {
+        // Highlight the labels of the next depth
+        const raagaName = d.data.raaga || "";
         d3.select("#explanation")
             .html(`<br><br><b>${raagaName}</b>`)
             .style("visibility", "");
 
+
+        labels.style("visibility", l => (l.parent === d ? "visible" : "hidden"));
+
         const sequenceArray = d.ancestors().reverse().slice(1);
-        
+
         paths.style("opacity", 0.3);
         paths.filter(pathD => sequenceArray.some(seqD => seqD === pathD))
             .style("opacity", 1);
 
-        updateBreadcrumbs(sequenceArray, percentage);
+        updateBreadcrumbs(sequenceArray);
     }
 
     function mouseleave() {
         paths.style("opacity", 1);
+        labels.style("visibility", "hidden"); // Hide all labels when not hovering
         d3.select("#trail").selectAll("*").remove();
         d3.select("#explanation").style("visibility", "hidden");
     }
