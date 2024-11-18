@@ -1,6 +1,6 @@
 const width = 750;
 const height = 600;
-const radius = Math.min(width, height) / 2;
+const radius = Math.min(width, height) / 2 - 50; // Leave padding for strokes or labels
 
 // Define base colors for each depth level
 const baseColors = [
@@ -35,11 +35,18 @@ function createSunburst(json) {
 
     partition(root);
 
+    // const arc = d3.arc()
+    //     .startAngle(d => d.x0)
+    //     .endAngle(d => d.x1)
+    //     .innerRadius(d => Math.sqrt(d.y0))
+    //     .outerRadius(d => Math.sqrt(d.y1));
+
+    const maxDepth = root.height; // Maximum depth of the hierarchy
     const arc = d3.arc()
         .startAngle(d => d.x0)
         .endAngle(d => d.x1)
-        .innerRadius(d => Math.sqrt(d.y0))
-        .outerRadius(d => Math.sqrt(d.y1));
+        .innerRadius(d => (d.depth / maxDepth) * radius)
+        .outerRadius(d => ((d.depth + 1) / maxDepth) * radius);
 
     const paths = svg.selectAll("path")
         .data(root.descendants())
