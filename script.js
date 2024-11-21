@@ -73,7 +73,7 @@ function createSunburst(json) {
             return `rotate(${angle}) translate(${r},0) rotate(${angle > 90 ? 180 : 0})`;
         })
         .attr("text-anchor", d => ((d.x0 + d.x1) / 2) > Math.PI ? "end" : "start")
-        .style("font-size", "12px")
+        .style("font-size", "8px")
         .style("fill", "black")
         .style("visibility", "visible")  // Start with all labels visible
         .text(d => d.data.name);
@@ -101,6 +101,8 @@ function createSunburst(json) {
         });
 
         updateBreadcrumbs(sequenceArray);
+
+        playAudio(d.data.name, d.depth);
     }
 
     function mouseleave() {
@@ -143,6 +145,69 @@ function buildHierarchy(csvData) {
     });
     return root;
 }
+
+function playAudio(noteName, level) {
+    // Initialize AudioContext
+    const AudioContext = window.AudioContext || window.webkitAudioContext;
+    const audioContext = new AudioContext();
+
+    // Initialize WebAudioFontPlayer
+    const player = new WebAudioFontPlayer();
+    player.loader.startLoad(audioContext, "https://surikov.github.io/webaudiofontdata/sound/0250_Aspirin_sf2_file.js", "_tone_0250_Aspirin_sf2_file");
+    player.loader.waitLoad(() => {
+        // Map noteName to a MIDI note or a predefined tone
+        const midiNote = mapNoteToMIDI(noteName, level);
+
+       
+
+        // Play the note
+        player.queueWaveTable(audioContext, audioContext.destination, _tone_0250_Aspirin_sf2_file, 0, midiNote, 1); // duration: 2 seconds
+    });
+}
+
+// Helper function to map note names or raaga to MIDI notes
+function mapNoteToMIDI(noteName, level) {
+    const noteMapping = {
+        // Shuddha (natural) swaras
+        "S": 60,       // C4
+        "P": 67,       // G4
+
+        // Rishabham (Re) variations
+        "R1": 61,       // C#4 (Komal Re)
+        "R2": 62,       // D4 (Shuddha Re)
+        "R3": 63,       // D#4 (Teevra Re)
+
+        // Gandharam (Ga) variations
+        "G1": 62,       // D4 (Shuddha Ga = Same as Shuddha Re)
+        "G2": 63,       // D#4 (Komal Ga)
+        "G3": 64,       // E4 (Teevra Ga)
+
+        // Madhyamam (Ma) variations
+        "M1": 65,       // F4 (Shuddha Ma)
+        "M2": 66,       // F#4 (Teevra Ma)
+
+        // Dhaivatam (Dha) variations
+        "D1": 68,       // G#4 (Komal Dha)
+        "D2": 69,       // A4 (Shuddha Dha)
+        "D3": 70,       // A#4 (Teevra Dha)
+
+        // Nishadam (Ni) variations
+        "N1": 69,       // A4 (Shuddha Ni = Same as Shuddha Dha)
+        "N2": 70,       // A#4 (Komal Ni)
+        "N3": 71        // B4 (Teevra Ni)
+    };
+
+    // Return the MIDI note number for the given noteName
+    midiNote = noteMapping[noteName] 
+
+    if (noteName === "S" && level > 1) {
+        midiNote = 72; // C5 for higher octave Sa
+    }
+
+    return midiNote;
+}
+
+
 
 Promise.all([
     d3.csv("Data/Tabular/Melakarta_Raagams.csv"),
