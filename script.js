@@ -62,6 +62,7 @@ function createSunburst(json) {
         .style("fill", d => getColorByName(d))
         .style("fill-opacity", 0.7)
         .on("mouseover", mouseover)
+        .on("click", click)
         .on("mouseleave", mouseleave);
 
     const labels = svg.selectAll("text")
@@ -102,6 +103,11 @@ function createSunburst(json) {
 
         updateBreadcrumbs(sequenceArray);
 
+        // playAudio(d.data.name, d.depth);
+    }
+
+    function click(event, d) {
+        // Play audio with the current level (d.depth determines the level)
         playAudio(d.data.name, d.depth);
     }
 
