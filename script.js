@@ -1,6 +1,7 @@
 const width = 600;
 const height = 600;
 const radius = Math.min(width, height) / 2 - 50; // Leave padding for strokes or labels
+let selectedNode = null;
 
 const baseColors = [
     "#8A2BE2", // Violet
@@ -31,12 +32,88 @@ function getColorByName(d) {
     return colormap[d.data.name] || "#ccc";
 }
 
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function playSequence(notes, depth) {
+    const noteDelay = 500; // 500ms between notes
+    for (let i = 0; i < notes.length; i++) {
+        playAudio(notes[i], depth[i]); 
+        await sleep(noteDelay);
+    }
+}
+
 function createSunburst(json) {
+
+    d3.select("#explanation")
+        .style("cursor", "pointer")
+        .on("click", async function(event) {
+            // Stop the click from bubbling up to the document
+            event.stopPropagation();
+            
+            if (selectedNode) {
+                // Get the path from root to selected node
+                const sequence = selectedNode.ancestors().reverse().slice(1);
+                const notes = sequence.map(d => d.data.name);
+                const depths = sequence.map(d => d.depth);
+                
+                // Play Aarohanam (ascending)
+                await playSequence(notes, depths);
+                
+                // Small pause between ascending and descending
+                await sleep(1000);
+                
+                // Play Avarohanam (descending)
+                await playSequence(notes.reverse(), depths.reverse());
+            }
+        });
+
+        
+    // Add click handler for document
+    document.addEventListener('click', handleOutsideClick);
+
+    // Create the SVG element
     const svg = d3.select("#chart").append("svg")
         .attr("width", width)
         .attr("height", height)
+        .on("click", function(event) {
+            event.stopPropagation();
+        })
         .append("g")
         .attr("transform", `translate(${width / 2}, ${height / 2})`);
+
+    function handleOutsideClick(event) {
+        const chartElement = document.querySelector('#chart svg');
+        const explanationElement = document.querySelector('#explanation');
+        
+        // Only reset if click is outside both the chart and explanation
+        if (selectedNode && 
+            !chartElement.contains(event.target) && 
+            !explanationElement.contains(event.target)) {
+            resetVisualization();
+        }
+    }
+
+    function resetVisualization() {
+        selectedNode = null;
+        paths.style("opacity", 1);
+        labels.style("visibility", "visible");
+        d3.select("#trail").selectAll("*").remove();
+        d3.select("#explanation").style("visibility", "hidden");
+    }
+
+    // Clean up function to remove event listener when needed
+    function cleanup() {
+        document.removeEventListener('click', handleOutsideClick);
+    }
+
+
+    // const svg = d3.select("#chart").append("svg")
+    //     .attr("width", width)
+    //     .attr("height", height)
+    //     .append("g")
+    //     .attr("transform", `translate(${width / 2}, ${height / 2})`);
 
     const partition = d3.partition().size([2 * Math.PI, radius * radius]);
 
@@ -80,6 +157,8 @@ function createSunburst(json) {
         .text(d => d.data.name);
 
     function mouseover(event, d) {
+        if (selectedNode) return;
+
         const raagaName = d.data.raaga || "";
         d3.select("#explanation")
             .html(`<b>${raagaName}</b>`)
@@ -106,17 +185,60 @@ function createSunburst(json) {
         // playAudio(d.data.name, d.depth);
     }
 
+    // function click(event, d) {
+    //     // Play audio with the current level (d.depth determines the level)
+    //     playAudio(d.data.name, d.depth);
+    // }
+
     function click(event, d) {
-        // Play audio with the current level (d.depth determines the level)
+        // Stop event from bubbling to document
+        event.stopPropagation();
+        
+        // Only handle clicks on leaf nodes (nodes without children)
+        if (!d.children && !d._children) {
+            if (selectedNode === d) {
+                resetVisualization();
+            } else {
+                selectedNode = d;
+                paths.style("opacity", 0.3);
+                const sequenceArray = d.ancestors().reverse().slice(1);
+                paths.filter(pathD => sequenceArray.some(seqD => seqD === pathD))
+                    .style("opacity", 1);
+                
+                labels.style("visibility", l => {
+                    const isInPath = sequenceArray.includes(l);
+                    const isDescendant = l.ancestors().includes(d);
+                    return (isInPath || isDescendant) ? "visible" : "hidden";
+                });
+                
+                updateBreadcrumbs(sequenceArray);
+                
+                const raagaName = d.data.raaga || "";
+                d3.select("#explanation")
+                    .html(`<b>${raagaName}</b>`)
+                    .style("visibility", "");
+            }
+        }
+        
         playAudio(d.data.name, d.depth);
     }
 
+    // function mouseleave() {
+    //     paths.style("opacity", 1);
+    //     // Show all labels again when nothing is selected
+    //     labels.style("visibility", "visible");
+    //     d3.select("#trail").selectAll("*").remove();
+    //     d3.select("#explanation").style("visibility", "hidden");
+    // }
+
     function mouseleave() {
-        paths.style("opacity", 1);
-        // Show all labels again when nothing is selected
-        labels.style("visibility", "visible");
-        d3.select("#trail").selectAll("*").remove();
-        d3.select("#explanation").style("visibility", "hidden");
+        // Only clear highlighting if no node is selected
+        if (!selectedNode) {
+            paths.style("opacity", 1);
+            labels.style("visibility", "visible");
+            d3.select("#trail").selectAll("*").remove();
+            d3.select("#explanation").style("visibility", "hidden");
+        }
     }
 
     function updateBreadcrumbs(nodeArray, percentage) {
@@ -176,7 +298,6 @@ function mapNoteToMIDI(noteName, level) {
     const noteMapping = {
         // Shuddha (natural) swaras
         "S": 60,       // C4
-        "P": 67,       // G4
 
         // Rishabham (Re) variations
         "R1": 61,       // C#4 (Komal Re)
@@ -191,6 +312,8 @@ function mapNoteToMIDI(noteName, level) {
         // Madhyamam (Ma) variations
         "M1": 65,       // F4 (Shuddha Ma)
         "M2": 66,       // F#4 (Teevra Ma)
+
+        "P": 67,       // G4
 
         // Dhaivatam (Dha) variations
         "D1": 68,       // G#4 (Komal Dha)

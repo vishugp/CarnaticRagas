@@ -1,23 +1,46 @@
 body {
     font-family: Arial, sans-serif;
     display: flex;
-    justify-content: center; /* Horizontally center the content */
-    align-items: center;     /* Vertically center the content */
-    height: 100vh;           /* Make body take the full height */
-    margin: 0;               /* Remove default margin */
-    overflow: hidden;        /* Prevent body overflow */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
 }
 
 #main {
-    text-align: center; /* Center-align the contents of the #main div */
-    width: 100%;        /* Allow the content to fill the width */
+    text-align: center;
+    width: 100%;
+    position: relative; 
+}
+
+#chart {
+    /* Make chart container flex to fit available space */
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* Add max-height to ensure chart doesn't overflow */
+    max-height: calc(100vh - 100px); /* Account for navigation height */
+}
+
+.navigation-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px auto;
+    width: 100%;
+    min-height: 60px; 
 }
 
 #trail {
-    width: 750px;
-    height: 30px;
+    display: inline-flex;
+    align-items: center;
     padding: 10px;
-    margin: 0 auto; /* Center the trail horizontally */
+    min-height: 30px; /* Reserve space even when empty */
 }
 
 #trail .trailpart {
@@ -45,14 +68,13 @@ body {
 }
 
 #explanation {
-    position: absolute;
-    text-align: center;
-    top: 630px;
-    left: 830px;
-    width: 140px;
+    display: inline-block;
     color: #000000;
+    margin-top: 20px;
+    min-height: 30px; /* Reserve space even when empty */
+    min-width: 140px; /* Reserve minimum width */
 }
 
-#percentage {
-    font-size: 5.5em;
+#chart {
+    margin-bottom: 10px; /* Add some space between chart and navigation */
 }
