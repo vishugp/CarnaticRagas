@@ -220,7 +220,7 @@ function updateDerivedRaagams(raga_rank) {
             .data([raagam.raaga, raagam.path, raagam.avro_path])
             .enter()
             .append("td")
-            .text(d => d);
+            .text(d => d.replace(/-/g, " "));
     });
     
     // Show the table

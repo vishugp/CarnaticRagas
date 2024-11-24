@@ -120,6 +120,7 @@ body {
     display: block;
     max-height: 300px; /* Height of 5 rows (assuming each row is ~40px) */
     overflow-y: auto;
+    overflow-x: hidden;
 }
 
 #derived-raagams td:first-child {
@@ -133,12 +134,14 @@ body {
     display: table;
     width: 100%;
     table-layout: fixed;
+    
 }
 
 #derived-raagams th, 
 #derived-raagams td {
     padding: 5px;
     text-align: left;
+    border: 1px solid rgb(32, 32, 142);
 }
 
 #derived-raagams th {
