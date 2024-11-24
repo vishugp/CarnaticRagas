@@ -2,7 +2,8 @@ const width = 600;
 const height = 600;
 const radius = Math.min(width, height) / 2 - 50;
 let selectedNode = null;
-let isPlayingSequence = false; // Add flag to track if sequence is playing
+let isPlayingSequence = false;
+let currentBreadcrumbNodes = []; // Store current breadcrumb nodes
 
 const baseColors = [
     "#8A2BE2", // Violet
@@ -61,7 +62,7 @@ async function playSequence(notes, depths, ascending = true) {
             });
 
         // Play the note
-        playAudio(notes[i], depths[i]);
+        playAudioWithOctave(notes[i], depths[i], 0);
         await sleep(noteDelay);
     }
 
@@ -73,6 +74,72 @@ async function playSequence(notes, depths, ascending = true) {
 }
 
 function createSunburst(json) {
+    // Track arrow key states
+    const keyStates = {
+        ArrowUp: false,
+        ArrowDown: false
+    };
+
+    // Add arrow key listeners
+    document.addEventListener('keydown', function(event) {
+        if (event.key in keyStates) {
+            keyStates[event.key] = true;
+        }
+    });
+
+    document.addEventListener('keyup', function(event) {
+        if (event.key in keyStates) {
+            keyStates[event.key] = false;
+        }
+    });
+
+    // Modified keyboard event listener for number keys
+    document.addEventListener('keydown', function(event) {
+        if (!isPlayingSequence && currentBreadcrumbNodes.length > 0) {
+            // Convert key to number and check if it's between 1-8
+            const keyNum = parseInt(event.key);
+            if (!isNaN(keyNum) && keyNum >= 1 && keyNum <= 8) {
+                const index = keyNum - 1; // Convert to 0-based index
+                
+                // Check if this index exists in current breadcrumb
+                if (index < currentBreadcrumbNodes.length) {
+                    const node = currentBreadcrumbNodes[index];
+                    
+                    // Highlight the corresponding breadcrumb
+                    const breadcrumbs = d3.select("#trail").selectAll(".trailpart");
+                    breadcrumbs.each(function(d, i) {
+                        if (i === index) {
+                            d3.select(this)
+                                .style("transform", "scale(1.1)")
+                                .style("box-shadow", "0 0 14px #FFD700")
+                                .style("z-index", "1");
+                            
+                            setTimeout(() => {
+                                if (!isPlayingSequence) {
+                                    d3.select(this)
+                                        .style("transform", "scale(1)")
+                                        .style("box-shadow", "none")
+                                        .style("z-index", "0");
+                                }
+                            }, 300);
+                        }
+                    });
+                    
+                    // Determine octave shift based on arrow keys
+                    let octaveShift = 0;
+                    if (keyStates.ArrowUp) {
+                        octaveShift = 1;
+                    } else if (keyStates.ArrowDown) {
+                        octaveShift = -1;
+                    }
+                    
+                    // Play the corresponding note with octave shift
+                    playAudioWithOctave(node.data.name, node.depth, octaveShift);
+                }
+            }
+        }
+    });
+
     d3.select("#explanation")
         .style("cursor", "pointer")
         .on("click", async function(event) {
@@ -120,6 +187,7 @@ function createSunburst(json) {
     function resetVisualization() {
         if (!isPlayingSequence) {
             selectedNode = null;
+            currentBreadcrumbNodes = []; // Clear breadcrumb nodes
             paths.style("opacity", 1);
             labels.style("visibility", "visible");
             d3.select("#trail").selectAll("*").remove();
@@ -223,7 +291,7 @@ function createSunburst(json) {
             }
         }
         
-        playAudio(d.data.name, d.depth);
+        playAudioWithOctave(d.data.name, d.depth, 0);
     }
 
     function mouseleave() {
@@ -236,6 +304,9 @@ function createSunburst(json) {
     }
 
     function updateBreadcrumbs(nodeArray) {
+        // Update the global currentBreadcrumbNodes
+        currentBreadcrumbNodes = nodeArray;
+
         const trail = d3.select("#trail").selectAll("div")
             .data(nodeArray);
 
@@ -244,7 +315,7 @@ function createSunburst(json) {
         trail
             .style("color", "white")
             .style("background-color", d => getColorByDepth(d))
-            .text(d => d.data.name);
+            .text((d, i) => `${d.data.name}`);
 
         trail.enter()
             .append("div")
@@ -252,12 +323,11 @@ function createSunburst(json) {
             .style("cursor", "pointer")
             .style("color", "white")
             .style("background-color", d => getColorByDepth(d))
-            .style("transition", "all 0.2s ease-in-out")  // Add smooth transition
-            .text(d => d.data.name)
+            .style("transition", "all 0.2s ease-in-out")
+            .text((d, i) => `${d.data.name}`)
             .on("click", function(event, d) {
                 event.stopPropagation();
                 if (!isPlayingSequence) {
-                    // Add temporary highlight effect when clicked individually
                     d3.select(this)
                         .style("transform", "scale(1.1)")
                         .style("box-shadow", "0 0 14px #FFD700")
@@ -272,13 +342,12 @@ function createSunburst(json) {
                         }
                     }, 300);
                     
-                    playAudio(d.data.name, d.depth);
+                    playAudioWithOctave(d.data.name, d.depth, 0);
                 }
             });
     }
 }
 
-// Rest of the code remains the same...
 function buildHierarchy(csvData) {
     const root = { name: "", children: [] };
     csvData.forEach(row => {
@@ -299,17 +368,19 @@ function buildHierarchy(csvData) {
     return root;
 }
 
-function playAudio(noteName, level) {
+function playAudioWithOctave(noteName, level, octaveShift = 0) {
     const AudioContext = window.AudioContext || window.webkitAudioContext;
     const audioContext = new AudioContext();
 
     const player = new WebAudioFontPlayer();
     player.loader.startLoad(audioContext, "https://surikov.github.io/webaudiofontdata/sound/0010_Chaos_sf2_file.js", "_tone_0010_Chaos_sf2_file");
     player.loader.waitLoad(() => {
-        const midiNote = mapNoteToMIDI(noteName, level);
+        const midiNote = mapNoteToMIDI(noteName, level) + (octaveShift * 12);
         player.queueWaveTable(audioContext, audioContext.destination, _tone_0010_Chaos_sf2_file, 0, midiNote, 1);
     });
 }
+
+
 
 function mapNoteToMIDI(noteName, level) {
     const noteMapping = {
