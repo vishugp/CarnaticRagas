@@ -412,9 +412,11 @@ function mapNoteToMIDI(noteName, level) {
 }
 
 Promise.all([
-    d3.csv("Data/Tabular/Melakarta_Raagams.csv"),
+    d3.csv("Data/Tabular/Raagams.csv"),
     loadColormap()
 ]).then(([data]) => {
-    const json = buildHierarchy(data);
+    const filteredData = data.filter(row => row.Melakarta === "1.0");
+    
+    const json = buildHierarchy(filteredData);
     createSunburst(json);
 });

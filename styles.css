@@ -74,7 +74,7 @@ body {
     display: inline-block;
     font-weight:bolder;
     font-size:x-large;
-    color:rgb(27, 27, 62);
+    color:rgb(32, 32, 142);
     /* margin-top: 10px; */
     min-height: 30px; /* Reserve space even when empty */
     min-width: 140px; /* Reserve minimum width */

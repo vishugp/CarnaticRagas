@@ -1,0 +1,977 @@
+Raga Name Raw,Raga Name,AAROHANAM,AVAROHANAM,Melakarta,Melakarta Name,path,avro_path,pali,value,raaga,Raga_Rank
+1 Kanakāngi (Janaka raga),Kanakāngi (Janaka raga),S R1 G1 M1 P D1 N1 S,S N1 D1 P M1 G1 R1 S,1.0,Kanakāngi (Janaka raga),S-R1-G1-M1-P-D1-N1-S,S-N1-D1-P-M1-G1-R1-S,True,1,Kanakāngi (Janaka raga),1.0
+Kanakāmbari,Kanakāmbari,S R1 M1 P D1 S,S N1 D1 P M1 G1 R1 S,0.0,Kanakāngi (Janaka raga),S-R1-M1-P-D1-S,S-N1-D1-P-M1-G1-R1-S,False,1,Kanakāmbari,1.0
+Kanakatodi,Kanakatodi,S R1 G1 M1 P D1 S,S N1 D1 P M1 R1 S,0.0,Kanakāngi (Janaka raga),S-R1-G1-M1-P-D1-S,S-N1-D1-P-M1-R1-S,False,1,Kanakatodi,1.0
+Mādhavapriyā,Mādhavapriyā,S R1 G1 P D1 N1 S,S N1 D1 P G1 R1 S,0.0,Kanakāngi (Janaka raga),S-R1-G1-P-D1-N1-S,S-N1-D1-P-G1-R1-S,True,1,Mādhavapriyā,1.0
+Karnātaka Shuddha Sāveri,Karnātaka Shuddha Sāveri,S R1 M1 P D1 S,S D1 P M1 R1 S,0.0,Kanakāngi (Janaka raga),S-R1-M1-P-D1-S,S-D1-P-M1-R1-S,True,1,Karnātaka Shuddha Sāveri,1.0
+Latantapriya,Latantapriya,S R1 G1 M1 P D1 S,S D1 P M1 R1 S,0.0,Kanakāngi (Janaka raga),S-R1-G1-M1-P-D1-S,S-D1-P-M1-R1-S,False,1,Latantapriya,1.0
+Lavangi (Raga created by M. Balamuralikrishna),Lavangi (Raga created by M. Balamuralikrishna),S R1 M1 D1 S,S D1 M1 R1 S,0.0,Kanakāngi (Janaka raga),S-R1-M1-D1-S,S-D1-M1-R1-S,True,1,Lavangi (Raga created by M. Balamuralikrishna),1.0
+Megha,Megha,S R1 M1 P D1 N1 D1 P S,S N1 D1 P M1 R1 S,0.0,Kanakāngi (Janaka raga),S-R1-M1-P-D1-N1-D1-P-S,S-N1-D1-P-M1-R1-S,False,1,Megha,1.0
+Rishabhavilāsa,Rishabhavilāsa,S R1 M1 P D1 S,S D1 P M1 R1 M1 R1 S,0.0,Kanakāngi (Janaka raga),S-R1-M1-P-D1-S,S-D1-P-M1-R1-M1-R1-S,False,1,Rishabhavilāsa,1.0
+Sarvashree,Sarvashree,S M1 P S,S P M1 S,0.0,Kanakāngi (Janaka raga),S-M1-P-S,S-P-M1-S,True,1,Sarvashree,1.0
+Suddha Mukhāri,Suddha Mukhāri,S R1 M1 P D1 S,S N1 D1 P M1 G1 R1 S,0.0,Kanakāngi (Janaka raga),S-R1-M1-P-D1-S,S-N1-D1-P-M1-G1-R1-S,False,1,Suddha Mukhāri,1.0
+Tatillatika,Tatillatika,S R1 M1 P D1 S,S D1 P M1 R1 S,0.0,Kanakāngi (Janaka raga),S-R1-M1-P-D1-S,S-D1-P-M1-R1-S,True,1,Tatillatika,1.0
+Vāgeeshwari,Vāgeeshwari,S R1 G1 M1 P D1 S,S D1 M1 P G1 R1 S,0.0,Kanakāngi (Janaka raga),S-R1-G1-M1-P-D1-S,S-D1-M1-P-G1-R1-S,False,1,Vāgeeshwari,1.0
+2 Ratnāngi,Ratnāngi,S R1 G1 M1 P D1 N2 S,S N2 D1 P M1 G1 R1 S,1.0,Ratnāngi,S-R1-G1-M1-P-D1-N2-S,S-N2-D1-P-M1-G1-R1-S,True,1,Ratnāngi,2.0
+Phenadhyuti,Phenadhyuti,S R1 M1 P D1 P N2 S,S N2 D1 P M1 G1 R1 S,0.0,Ratnāngi,S-R1-M1-P-D1-P-N2-S,S-N2-D1-P-M1-G1-R1-S,False,1,Phenadhyuti,2.0
+Ganamukhāri,Ganamukhāri,S R1 M1 D1 S,S N2 D1 M1 R1 S,0.0,Ratnāngi,S-R1-M1-D1-S,S-N2-D1-M1-R1-S,False,1,Ganamukhāri,2.0
+Ratnavarāli,Ratnavarāli,S R1 M1 P N2 D1 S,S N2 P M1 R1 G1 R1 S,0.0,Ratnāngi,S-R1-M1-P-N2-D1-S,S-N2-P-M1-R1-G1-R1-S,False,1,Ratnavarāli,2.0
+Revati,Revati,S R1 M1 P N2 S,S N2 P M1 R1 S,0.0,Ratnāngi,S-R1-M1-P-N2-S,S-N2-P-M1-R1-S,True,1,Revati,2.0
+Shreemani,Shreemani,S R1 G1 P D1 S,S N2 D1 P G1 R1 S,0.0,Ratnāngi,S-R1-G1-P-D1-S,S-N2-D1-P-G1-R1-S,False,1,Shreemani,2.0
+Shreemati,Shreemati,S R1 G1 P D1 S,S N2 D1 P G1 R1 S,0.0,Ratnāngi,S-R1-G1-P-D1-S,S-N2-D1-P-G1-R1-S,False,1,Shreemati,2.0
+Svadhya,Svadhya,S R1 M1 P N2 S,S N2 D1 P M1 R1 S,0.0,Ratnāngi,S-R1-M1-P-N2-S,S-N2-D1-P-M1-R1-S,False,1,Svadhya,2.0
+3 Gānamūrti,Gānamūrti,S R1 G1 M1 P D1 N3 S,S N3 D1 P M1 G1 R1 S,1.0,Gānamūrti,S-R1-G1-M1-P-D1-N3-S,S-N3-D1-P-M1-G1-R1-S,True,1,Gānamūrti,3.0
+Gānasāmavarāli,Gānasāmavarāli,S R1 M1 P D1 N3 S,S N3 D1 P M1 G1 R1 S,0.0,Gānamūrti,S-R1-M1-P-D1-N3-S,S-N3-D1-P-M1-G1-R1-S,False,1,Gānasāmavarāli,3.0
+Bhinnapanchamam,Bhinnapanchamam,S R1 G1 M1 P D1 N3 S,S N3 D1 P M1 G1 R1 S,0.0,Gānamūrti,S-R1-G1-M1-P-D1-N3-S,S-N3-D1-P-M1-G1-R1-S,True,1,Bhinnapanchamam,3.0
+Nādharanjani,Nādharanjani,S R1 M1 D1 N3 S,S N3 D1 M1 G1 R1 S,0.0,Gānamūrti,S-R1-M1-D1-N3-S,S-N3-D1-M1-G1-R1-S,False,1,Nādharanjani,3.0
+Poorvavarāli,Poorvavarāli,S R1 M1 P D1 S,S N3 D1 P M1 G1 R1 S,0.0,Gānamūrti,S-R1-M1-P-D1-S,S-N3-D1-P-M1-G1-R1-S,False,1,Poorvavarāli,3.0
+Sāmavarāli,Sāmavarāli,S R1 M1 P D1 N3 S,S N3 D1 P M1 G1 R1 G1 S,0.0,Gānamūrti,S-R1-M1-P-D1-N3-S,S-N3-D1-P-M1-G1-R1-G1-S,False,1,Sāmavarāli,3.0
+4 Vanaspati,Vanaspati,S R1 G1 M1 P D2 N2 S,S N2 D2 P M1 G1 R1 S,1.0,Vanaspati,S-R1-G1-M1-P-D2-N2-S,S-N2-D2-P-M1-G1-R1-S,True,1,Vanaspati,4.0
+Bhānumati,Bhānumati,N2 S M1 P N2 S,S N2 D2 P M1 G2 R2 S,0.0,Vanaspati,N2-S-M1-P-N2-S,S-N2-D2-P-M1-G2-R2-S,False,1,Bhānumati,4.0
+Rasāli,Rasāli,S R1 M1 P D2 N2 S,S D2 P M1 R1 S,0.0,Vanaspati,S-R1-M1-P-D2-N2-S,S-D2-P-M1-R1-S,False,1,Rasāli,4.0
+Vanāvali,Vanāvali,S R1 M1 P D2 N2 S,S D2 P M1 R1 S,0.0,Vanaspati,S-R1-M1-P-D2-N2-S,S-D2-P-M1-R1-S,False,1,Vanāvali,4.0
+Vittalapriya,Vittalapriya,S R1 M1 P D2 S,S D2 P M1 R1 S,0.0,Vanaspati,S-R1-M1-P-D2-S,S-D2-P-M1-R1-S,True,1,Vittalapriya,4.0
+5 Mānavati,Mānavati,S R1 G1 M1 P D2 N3 S,S N3 D2 P M1 G1 R1 S,1.0,Mānavati,S-R1-G1-M1-P-D2-N3-S,S-N3-D2-P-M1-G1-R1-S,True,1,Mānavati,5.0
+Manoranjani,Manoranjani,S R1 M1 P D2 N3 S,S N3 D2 P M1 G1 R1 S,0.0,Mānavati,S-R1-M1-P-D2-N3-S,S-N3-D2-P-M1-G1-R1-S,False,1,Manoranjani,5.0
+Ghanashyāmalā,Ghanashyāmalā,S G1 M1 P D2 S,S D2 N3 P M1 G1 R1 S,0.0,Mānavati,S-G1-M1-P-D2-S,S-D2-N3-P-M1-G1-R1-S,False,1,Ghanashyāmalā,5.0
+Kunjari,Kunjari,S R1 M1 P D2 P S,S N3 D2 P M1 G1 R1 S,0.0,Mānavati,S-R1-M1-P-D2-P-S,S-N3-D2-P-M1-G1-R1-S,False,1,Kunjari,5.0
+6 Tānarūpi,Tānarūpi,S R1 G1 M1 P D3 N3 S,S N3 D3 P M1 G1 R1 S,1.0,Tānarūpi,S-R1-G1-M1-P-D3-N3-S,S-N3-D3-P-M1-G1-R1-S,True,1,Tānarūpi,6.0
+Tanukeerti,Tanukeerti,S R1 M1 P N3 S,S N3 D3 N3 P M1 G1 M1 R1 S,0.0,Tānarūpi,S-R1-M1-P-N3-S,S-N3-D3-N3-P-M1-G1-M1-R1-S,False,1,Tanukeerti,6.0
+7 Senāvati,Senāvati,S R1 G2 M1 P D1 N1 S,S N1 D1 P M1 G2 R1 S,1.0,Senāvati,S-R1-G2-M1-P-D1-N1-S,S-N1-D1-P-M1-G2-R1-S,True,1,Senāvati,7.0
+Senāgrani,Senāgrani,S R1 G2 R1 M1 G2 M1 P N1 D1 S,S N1 D1 P M1 G2 M1 G2 R1 S,0.0,Senāvati,S-R1-G2-R1-M1-G2-M1-P-N1-D1-S,S-N1-D1-P-M1-G2-M1-G2-R1-S,False,1,Senāgrani,7.0
+Bhogi,Bhogi,S G2 M1 P D1 N1 D1 S,S N1 D1 P M1 G2 S,0.0,Senāvati,S-G2-M1-P-D1-N1-D1-S,S-N1-D1-P-M1-G2-S,False,1,Bhogi,7.0
+Chitthakarshani,Chitthakarshani,S R1 G2 M1 D1 S,S D1 M1 G2 R1 S,0.0,Senāvati,S-R1-G2-M1-D1-S,S-D1-M1-G2-R1-S,True,1,Chitthakarshani,7.0
+Navarasa Mālā,Navarasa Mālā,S R1 G2 M1 P D1 S,S N1 D1 P M1 R1 S,0.0,Senāvati,S-R1-G2-M1-P-D1-S,S-N1-D1-P-M1-R1-S,False,1,Navarasa Mālā,7.0
+Sindhu Gowri,Sindhu Gowri,S R1 G2 M1 P D1 N1 S,S N1 D1 M1 G2 M1 R1 S,0.0,Senāvati,S-R1-G2-M1-P-D1-N1-S,S-N1-D1-M1-G2-M1-R1-S,False,1,Sindhu Gowri,7.0
+8 Hanumatodi,Hanumatodi,S R1 G2 M1 P D1 N2 S,S N2 D1 P M1 G2 R1 S,1.0,Hanumatodi,S-R1-G2-M1-P-D1-N2-S,S-N2-D1-P-M1-G2-R1-S,True,1,Hanumatodi,8.0
+Janatodi,Janatodi,S R1 G2 M1 P D1 N2 S,S N2 D1 P M1 G2 R1 S,0.0,Hanumatodi,S-R1-G2-M1-P-D1-N2-S,S-N2-D1-P-M1-G2-R1-S,True,1,Janatodi,8.0
+Āhiri,Āhiri,S R1 S G3 M1 P D1 N2 S,S N2 D1 P M1 G3 R1 S (Anya swara* : R2 G2 / G3 D2 N3),0.0,Hanumatodi,S-R1-S-G3-M1-P-D1-N2-S,S-N2-D1-P-M1-G3-R1-S-(Anya swara*-:-R2-G2-/ G3-D2-N3),False,1,Āhiri,8.0
+Amrita Dhanyāsi,Amrita Dhanyāsi,S R1 G2 M1 P N2 S,S N2 P M1 G2 R1 S,0.0,Hanumatodi,S-R1-G2-M1-P-N2-S,S-N2-P-M1-G2-R1-S,True,1,Amrita Dhanyāsi,8.0
+Asāveri,Asāveri,S R1 M1 P D1 S,S N2 S P D1 M1 P R1 G2 R1 S (Anya swara* : R2),0.0,Hanumatodi,S-R1-M1-P-D1-S,S-N2-S-P-D1-M1-P-R1-G2-R1-S-(Anya swara*-: R2),False,1,Asāveri,8.0
+Bhānuchandrika,Bhānuchandrika,S M1 D1 N2 S,S N2 D1 M1 G1 S,0.0,Hanumatodi,S-M1-D1-N2-S,S-N2-D1-M1-G1-S,False,1,Bhānuchandrika,8.0
+Bhadratodi,Bhadratodi,S R1 G2 M1 D1 S,S N2 D1 P G2 S,0.0,Hanumatodi,S-R1-G2-M1-D1-S,S-N2-D1-P-G2-S,False,1,Bhadratodi,8.0
+Bhoopālam,Bhoopālam,S R1 G2 P D1 S,S D1 P G2 R1 S,0.0,Hanumatodi,S-R1-G2-P-D1-S,S-D1-P-G2-R1-S,True,1,Bhoopālam,8.0
+Chandrikatodi,Chandrikatodi,S G2 M1 P D1 S,S D1 P M1 G2 S,0.0,Hanumatodi,S-G2-M1-P-D1-S,S-D1-P-M1-G2-S,True,1,Chandrikatodi,8.0
+Deshikatodi,Deshikatodi,S G2 M1 P D1 N2 S,S N2 D1 P M1 G2 R1 S,0.0,Hanumatodi,S-G2-M1-P-D1-N2-S,S-N2-D1-P-M1-G2-R1-S,False,1,Deshikatodi,8.0
+Dhanyāsi,Dhanyāsi,S G2 M1 P N2 S,S N2 D1 P M1 G2 R1 S,0.0,Hanumatodi,S-G2-M1-P-N2-S,S-N2-D1-P-M1-G2-R1-S,False,1,Dhanyāsi,8.0
+Divyamālati,Divyamālati,S G2 M1 P D1 N2 S,S N2 D1 P M1 G2 S,0.0,Hanumatodi,S-G2-M1-P-D1-N2-S,S-N2-D1-P-M1-G2-S,True,1,Divyamālati,8.0
+Ghanta,Ghanta,S G2 R2 M1 P N2 S,S N2 D1 P M1 G2 R1 S (Anya swara* : R2 D2),0.0,Hanumatodi,S-G2-R2-M1-P-N2-S,S-N2-D1-P-M1-G2-R1-S-(Anya swara*-: R2-D2),False,1,Ghanta,8.0
+Kalāsāveri,Kalāsāveri,S R1 G2 P N2 S,S N2 P G2 R1 S,0.0,Hanumatodi,S-R1-G2-P-N2-S,S-N2-P-G2-R1-S,True,1,Kalāsāveri,8.0
+Kanakasāveri,Kanakasāveri,S R1 M1 P D1 S,S N2 D1 P M1 G2 R1 S,0.0,Hanumatodi,S-R1-M1-P-D1-S,S-N2-D1-P-M1-G2-R1-S,False,1,Kanakasāveri,8.0
+Nāgavarāli,Nāgavarāli,S R1 G2 M1 P M1 D1 N2 S,S N2 D1 P M1 G2 R1 S,0.0,Hanumatodi,S-R1-G2-M1-P-M1-D1-N2-S,S-N2-D1-P-M1-G2-R1-S,False,1,Nāgavarāli,8.0
+Prabhupriya,Prabhupriya,S G2 M1 P D1 S,S D1 P M1 G2 S,0.0,Hanumatodi,S-G2-M1-P-D1-S,S-D1-P-M1-G2-S,True,1,Prabhupriya,8.0
+Punnāgatodi,Punnāgatodi,N1 S R1 G2 M1 P,P M1 G2 R1 S N2 D1,0.0,Hanumatodi,N1-S-R1-G2-M1-P,P-M1-G2-R1-S-N2-D1,False,1,Punnāgatodi,8.0
+Punnagavarali,Punnagavarali,N2 S R1 G2 M1 P D1 N2,N2 D1 P M1 G2 R1 S N2 (Anya swara* : R2),0.0,Hanumatodi,N2-S-R1-G2-M1-P-D1-N2,N2-D1-P-M1-G2-R1-S-N2-(Anya swara*-: R2),False,1,Punnagavarali,8.0
+Shravanamallika,Shravanamallika,S G2 M1 P D1 N2 S,S N2 D1 P M1 G2 R1 S,0.0,Hanumatodi,S-G2-M1-P-D1-N2-S,S-N2-D1-P-M1-G2-R1-S,False,1,Shravanamallika,8.0
+Sowjanya,Sowjanya,S R1 M1 D1 S,S D1 M1 R1 S,0.0,Hanumatodi,S-R1-M1-D1-S,S-D1-M1-R1-S,True,1,Sowjanya,8.0
+Shuddha Seemantini,Shuddha Seemantini,S R1 G2 M1 P D1 S,S D1 P M1 G2 R1 S,0.0,Hanumatodi,S-R1-G2-M1-P-D1-S,S-D1-P-M1-G2-R1-S,True,1,Shuddha Seemantini,8.0
+Shuddha Todi,Shuddha Todi,S R1 G2 M1 D1 N2 S,S N2 D1 M1 G2 R1 S,0.0,Hanumatodi,S-R1-G2-M1-D1-N2-S,S-N2-D1-M1-G2-R1-S,True,1,Shuddha Todi,8.0
+Sindhubhairavi,Sindhubhairavi,S R2 G2 M1 G2 P D1 N2 S,N2 D1 P M1 G2 R1 S N2 S (Anya swara* : R2 G3 M2 D2 N3),0.0,Hanumatodi,S-R2-G2-M1-G2-P-D1-N2-S,N2-D1-P-M1-G2-R1-S-N2-S (Anya swara*-: R2-G3-M2-D2-N3),False,1,Sindhubhairavi,8.0
+Sri Mati,Sri Mati,S G2 R1 G2 M1 P D1 P D2* N2 S,S N2 D1 P M1 P M1 G2 R1 S,0.0,Hanumatodi,S G2 R1 G2 M1 P D1 P D2* N2 S,S N2 D1 P M1 P M1 G2 R1 S,False,1,Sri Mati,8.0
+Swarnamalli,Swarnamalli,S G2 M1 P D1 N1 S,S N2 D1 P M1 G2 R1 S,0.0,Hanumatodi,S-G2-M1-P-D1-N1-S,S-N2-D1-P-M1-G2-R1-S,False,1,Swarnamalli,8.0
+9 Dhenukā,Dhenukā,S R1 G2 M1 P D1 N3 S,S N3 D1 P M1 G2 R1 S,1.0,Dhenukā,S-R1-G2-M1-P-D1-N3-S,S-N3-D1-P-M1-G2-R1-S,True,1,Dhenukā,9.0
+Dhunibhinnashadjam,Dhunibhinnashadjam,S R1 G2 R1 P M1 P N3 S,S D1 P M1 G2 R1 S,0.0,Dhenukā,S-R1-G2-R1-P-M1-P-N3-S,S-D1-P-M1-G2-R1-S,False,1,Dhunibhinnashadjam,9.0
+Bhinnashadjam,Bhinnashadjam,S R1 G2 R1 P M1 P N3 S,S D1 P M1 G2 R1 S,0.0,Dhenukā,S-R1-G2-R1-P-M1-P-N3-S,S-D1-P-M1-G2-R1-S,False,1,Bhinnashadjam,9.0
+Mohananāta,Mohananāta,S G2 M1 P D1 P M1 P N3 S,S N3 P D1 P M1 G2 S,0.0,Dhenukā,S-G2-M1-P-D1-P-M1-P-N3-S,S-N3-P-D1-P-M1-G2-S,False,1,Mohananāta,9.0
+Udayaravichandrika,Udayaravichandrika,S G2 M1 P N2 S,S N2 P M1 G2 S,0.0,Dhenukā,S-G2-M1-P-N2-S,S-N2-P-M1-G2-S,True,1,Udayaravichandrika,9.0
+Vasanthatodi,Vasanthatodi,S R1 G2 M1 D1 N3 S,S N3 D1 M1 R1 S,0.0,Dhenukā,S-R1-G2-M1-D1-N3-S,S-N3-D1-M1-R1-S,False,1,Vasanthatodi,9.0
+10 Nātakapriyā,Nātakapriyā,S R1 G2 M1 P D2 N2 S,S N2 D2 P M1 G2 R1 S,1.0,Nātakapriyā,S-R1-G2-M1-P-D2-N2-S,S-N2-D2-P-M1-G2-R1-S,True,1,Nātakapriyā,10.0
+Natābharanam,Natābharanam,S R1 G2 M1 P D2 N2 S,S N2 D2 P M1 G2 R1 S,0.0,Nātakapriyā,S-R1-G2-M1-P-D2-N2-S,S-N2-D2-P-M1-G2-R1-S,True,1,Natābharanam,10.0
+Alankārapriya,Alankārapriya,S R1 G2 M1 D2 N2 S,S N2 D2 M1 G2 R1 S,0.0,Nātakapriyā,S-R1-G2-M1-D2-N2-S,S-N2-D2-M1-G2-R1-S,True,1,Alankārapriya,10.0
+Bhāgyashabari,Bhāgyashabari,S R1 G2 M1 D2 N2 S,S N2 D2 M1 G2 R1 S,0.0,Nātakapriyā,S-R1-G2-M1-D2-N2-S,S-N2-D2-M1-G2-R1-S,True,1,Bhāgyashabari,10.0
+Deeparamu,Deeparamu,S R1 G2 M1 P D2 N2 S,S N2 D2 N2 P M1 G2 R1 S,0.0,Nātakapriyā,S-R1-G2-M1-P-D2-N2-S,S-N2-D2-N2-P-M1-G2-R1-S,False,1,Deeparamu,10.0
+Gunāvati,Gunāvati,S R1 M1 P D2 S,S D2 P M1 R1 S,0.0,Nātakapriyā,S-R1-M1-P-D2-S,S-D2-P-M1-R1-S,True,1,Gunāvati,10.0
+Hindoladeshikam,Hindoladeshikam,S M1 R1 G2 M1 P D2 N2 S,S P N2 D2 M1 G2 R1 S,0.0,Nātakapriyā,S-M1-R1-G2-M1-P-D2-N2-S,S-P-N2-D2-M1-G2-R1-S,False,1,Hindoladeshikam,10.0
+Kanakadri,Kanakadri,S R1 G2 P D2 S,S N2 D2 P M1 G2 R1 S,0.0,Nātakapriyā,S-R1-G2-P-D2-S,S-N2-D2-P-M1-G2-R1-S,False,1,Kanakadri,10.0
+Mātangakāmini,Mātangakāmini,S G2 M1 P D1 N2 S,S N2 D1 P M1 G2 S,0.0,Nātakapriyā,S-G2-M1-P-D1-N2-S,S-N2-D1-P-M1-G2-S,True,1,Mātangakāmini,10.0
+Nātyadhārana,Nātyadhārana,S R1 M1 P D2 S,S N2 D2 P M1 R1 S,0.0,Nātakapriyā,S-R1-M1-P-D2-S,S-N2-D2-P-M1-R1-S,False,1,Nātyadhārana,10.0
+Niranjana,Niranjana,S R1 G2 M1 P D2 S,S N2 D2 P M1 G2 R1 S,0.0,Nātakapriyā,S-R1-G2-M1-P-D2-S,S-N2-D2-P-M1-G2-R1-S,False,1,Niranjana,10.0
+Shānthabhāshini,Shānthabhāshini,S R1 G2 M1 P D2 S,S N2 D2 P M1 S,0.0,Nātakapriyā,S-R1-G2-M1-P-D2-S,S-N2-D2-P-M1-S,False,1,Shānthabhāshini,10.0
+Shivashakti,Shivashakti,S G2 M1 D2 S,S N2 D2 M1 G2 S,0.0,Nātakapriyā,S-G2-M1-D2-S,S-N2-D2-M1-G2-S,False,1,Shivashakti,10.0
+11 Kokilapriyā,Kokilapriyā,S R1 G2 M1 P D2 N3 S,S N3 D2 P M1 G2 R1 S,1.0,Kokilapriyā,S-R1-G2-M1-P-D2-N3-S,S-N3-D2-P-M1-G2-R1-S,True,1,Kokilapriyā,11.0
+Kokilāravam,Kokilāravam,S R1 M1 P D2 N3 S,S N3 D2 P M1 G2 R2 S,0.0,Kokilapriyā,S-R1-M1-P-D2-N3-S,S-N3-D2-P-M1-G2-R2-S,False,1,Kokilāravam,11.0
+Bhimsen (Raga created by Mahesh Mahadev),Bhimsen (Raga created by Mahesh Mahadev),S G2 M1 P N3 S,S N3 D2 P M1 G2 R1 S,0.0,Kokilapriyā,S-G2-M1-P-N3-S,S-N3-D2-P-M1-G2-R1-S,False,1,Bhimsen (Raga created by Mahesh Mahadev),11.0
+Chitramani,Chitramani,S R1 M1 P D2 N3 S,S N3 D2 P M1 G2 R1 S,0.0,Kokilapriyā,S-R1-M1-P-D2-N3-S,S-N3-D2-P-M1-G2-R1-S,False,1,Chitramani,11.0
+Jnānachintāmani,Jnānachintāmani,S R1 M1 D2 N3 S,S N3 D2 P M1 R1 S,0.0,Kokilapriyā,S-R1-M1-D2-N3-S,S-N3-D2-P-M1-R1-S,False,1,Jnānachintāmani,11.0
+Kowmāri,Kowmāri,S R1 G2 M1 P D2 S,S N3 D2 P M1 G2 R1 S,0.0,Kokilapriyā,S-R1-G2-M1-P-D2-S,S-N3-D2-P-M1-G2-R1-S,False,1,Kowmāri,11.0
+Shuddha Lalitha,Shuddha Lalitha,S P M1 D2 N3 S,S N3 S D2 P M1 G2 R1 S,0.0,Kokilapriyā,S-P-M1-D2-N3-S,S-N3-S-D2-P-M1-G2-R1-S,False,1,Shuddha Lalitha,11.0
+Vardhani,Vardhani,S G2 M1 P M1 P D2 N3 S,S N3 D2 P M1 G2 R1 S,0.0,Kokilapriyā,S-G2-M1-P-M1-P-D2-N3-S,S-N3-D2-P-M1-G2-R1-S,False,1,Vardhani,11.0
+Vasantamalli,Vasantamalli,S G2 M1 P N3 S,S D2 P M1 G2 S,0.0,Kokilapriyā,S-G2-M1-P-N3-S,S-D2-P-M1-G2-S,False,1,Vasantamalli,11.0
+Vasantanārāyani,Vasantanārāyani,S R1 G2 M1 P S,S N3 D2 P M1 G2 R1 S,0.0,Kokilapriyā,S-R1-G2-M1-P-S,S-N3-D2-P-M1-G2-R1-S,False,1,Vasantanārāyani,11.0
+12 Rūpavati,Rūpavati,S R1 G2 M1 P D3 N3 S,S N3 D3 P M1 G2 R1 S,1.0,Rūpavati,S-R1-G2-M1-P-D3-N3-S,S-N3-D3-P-M1-G2-R1-S,True,1,Rūpavati,12.0
+Rowpyanaka,Rowpyanaka,S M1 P D3 N3 S,S N3 P M1 G2 R1 S,0.0,Rūpavati,S-M1-P-D3-N3-S,S-N3-P-M1-G2-R1-S,False,1,Rowpyanaka,12.0
+Shyāmakalyāni,Shyāmakalyāni,S M1 G2 M1 P D3 N3 S,S N3 P D3 N3 P M1 G2 R1 S,0.0,Rūpavati,S-M1-G2-M1-P-D3-N3-S,S-N3-P-D3-N3-P-M1-G2-R1-S,False,1,Shyāmakalyāni,12.0
+13 Gāyakapriyā,Gāyakapriyā,S R1 G3 M1 P D1 N1 S,S N1 D1 P M1 G3 R1 S,1.0,Gāyakapriyā,S-R1-G3-M1-P-D1-N1-S,S-N1-D1-P-M1-G3-R1-S,True,1,Gāyakapriyā,13.0
+Geya Hejjajji,Geya Hejjajji,S R1 M1 G3 M1 P D1 S,S N3 D1 P M1 G3 R1 S,0.0,Gāyakapriyā,S-R1-M1-G3-M1-P-D1-S,S-N3-D1-P-M1-G3-R1-S,False,1,Geya Hejjajji,13.0
+Hejjajji,Hejjajji,S R1 G3 M1 P D1 S,S N1 D1 P M1 G3 R1 S,0.0,Gāyakapriyā,S-R1-G3-M1-P-D1-S,S-N1-D1-P-M1-G3-R1-S,False,1,Hejjajji,13.0
+Kalākānti,Kalākānti,S R1 G3 M1 D1 N1 S,S N1 D1 P G3 R1 S,0.0,Gāyakapriyā,S-R1-G3-M1-D1-N1-S,S-N1-D1-P-G3-R1-S,False,1,Kalākānti,13.0
+Kalkada,Kalkada,S R1 G3 P D1 N1 S,S N1 D1 P G3 R1 S,0.0,Gāyakapriyā,S-R1-G3-P-D1-N1-S,S-N1-D1-P-G3-R1-S,True,1,Kalkada,13.0
+Kalpanadhārini,Kalpanadhārini,S G3 M1 P D1 S,S N1 D1 P M1 G3 R1 S,0.0,Gāyakapriyā,S-G3-M1-P-D1-S,S-N1-D1-P-M1-G3-R1-S,False,1,Kalpanadhārini,13.0
+14 Vakuḷābharaṇam,Vakuḷābharaṇam,S R1 G3 M1 P D1 N2 S,S N2 D1 P M1 G3 R1 S,1.0,Vakuḷābharaṇam,S-R1-G3-M1-P-D1-N2-S,S-N2-D1-P-M1-G3-R1-S,True,1,Vakuḷābharaṇam,14.0
+Āhiri,Āhiri,S R1 S G3 M1 P D1 N2 S,S N2 D1 P M1 G3 R1 S (Anya swara* : R2 G2 / G3 D2 N3),0.0,Vakuḷābharaṇam,S-R1-S-G3-M1-P-D1-N2-S,S-N2-D1-P-M1-G3-R1-S-(Anya swara*-:-R2-G2-/ G3-D2-N3),False,1,Āhiri,14.0
+Vātee Vasantabhairavi,Vātee Vasantabhairavi,S R1 G3 M1 D1 N2 S,S N2 D1 M1 G3 R1 S,0.0,Vakuḷābharaṇam,S-R1-G3-M1-D1-N2-S,S-N2-D1-M1-G3-R1-S,True,1,Vātee Vasantabhairavi,14.0
+Amudhasurabhi,Amudhasurabhi,S M1 G3 M1 P D1 S,S N2 D1 P M1 R1 S,0.0,Vakuḷābharaṇam,S-M1-G3-M1-P-D1-S,S-N2-D1-P-M1-R1-S,False,1,Amudhasurabhi,14.0
+Devipriya,Devipriya,S G3 P N2 S,S N2 D1 P M1 G3 R1 S,0.0,Vakuḷābharaṇam,S-G3-P-N2-S,S-N2-D1-P-M1-G3-R1-S,False,1,Devipriya,14.0
+Kalindaja,Kalindaja,S R1 G3 M1 P N2 S,S N2 P M1 G3 R1 S,0.0,Vakuḷābharaṇam,S-R1-G3-M1-P-N2-S,S-N2-P-M1-G3-R1-S,True,1,Kalindaja,14.0
+Kuvalayabharanam,Kuvalayabharanam,S R1 G3 M1 D1 N1 S,S N1 D1 M1 G3 R1 S,0.0,Vakuḷābharaṇam,S-R1-G3-M1-D1-N1-S,S-N1-D1-M1-G3-R1-S,True,1,Kuvalayabharanam,14.0
+Mukthipradayini (Raga created by Mahesh Mahadev)[4],Mukthipradayini (Raga created by Mahesh Mahadev)[4],S R1 G3 P N2 S,S N2 P D1 P G3 R1 S,0.0,Vakuḷābharaṇam,S-R1-G3-P-N2-S,S-N2-P-D1-P-G3-R1-S,False,1,Mukthipradayini (Raga created by Mahesh Mahadev)[4],14.0
+Sallapa,Sallapa,S G3 M1 D1 N2 S,S N2 D1 M1 G3 S,0.0,Vakuḷābharaṇam,S-G3-M1-D1-N2-S,S-N2-D1-M1-G3-S,True,1,Sallapa,14.0
+Soma,Soma,S R1 P M1 D1 N2 S,S N2 D1 M1 P M1 G3 R1 S,0.0,Vakuḷābharaṇam,S-R1-P-M1-D1-N2-S,S-N2-D1-M1-P-M1-G3-R1-S,False,1,Soma,14.0
+Sūryā,Sūryā,S G3 M1 D1 N2 S,S N2 D1 M1 G3 S,0.0,Vakuḷābharaṇam,S-G3-M1-D1-N2-S,S-N2-D1-M1-G3-S,True,1,Sūryā,14.0
+Shuddha Kāmbhoji,Shuddha Kāmbhoji,S G3 R1 M1 P N2 S,S N2 P M1 G3 R1 S,0.0,Vakuḷābharaṇam,S-G3-R1-M1-P-N2-S,S-N2-P-M1-G3-R1-S,False,1,Shuddha Kāmbhoji,14.0
+Vasantabhairavi,Vasantabhairavi,S R1 G3 M1 D1 N2 S,S N2 D1 M1 P M1 G3 R1 S,0.0,Vakuḷābharaṇam,S-R1-G3-M1-D1-N2-S,S-N2-D1-M1-P-M1-G3-R1-S,False,1,Vasantabhairavi,14.0
+Vasanta Mukhāri,Vasanta Mukhāri,S M1 G3 M1 P D1 N2 S,S N2 D1 P M1 G3 R1 S,0.0,Vakuḷābharaṇam,S-M1-G3-M1-P-D1-N2-S,S-N2-D1-P-M1-G3-R1-S,False,1,Vasanta Mukhāri,14.0
+Vijayollāsini,Vijayollāsini,S R1 G3 M1 P M1 D1 N2 S,S N2 D1 P M1 G3 R1 S,0.0,Vakuḷābharaṇam,S-R1-G3-M1-P-M1-D1-N2-S,S-N2-D1-P-M1-G3-R1-S,False,1,Vijayollāsini,14.0
+15 Māyāmāḻavagouḻai,Māyāmāḻavagouḻai,S R1 G3 M1 P D1 N3 S,S N3 D1 P M1 G3 R1 S,1.0,Māyāmāḻavagouḻai,S-R1-G3-M1-P-D1-N3-S,S-N3-D1-P-M1-G3-R1-S,True,1,Māyāmāḻavagouḻai,15.0
+Ardhradesi,Ardhradesi,S R1 G3 M1 P D1 N3 S,S D1 P M1 G3 R1 S,0.0,Māyāmāḻavagouḻai,S-R1-G3-M1-P-D1-N3-S,S-D1-P-M1-G3-R1-S,False,1,Ardhradesi,15.0
+Bhāvini,Bhāvini,S G3 M1 P D1 N3 S,S N3 D1 P M1 G3 S,0.0,Māyāmāḻavagouḻai,S-G3-M1-P-D1-N3-S,S-N3-D1-P-M1-G3-S,True,1,Bhāvini,15.0
+Bibhās {Hindustani},Bibhās {Hindustani},S R1 G3 P D1 S,S D1 P M1 R1 S,0.0,Māyāmāḻavagouḻai,S-R1-G3-P-D1-S,S-D1-P-M1-R1-S,False,1,Bibhās {Hindustani},15.0
+Bowli,Bowli,S R1 G3 P D1 S,S N3 D1 P G3 R1 S,0.0,Māyāmāḻavagouḻai,S-R1-G3-P-D1-S,S-N3-D1-P-G3-R1-S,False,1,Bowli,15.0
+Bowli Rāmakriya,Bowli Rāmakriya,S R1 G3 P D1 S,S N3 P D1 P M1 G3 R1 S,0.0,Māyāmāḻavagouḻai,S-R1-G3-P-D1-S,S-N3-P-D1-P-M1-G3-R1-S,False,1,Bowli Rāmakriya,15.0
+Chāruvardhani,Chāruvardhani,S R1 M1 P D1 N3 S,S D1 P M1 G3 R1 S,0.0,Māyāmāḻavagouḻai,S-R1-M1-P-D1-N3-S,S-D1-P-M1-G3-R1-S,False,1,Chāruvardhani,15.0
+Chāyagowla,Chāyagowla,S R1 M1 G3 M1 P N3 S,S N3 D1 P M1 G3 R1 S,0.0,Māyāmāḻavagouḻai,S-R1-M1-G3-M1-P-N3-S,S-N3-D1-P-M1-G3-R1-S,False,1,Chāyagowla,15.0
+Chandrachooda,Chandrachooda,S M1 G3 M1 P D1 S,S N3 D1 P M1 G3 S,0.0,Māyāmāḻavagouḻai,S-M1-G3-M1-P-D1-S,S-N3-D1-P-M1-G3-S,False,1,Chandrachooda,15.0
+Deshyagowla,Deshyagowla,S R1 P D1 N3 S,S N3 D1 P R1 S,0.0,Māyāmāḻavagouḻai,S-R1-P-D1-N3-S,S-N3-D1-P-R1-S,True,1,Deshyagowla,15.0
+Devaranji,Devaranji,S M1 P D1 P N3 S,S N3 D1 P M1 S,0.0,Māyāmāḻavagouḻai,S-M1-P-D1-P-N3-S,S-N3-D1-P-M1-S,False,1,Devaranji,15.0
+Ekakshari,Ekakshari,S R1 G3 M1 P D1 N3 S,S N1 P M1 R1 G3 M1 R1 S,0.0,Māyāmāḻavagouḻai,S-R1-G3-M1-P-D1-N3-S,S-N1-P-M1-R1-G3-M1-R1-S,False,1,Ekakshari,15.0
+Ghanasindhu,Ghanasindhu,S M1 G3 M1 P D1 N3 D1 S,S N3 D1 P M1 G3 R1 S,0.0,Māyāmāḻavagouḻai,S-M1-G3-M1-P-D1-N3-D1-S,S-N3-D1-P-M1-G3-R1-S,False,1,Ghanasindhu,15.0
+Gowla,Gowla,S R1 M1 P N3 S,S N3 P M1 R1 G3 M1 R1 S,0.0,Māyāmāḻavagouḻai,S-R1-M1-P-N3-S,S-N3-P-M1-R1-G3-M1-R1-S,False,1,Gowla,15.0
+Gowlipantu,Gowlipantu,S R1 M1 P N3 S,S N3 D1 P M1 D1 M1 G3 R1 S,0.0,Māyāmāḻavagouḻai,S-R1-M1-P-N3-S,S-N3-D1-P-M1-D1-M1-G3-R1-S,False,1,Gowlipantu,15.0
+Gowri,Gowri,S R1 M1 P N3 S,S N3 D1 P M1 G3 R1 S,0.0,Māyāmāḻavagouḻai,S-R1-M1-P-N3-S,S-N3-D1-P-M1-G3-R1-S,False,1,Gowri,15.0
+Gummakāmbhoji,Gummakāmbhoji,S R1 G3 P D1 N3 S,S N3 D1 P M1 G3 R1 S,0.0,Māyāmāḻavagouḻai,S-R1-G3-P-D1-N3-S,S-N3-D1-P-M1-G3-R1-S,False,1,Gummakāmbhoji,15.0
+Gundakriya,Gundakriya,S R1 M1 P N3 S,S N3 P D1 P M1 G3 R1 S,0.0,Māyāmāḻavagouḻai,S-R1-M1-P-N3-S,S-N3-P-D1-P-M1-G3-R1-S,False,1,Gundakriya,15.0
+Gurjari,Gurjari,S R1 G3 M1 P D1 N3 S,S D1 N3 P M1 G3 R1 S,0.0,Māyāmāḻavagouḻai,S-R1-G3-M1-P-D1-N3-S,S-D1-N3-P-M1-G3-R1-S,False,1,Gurjari,15.0
+Jaganmohini,Jaganmohini,S G3 M1 P N3 S,S N3 P M1 G3 R1 S,0.0,Māyāmāḻavagouḻai,S-G3-M1-P-N3-S,S-N3-P-M1-G3-R1-S,False,1,Jaganmohini,15.0
+Kalyānakesari,Kalyānakesari,S R1 G3 P D1 S,S D1 P G3 R1 S,0.0,Māyāmāḻavagouḻai,S-R1-G3-P-D1-S,S-D1-P-G3-R1-S,True,1,Kalyānakesari,15.0
+Kannadabangāla,Kannadabangāla,S R1 M1 G3 M1 D1 P D1 S,S D1 P M1 G3 R1 S,0.0,Māyāmāḻavagouḻai,S-R1-M1-G3-M1-D1-P-D1-S,S-D1-P-M1-G3-R1-S,False,1,Kannadabangāla,15.0
+Karnātaka Sāranga,Karnātaka Sāranga,S R1 G3 M1 P D1 N3 S,S N3 D1 P M1 R1 S,0.0,Māyāmāḻavagouḻai,S-R1-G3-M1-P-D1-N3-S,S-N3-D1-P-M1-R1-S,False,1,Karnātaka Sāranga,15.0
+Lalitā,Lalitā,S R1 G3 M1 D1 N3 S,S N3 D1 M1 G3 R1 S,0.0,Māyāmāḻavagouḻai,S-R1-G3-M1-D1-N3-S,S-N3-D1-M1-G3-R1-S,True,1,Lalitā,15.0
+Lalitapanchamam,Lalitapanchamam,S R1 G3 M1 D1 N3 S,S N3 D1 M1 P M1 G3 R1 S,0.0,Māyāmāḻavagouḻai,S-R1-G3-M1-D1-N3-S,S-N3-D1-M1-P-M1-G3-R1-S,False,1,Lalitapanchamam,15.0
+Mālavakurinji,Mālavakurinji,S G3 P D1 N3 S,S N3 D1 M1 R1 S,0.0,Māyāmāḻavagouḻai,S-G3-P-D1-N3-S,S-N3-D1-M1-R1-S,False,1,Mālavakurinji,15.0
+Mālavapanchamam,Mālavapanchamam,S R1 G3 M1 P N3 S,S N3 D1 P M1 G3 R1 S,0.0,Māyāmāḻavagouḻai,S-R1-G3-M1-P-N3-S,S-N3-D1-P-M1-G3-R1-S,False,1,Mālavapanchamam,15.0
+Mārgadesi,Mārgadesi,S R1 G3 R1 G3 D1 M1 P D1 S,S D1 P M1 G3 R1 S,0.0,Māyāmāḻavagouḻai,S-R1-G3-R1-G3-D1-M1-P-D1-S,S-D1-P-M1-G3-R1-S,False,1,Mārgadesi,15.0
+Malahari,Malahari,S R1 M1 P D1 S,S D1 P M1 G3 R1 S,0.0,Māyāmāḻavagouḻai,S-R1-M1-P-D1-S,S-D1-P-M1-G3-R1-S,False,1,Malahari,15.0
+Mallikavasantam,Mallikavasantam,S G3 M1 P N3 S,S N3 D1 P M1 G3 R1 S,0.0,Māyāmāḻavagouḻai,S-G3-M1-P-N3-S,S-N3-D1-P-M1-G3-R1-S,False,1,Mallikavasantam,15.0
+Mangalakaishiki,Mangalakaishiki,S R1 M1 G3 D1 P S,S N3 D1 P M1 G3 R1 S,0.0,Māyāmāḻavagouḻai,S-R1-M1-G3-D1-P-S,S-N3-D1-P-M1-G3-R1-S,False,1,Mangalakaishiki,15.0
+Manolayam,Manolayam,S R1 M1 P D1 S,S N3 D1 P M1 R1 S,0.0,Māyāmāḻavagouḻai,S-R1-M1-P-D1-S,S-N3-D1-P-M1-R1-S,False,1,Manolayam,15.0
+Maruva,Maruva,S G3 M1 D1 N3 S,S N3 D1 P G3 M1 G3 R1 S R1 G3 R1 S,0.0,Māyāmāḻavagouḻai,S-G3-M1-D1-N3-S,S-N3-D1-P-G3-M1-G3-R1-S-R1-G3-R1-S,False,1,Maruva,15.0
+Mechabowli,Mechabowli,S R1 G3 P D1 S,S N3 D1 P M1 G3 R1 S,0.0,Māyāmāḻavagouḻai,S-R1-G3-P-D1-S,S-N3-D1-P-M1-G3-R1-S,False,1,Mechabowli,15.0
+Megharanjani,Megharanjani,S R1 G3 M1 N3 S,S N3 M1 G3 R1 S,0.0,Māyāmāḻavagouḻai,S-R1-G3-M1-N3-S,S-N3-M1-G3-R1-S,True,1,Megharanjani,15.0
+Nadanamakriya,Nadanamakriya,S R1 G3 M1 P D1 N3,N3 D1 P M1 G3 R1 S N3,0.0,Māyāmāḻavagouḻai,S-R1-G3-M1-P-D1-N3,N3-D1-P-M1-G3-R1-S-N3,False,1,Nadanamakriya,15.0
+Pādi,Pādi,S R1 M1 P N3 S,S N3 P D1 P M1 R1 S,0.0,Māyāmāḻavagouḻai,S-R1-M1-P-N3-S,S-N3-P-D1-P-M1-R1-S,False,1,Pādi,15.0
+Pharaju (Paras) {Hindustani},Pharaju (Paras) {Hindustani},S G3 M1 P D1 N3 S,S N3 D1 P M1 G3 R1 S,0.0,Māyāmāḻavagouḻai,S-G3-M1-P-D1-N3-S,S-N3-D1-P-M1-G3-R1-S,False,1,Pharaju (Paras) {Hindustani},15.0
+Poornalalita,Poornalalita,S R1 G3 M1 P D1 S,S D1 P M1 G3 R1 S,0.0,Māyāmāḻavagouḻai,S-R1-G3-M1-P-D1-S,S-D1-P-M1-G3-R1-S,True,1,Poornalalita,15.0
+Poorvi,Poorvi,S R1 G3 M1 D1 N3 S,S N3 D1 P M1 G3 R1 S,0.0,Māyāmāḻavagouḻai,S-R1-G3-M1-D1-N3-S,S-N3-D1-P-M1-G3-R1-S,False,1,Poorvi,15.0
+Poorvikavasanta,Poorvikavasanta,S M1 G3 M1 D N3 S,S N3 D1 M1 P M1 G3 R1 S,0.0,Māyāmāḻavagouḻai,S-M1-G3-M1-D-N3-S,S-N3-D1-M1-P-M1-G3-R1-S,False,1,Poorvikavasanta,15.0
+Pratāpadhanyāsi,Pratāpadhanyāsi,S G3 M1 P N3 S,S N3 D1 P M1 G3 R1 S,0.0,Māyāmāḻavagouḻai,S-G3-M1-P-N3-S,S-N3-D1-P-M1-G3-R1-S,False,1,Pratāpadhanyāsi,15.0
+Pratāparanjani,Pratāparanjani,S R1 M1 P D1 N3 S,S N3 D1 P M1 G3 R1 S,0.0,Māyāmāḻavagouḻai,S-R1-M1-P-D1-N3-S,S-N3-D1-P-M1-G3-R1-S,False,1,Pratāparanjani,15.0
+Puranirmai,Puranirmai,S R1 G3 P D1 S,S N3 D1 P G3 R1 S,0.0,Māyāmāḻavagouḻai,S-R1-G3-P-D1-S,S-N3-D1-P-G3-R1-S,False,1,Puranirmai,15.0
+Rāmakali,Rāmakali,S R1 G3 P D1 S,S N3 D1 P M1 G3 R1 S,0.0,Māyāmāḻavagouḻai,S-R1-G3-P-D1-S,S-N3-D1-P-M1-G3-R1-S,False,1,Rāmakali,15.0
+Rāmakriya,Rāmakriya,S G3 M1 P D1 N3 S,S N3 P D1 P M1 G3 R1 S,0.0,Māyāmāḻavagouḻai,S-G3-M1-P-D1-N3-S,S-N3-P-D1-P-M1-G3-R1-S,False,1,Rāmakriya,15.0
+Revagupti,Revagupti,S R1 G3 P D1 S,S D1 P G3 R1 S,0.0,Māyāmāḻavagouḻai,S-R1-G3-P-D1-S,S-D1-P-G3-R1-S,True,1,Revagupti,15.0
+Rukhmāmbari,Rukhmāmbari,S R1 G3 P N3 S,S N3 P G3 R1 S,0.0,Māyāmāḻavagouḻai,S-R1-G3-P-N3-S,S-N3-P-G3-R1-S,True,1,Rukhmāmbari,15.0
+Sāmantadeepara,Sāmantadeepara,S R1 G3 M1 P N3 S,S N3 P M1 G3 R1 S,0.0,Māyāmāḻavagouḻai,S-R1-G3-M1-P-N3-S,S-N3-P-M1-G3-R1-S,True,1,Sāmantadeepara,15.0
+Sāranga Nāta,Sāranga Nāta,S R1 M1 P D1 S,S N3 S D1 P M1 G3 R1 S,0.0,Māyāmāḻavagouḻai,S-R1-M1-P-D1-S,S-N3-S-D1-P-M1-G3-R1-S,False,1,Sāranga Nāta,15.0
+Sāveri,Sāveri,S R1 M1 P D1 S,S N3 D1 P M1 G3 R1 S,0.0,Māyāmāḻavagouḻai,S-R1-M1-P-D1-S,S-N3-D1-P-M1-G3-R1-S,False,1,Sāveri,15.0
+Salanganāta,Salanganāta,S R1 M1 P D1 S,S D1 P G3 R1 S,0.0,Māyāmāḻavagouḻai,S-R1-M1-P-D1-S,S-D1-P-G3-R1-S,False,1,Salanganāta,15.0
+Satyāvati,Satyāvati,S G3 R1 G3 P D1 S,S N3 D1 N3 P D1 P G3 R1 S,0.0,Māyāmāḻavagouḻai,S-G3-R1-G3-P-D1-S,S-N3-D1-N3-P-D1-P-G3-R1-S,False,1,Satyāvati,15.0
+Sindhu Rāmakriya,Sindhu Rāmakriya,S G3 M1 P D1 N3 S,S N3 P M1 G3 R1 G3 S,0.0,Māyāmāḻavagouḻai,S-G3-M1-P-D1-N3-S,S-N3-P-M1-G3-R1-G3-S,False,1,Sindhu Rāmakriya,15.0
+Surasindhu,Surasindhu,S M1 G3 M1 P D1 N3 D1 S,S N3 D1 P M1 R1 G3 R1 S,0.0,Māyāmāḻavagouḻai,S-M1-G3-M1-P-D1-N3-D1-S,S-N3-D1-P-M1-R1-G3-R1-S,False,1,Surasindhu,15.0
+Tārakagowla,Tārakagowla,S G3 M1 D1 N3 S,S N3 D1 M1 G3 S,0.0,Māyāmāḻavagouḻai,S-G3-M1-D1-N3-S,S-N3-D1-M1-G3-S,True,1,Tārakagowla,15.0
+Takka,Takka,S R1 S G3 M1 G3 P M1 D1 N3 S,S N3 D1 P M1 G3 R1 S,0.0,Māyāmāḻavagouḻai,S-R1-S-G3-M1-G3-P-M1-D1-N3-S,S-N3-D1-P-M1-G3-R1-S,False,1,Takka,15.0
+Ushāvali,Ushāvali,S R1 M1 P D1 S,S N3 D1 M1 P M1 R1 S,0.0,Māyāmāḻavagouḻai,S-R1-M1-P-D1-S,S-N3-D1-M1-P-M1-R1-S,False,1,Ushāvali,15.0
+Vishārada,Vishārada,S R1 M1 P N3 S,S N3 P M1 R1 S,0.0,Māyāmāḻavagouḻai,S-R1-M1-P-N3-S,S-N3-P-M1-R1-S,True,1,Vishārada,15.0
+16 Chakravākam,Chakravākam,S R1 G3 M1 P D2 N2 S,S N2 D2 P M1 G3 R1 S,1.0,Chakravākam,S-R1-G3-M1-P-D2-N2-S,S-N2-D2-P-M1-G3-R1-S,True,1,Chakravākam,16.0
+Toyavegavāhini,Toyavegavāhini,S R1 G3 M1 P D2 N2 S,S N2 D2 P M1 G3 R1 S,0.0,Chakravākam,S-R1-G3-M1-P-D2-N2-S,S-N2-D2-P-M1-G3-R1-S,True,1,Toyavegavāhini,16.0
+Āhir Bhairavi,Āhir Bhairavi,S R1 G3 M1 P N2 D2 M1 P D2 S,S N2 D2 P M1 P G3 R1 S,0.0,Chakravākam,S-R1-G3-M1-P-N2-D2-M1-P-D2-S,S-N2-D2-P-M1-P-G3-R1-S,False,1,Āhir Bhairavi,16.0
+Bhakthapriya,Bhakthapriya,S G3 M1 P D2 N2 S,S N2 D2 P M1 R1 M1 G3 S,0.0,Chakravākam,S-G3-M1-P-D2-N2-S,S-N2-D2-P-M1-R1-M1-G3-S,False,1,Bhakthapriya,16.0
+Bhujāngini,Bhujāngini,S R1 G3 M1 D2 N2 S,S N2 D2 M1 G3 R1 S,0.0,Chakravākam,S-R1-G3-M1-D2-N2-S,S-N2-D2-M1-G3-R1-S,True,1,Bhujāngini,16.0
+Bindhumālini,Bindhumālini,S G3 R1 G3 M1 P N2 S,S N2 S D2 P G3 M1 P G3 R1 S,0.0,Chakravākam,S-G3-R1-G3-M1-P-N2-S,S-N2-S-D2-P-G3-M1-P-G3-R1-S,False,1,Bindhumālini,16.0
+Chakranārāyani,Chakranārāyani,S R1 M1 P D2 N2 S,S N2 D2 P M1 R1 S,0.0,Chakravākam,S-R1-M1-P-D2-N2-S,S-N2-D2-P-M1-R1-S,True,1,Chakranārāyani,16.0
+Ghoshini,Ghoshini,S M1 G3 M1 P D2 N2 D2 S,S N2 D2 P M1 G3 R1 S,0.0,Chakravākam,S-M1-G3-M1-P-D2-N2-D2-S,S-N2-D2-P-M1-G3-R1-S,False,1,Ghoshini,16.0
+Guhapriya,Guhapriya,S R1 G3 M1 P P M1 D2 N2 S,S N2 D2 P M1 G3 S R1 S,0.0,Chakravākam,S-R1-G3-M1-P-P-M1-D2-N2-S,S-N2-D2-P-M1-G3-S-R1-S,False,1,Guhapriya,16.0
+Kalāvati,Kalāvati,S R1 M1 P D2 S,S D2 P M1 G3 S R1 S,0.0,Chakravākam,S-R1-M1-P-D2-S,S-D2-P-M1-G3-S-R1-S,False,1,Kalāvati,16.0
+Kokilā,Kokilā,S R1 G3 M1 D2 N2 S,S N2 D2 M1 G3 R1 S,0.0,Chakravākam,S-R1-G3-M1-D2-N2-S,S-N2-D2-M1-G3-R1-S,True,1,Kokilā,16.0
+Malayamārutam,Malayamārutam,S R1 G3 P D2 N2 S,S N2 D2 P G3 R1 S,0.0,Chakravākam,S-R1-G3-P-D2-N2-S,S-N2-D2-P-G3-R1-S,True,1,Malayamārutam,16.0
+Mukthāngi,Mukthāngi,S R1 G3 M1 P D2 N2 S,S D2 N2 P M1 G3 R1 S,0.0,Chakravākam,S-R1-G3-M1-P-D2-N2-S,S-D2-N2-P-M1-G3-R1-S,False,1,Mukthāngi,16.0
+Mukundamālini,Mukundamālini,S R1 G2 P D2 S,S D2 P G2 R1 S,0.0,Chakravākam,S-R1-G2-P-D2-S,S-D2-P-G2-R1-S,True,1,Mukundamālini,16.0
+Poornapanchamam,Poornapanchamam,P M1 S R1 S M1 P D2,D2 P M1 G3 R1 S N2,0.0,Chakravākam,P-M1-S-R1-S-M1-P-D2,D2-P-M1-G3-R1-S-N2,False,1,Poornapanchamam,16.0
+Pravritti,Pravritti,S G3 M1 P D2 N2 S,S N2 D2 P M1 G3 S,0.0,Chakravākam,S-G3-M1-P-D2-N2-S,S-N2-D2-P-M1-G3-S,True,1,Pravritti,16.0
+Rāgamanjari,Rāgamanjari,S R1 M1 P D2 S,S N2 D2 M1 R1 S,0.0,Chakravākam,S-R1-M1-P-D2-S,S-N2-D2-M1-R1-S,False,1,Rāgamanjari,16.0
+Rasikaranjani,Rasikaranjani,S R1 G3 P S,S D2 P G3 R1 S,0.0,Chakravākam,S-R1-G3-P-S,S-D2-P-G3-R1-S,False,1,Rasikaranjani,16.0
+Rudra Panchami,Rudra Panchami,S G3 M1 D2 N2 S,S N3 D2 M1 G3 R1 S,0.0,Chakravākam,S-G3-M1-D2-N2-S,S-N3-D2-M1-G3-R1-S,False,1,Rudra Panchami,16.0
+Shree Nabhomārgini,Shree Nabhomārgini,S G3 M1 P D2 N2 S,S D2 P M1 G3 R1 S,0.0,Chakravākam,S-G3-M1-P-D2-N2-S,S-D2-P-M1-G3-R1-S,False,1,Shree Nabhomārgini,16.0
+Shyāmali,Shyāmali,S G3 P D2 N2 S,S N2 D2 P G3 R1 S,0.0,Chakravākam,S-G3-P-D2-N2-S,S-N2-D2-P-G3-R1-S,False,1,Shyāmali,16.0
+Subhāshini,Subhāshini,S D2 N2 D R1 G3 M1 P,M1 G3 R1 S N2 D2 N2 S,0.0,Chakravākam,S-D2-N2-D-R1-G3-M1-P,M1-G3-R1-S-N2-D2-N2-S,False,1,Subhāshini,16.0
+Valaji,Valaji,S G3 P D2 N2 S,S N2 D2 P G3 S,0.0,Chakravākam,S-G3-P-D2-N2-S,S-N2-D2-P-G3-S,True,1,Valaji,16.0
+Veenadhāri,Veenadhāri,S R1 G3 P D2 N2 S,S N2 D2 P M1 G3 R1 S,0.0,Chakravākam,S-R1-G3-P-D2-N2-S,S-N2-D2-P-M1-G3-R1-S,False,1,Veenadhāri,16.0
+Vegavāhini,Vegavāhini,S R1 G3 M1 D2 N2 D2 S,S N2 D2 P M1 G3 R1 S,0.0,Chakravākam,S-R1-G3-M1-D2-N2-D2-S,S-N2-D2-P-M1-G3-R1-S,False,1,Vegavāhini,16.0
+17 Sūryakāntam,Sūryakāntam,S R1 G3 M1 P D2 N3 S,S N3 D2 P M1 G3 R1 S,1.0,Sūryakāntam,S-R1-G3-M1-P-D2-N3-S,S-N3-D2-P-M1-G3-R1-S,True,1,Sūryakāntam,17.0
+Chāyāvathi,Chāyāvathi,S R1 G3 M1 D2 N3 S,S N3 D2 P M1 G3 R1 S,0.0,Sūryakāntam,S-R1-G3-M1-D2-N3-S,S-N3-D2-P-M1-G3-R1-S,False,1,Chāyāvathi,17.0
+Bhairavam,Bhairavam,S R1 G3 M1 P D2 N3 S,S D2 P M1 G3 R1 S,0.0,Sūryakāntam,S-R1-G3-M1-P-D2-N3-S,S-D2-P-M1-G3-R1-S,False,1,Bhairavam,17.0
+Haridarpa,Haridarpa,S R1 G3 M1 P D2 N3 S,S D2 P M1 R1 S,0.0,Sūryakāntam,S-R1-G3-M1-P-D2-N3-S,S-D2-P-M1-R1-S,False,1,Haridarpa,17.0
+Jayasamvardhani,Jayasamvardhani,S G3 M1 P D2 N3 S,S N3 P M1 G3 R1 S,0.0,Sūryakāntam,S-G3-M1-P-D2-N3-S,S-N3-P-M1-G3-R1-S,False,1,Jayasamvardhani,17.0
+Jeevantikā,Jeevantikā,S R1 M1 P D2 N3 S,S N3 D2 P M1 R1 S,0.0,Sūryakāntam,S-R1-M1-P-D2-N3-S,S-N3-D2-P-M1-R1-S,True,1,Jeevantikā,17.0
+Kusumamāruta,Kusumamāruta,S M1 P D2 N3 S,S N3 D2 P M1 G3 R1 G3 M1 S,0.0,Sūryakāntam,S-M1-P-D2-N3-S,S-N3-D2-P-M1-G3-R1-G3-M1-S,False,1,Kusumamāruta,17.0
+Nāgachooḍāmani,Nāgachooḍāmani,S R1 G3 M1 P D2 S,S D2 N2 D2 P M1 G3 M1 R2 S,0.0,Sūryakāntam,S-R1-G3-M1-P-D2-S,S-D2-N2-D2-P-M1-G3-M1-R2-S,False,1,Nāgachooḍāmani,17.0
+Rohini,Rohini,S R1 G3 M1 M2 D2 N3 S,S N3 D2 M2 M1 G3 R1 S,0.0,Sūryakāntam,S-R1-G3-M1-M2-D2-N3-S,S-N3-D2-M2-M1-G3-R1-S,True,1,Rohini,17.0
+Sāmakannada,Sāmakannada,S R2 M1 G2 M1 P D2 N3 S,S N3 D2 P M1 R1 S,0.0,Sūryakāntam,S-R2-M1-G2-M1-P-D2-N3-S,S-N3-D2-P-M1-R1-S,False,1,Sāmakannada,17.0
+Sowrāshtram,Sowrāshtram,S R1 G3 M1 P M1 D2 N3 S,S N3 D2 N2 D2 P M1 G3 R1 S,0.0,Sūryakāntam,S-R1-G3-M1-P-M1-D2-N3-S,S-N3-D2-N2-D2-P-M1-G3-R1-S,False,1,Sowrāshtram,17.0
+Suddha Gowla,Suddha Gowla,S R1 M1 P N3 S,S N3 P M1 R1 S,0.0,Sūryakāntam,S-R1-M1-P-N3-S,S-N3-P-M1-R1-S,True,1,Suddha Gowla,17.0
+Supradeepam,Supradeepam,S R1 M1 P D2 N3 S,S N3 D2 P M1 G3 M1 R1 S,0.0,Sūryakāntam,S-R1-M1-P-D2-N3-S,S-N3-D2-P-M1-G3-M1-R1-S,False,1,Supradeepam,17.0
+Vasanthā,Vasanthā,S M1 G3 M1 D2 N3 S,S N3 D2 M1 G3 R1 S,0.0,Sūryakāntam,S-M1-G3-M1-D2-N3-S,S-N3-D2-M1-G3-R1-S,False,1,Vasanthā,17.0
+18 Hātakāmbari,Hātakāmbari,S R1 G3 M1 P D3 N3 S,S N3 D3 P M1 G3 R1 S,1.0,Hātakāmbari,S-R1-G3-M1-P-D3-N3-S,S-N3-D3-P-M1-G3-R1-S,True,1,Hātakāmbari,18.0
+Jayashuddhamālavi,Jayashuddhamālavi,S R1 G3 M1 P N3 S,S N3 D3 P M1 G3 R1 S,0.0,Hātakāmbari,S-R1-G3-M1-P-N3-S,S-N3-D3-P-M1-G3-R1-S,False,1,Jayashuddhamālavi,18.0
+Hamsanantini,Hamsanantini,S G3 M1 P S,S P M1 G3 R1 S,0.0,Hātakāmbari,S-G3-M1-P-S,S-P-M1-G3-R1-S,False,1,Hamsanantini,18.0
+Kallola,Kallola,S P D3 N3 S,S N3 D3 P M1 G3 R1 S,0.0,Hātakāmbari,S-P-D3-N3-S,S-N3-D3-P-M1-G3-R1-S,False,1,Kallola,18.0
+Simhala,Simhala,S R1 G3 M1 P D3 N3 S,S N3 D3 N3 P M1 G3 R1 S,0.0,Hātakāmbari,S-R1-G3-M1-P-D3-N3-S,S-N3-D3-N3-P-M1-G3-R1-S,False,1,Simhala,18.0
+19 Jhankāradhvani,Jhankāradhvani,S R2 G2 M1 P D1 N1 S,S N1 D1 P M1 G2 R2 S,1.0,Jhankāradhvani,S-R2-G2-M1-P-D1-N1-S,S-N1-D1-P-M1-G2-R2-S,True,1,Jhankāradhvani,19.0
+Jhankārabhramari,Jhankārabhramari,S R2 G2 M1 P D1 N1 D1 P D1 S,S N1 D1 P M1 G2 R2 S,0.0,Jhankāradhvani,S-R2-G2-M1-P-D1-N1-D1-P-D1-S,S-N1-D1-P-M1-G2-R2-S,False,1,Jhankārabhramari,19.0
+Bhārati,Bhārati,S R2 G2 M1 P S,S P M1 G2 R2 S,0.0,Jhankāradhvani,S-R2-G2-M1-P-S,S-P-M1-G2-R2-S,True,1,Bhārati,19.0
+Chittaranjani,Chittaranjani,S R2 G2 M1 P D1 N1,N1 D1 P M1 G2 R2 S,0.0,Jhankāradhvani,S-R2-G2-M1-P-D1-N1,N1-D1-P-M1-G2-R2-S,True,1,Chittaranjani,19.0
+Jalmika,Jalmika,S R2 G1 M1 P D1 N1 S,S N1 D1 P M1 G1 S R2 S,0.0,Jhankāradhvani,S-R2-G1-M1-P-D1-N1-S,S-N1-D1-P-M1-G1-S-R2-S,False,1,Jalmika,19.0
+Lalitabhairavi,Lalitabhairavi,S G2 M1 P D1 S,S N1 D1 P M1 G2 R2 S,0.0,Jhankāradhvani,S-G2-M1-P-D1-S,S-N1-D1-P-M1-G2-R2-S,False,1,Lalitabhairavi,19.0
+Poornalalita,Poornalalita,S G2 R2 M1 P S,S N1 D1 P M1 G2 R2 S,0.0,Jhankāradhvani,S-G2-R2-M1-P-S,S-N1-D1-P-M1-G2-R2-S,False,1,Poornalalita,19.0
+20 Natabhairavi,Natabhairavi,S R2 G2 M1 P D1 N2 S,S N2 D1 P M1 G2 R2 S,1.0,Natabhairavi,S-R2-G2-M1-P-D1-N2-S,S-N2-D1-P-M1-G2-R2-S,True,1,Natabhairavi,20.0
+Nārērētigowla,Nārērētigowla,S G2 R2 G2 M1 N2 D1 M1 N2 N2 S,S N2 D1 M1 G2 M1 P M1 G2 R2 S,0.0,Natabhairavi,S-G2-R2-G2-M1-N2-D1-M1-N2-N2-S,S-N2-D1-M1-G2-M1-P-M1-G2-R2-S,False,1,Nārērētigowla,20.0
+Abheri (Dikshitar School),Abheri (Dikshitar School),S M1 G2 M1 P P S,S N2 D2 P M1 G2 R2 S,0.0,Natabhairavi,S-M1-G2-M1-P-P-S,S-N2-D2-P-M1-G2-R2-S,False,1,Abheri (Dikshitar School),20.0
+Anandabhairavi,Anandabhairavi,S G2 R2 G2 M1 P D2 P S,S N2 D2 P M1 G2 R2 S (Anya swara* : G3 D1 N3),0.0,Natabhairavi,S-G2-R2-G2-M1-P-D2-P-S,S-N2-D2-P-M1-G2-R2-S (Anya swara*-: G3-D1-N3),False,1,Anandabhairavi,20.0
+Amrithavāhini,Amrithavāhini,S R2 M1 P D1 N2 S,S N2 D1 M1 G2 R2 S,0.0,Natabhairavi,S-R2-M1-P-D1-N2-S,S-N2-D1-M1-G2-R2-S,False,1,Amrithavāhini,20.0
+Bhairavi,Bhairavi,S G2 R2 G2 M1 P D2 N2 S,S N2 D1 P M1 G2 R2 S (Anya swara* : D2),0.0,Natabhairavi,S-G2-R2-G2-M1-P-D2-N2-S,S-N2-D1-P-M1-G2-R2-S (Anya swara*-: D2),False,1,Bhairavi,20.0
+Bhuvanagāndhāri,Bhuvanagāndhāri,S R2 M1 P N2 S,S N2 D1 P M1 G2 S,0.0,Natabhairavi,S-R2-M1-P-N2-S,S-N2-D1-P-M1-G2-S,False,1,Bhuvanagāndhāri,20.0
+Chapagantarva,Chapagantarva,S G2 M1 P N2,D1 M1 G2 R2 S N2,0.0,Natabhairavi,S-G2-M1-P-N2,D1-M1-G2-R2-S-N2,False,1,Chapagantarva,20.0
+Darbāri Kānada,Darbāri Kānada,N2 S R2 G2 R2 S M1 P D1 N2 S,S D1 N2 P M1 P G2 M1 R2 S,0.0,Natabhairavi,N2-S-R2-G2-R2-S-M1-P-D1-N2-S,S-D1-N2-P-M1-P-G2-M1-R2-S,False,1,Darbāri Kānada,20.0
+Devakriya,Devakriya,S R2 M1 P N2 S,S N2 D1 N2 P M1 G2 R2 S,0.0,Natabhairavi,S-R2-M1-P-N2-S,S-N2-D1-N2-P-M1-G2-R2-S,False,1,Devakriya,20.0
+Dhanashree,Dhanashree,N2 S G2 M1 P N2 S,S N2 D1 P M1 G2 R1 S,0.0,Natabhairavi,N2-S-G2-M1-P-N2-S,S-N2-D1-P-M1-G2-R1-S,False,1,Dhanashree,20.0
+Dharmaprakāshini,Dharmaprakāshini,S R2 M1 P N2 S,S N2 D1 M1 G2 R2 S,0.0,Natabhairavi,S-R2-M1-P-N2-S,S-N2-D1-M1-G2-R2-S,False,1,Dharmaprakāshini,20.0
+Dilipika Vasantha,Dilipika Vasantha,S G2 M1 P D1 P N2 S,S D1 P M1 R2 S,0.0,Natabhairavi,S-G2-M1-P-D1-P-N2-S,S-D1-P-M1-R2-S,False,1,Dilipika Vasantha,20.0
+Divyagāndhāri,Divyagāndhāri,S G2 M1 P D1 N2 S,S N2 P M1 G2 S,0.0,Natabhairavi,S-G2-M1-P-D1-N2-S,S-N2-P-M1-G2-S,False,1,Divyagāndhāri,20.0
+Gopikāvasantam,Gopikāvasantam,S R2 G2 M1 P D1 P N2,S N2 D1 P M1 G2 R2 S,0.0,Natabhairavi,S-R2-G2-M1-P-D1-P-N2,S-N2-D1-P-M1-G2-R2-S,False,1,Gopikāvasantam,20.0
+Hindolam,Hindolam,S G2 M1 D1 N2 S,S N2 D1 M1 G2 S,0.0,Natabhairavi,S-G2-M1-D1-N2-S,S-N2-D1-M1-G2-S,True,1,Hindolam,20.0
+Hindolavasanta,Hindolavasanta,S G2 M1 P D1 N2 D1 S,S N2 D1 P M1 D2 M1 G2 S,0.0,Natabhairavi,S-G2-M1-P-D1-N2-D1-S,S-N2-D1-P-M1-D2-M1-G2-S,False,1,Hindolavasanta,20.0
+Indughantarava,Indughantarava,S G2 M1 P D1 P,N2 D1 P M1 G2 R2 S N2,0.0,Natabhairavi,S-G2-M1-P-D1-P,N2-D1-P-M1-G2-R2-S-N2,False,1,Indughantarava,20.0
+Jayanthashrī,Jayanthashrī,S G2 M1 D1 N2 S,S N2 D1 M1 P M1 G2 S,0.0,Natabhairavi,S-G2-M1-D1-N2-S,S-N2-D1-M1-P-M1-G2-S,False,1,Jayanthashrī,20.0
+Jingaḷa,Jingaḷa,S R2 G2 M1 P D1 N2 D1 P S,S N2 D1 P M1 G2 R2 S,0.0,Natabhairavi,S-R2-G2-M1-P-D1-N2-D1-P-S,S-N2-D1-P-M1-G2-R2-S,False,1,Jingaḷa,20.0
+Jaunpuri {Hindustani},Jaunpuri {Hindustani},S R2 M1 P D1 N2 S,S N2 D1 P M1 G2 R2 S,0.0,Natabhairavi,S-R2-M1-P-D1-N2-S,S-N2-D1-P-M1-G2-R2-S,False,1,Jaunpuri {Hindustani},20.0
+Kātyāyani,Kātyāyani,S R2 G2 P D1 S,S D1 P G2 R2 S,0.0,Natabhairavi,S-R2-G2-P-D1-S,S-D1-P-G2-R2-S,True,1,Kātyāyani,20.0
+Kanakavasantham,Kanakavasantham,S G2 M1 P N2 D1 S,S N2 D1 P M1 G2 R2 S,0.0,Natabhairavi,S-G2-M1-P-N2-D1-S,S-N2-D1-P-M1-G2-R2-S,False,1,Kanakavasantham,20.0
+Kshanika,Kshanika,S G2 M1 P D1 S,S D1 P M1 G2 S,0.0,Natabhairavi,S-G2-M1-P-D1-S,S-D1-P-M1-G2-S,True,1,Kshanika,20.0
+Mānji,Mānji,S R2 G2 M1 P D2 N2 S,S N2 D1 P M1 P M1 P G2 R2 S,0.0,Natabhairavi,S-R2-G2-M1-P-D2-N2-S,S-N2-D1-P-M1-P-M1-P-G2-R2-S,False,1,Mānji,20.0
+Mahati cf. Mela 28&43 (Mahathi),Mahati cf. Mela 28&43 (Mahathi),S G2 P D1 N2 S,S N2 P G2 R2 S,0.0,Natabhairavi,S-G2-P-D1-N2-S,S-N2-P-G2-R2-S,False,1,Mahati cf. Mela 28&43 (Mahathi),20.0
+Malkosh / Malkauns,Malkosh / Malkauns,S G2 M1 D1 N2 S,S N2 D1 M1 G2 S,0.0,Natabhairavi,S-G2-M1-D1-N2-S,S-N2-D1-M1-G2-S,True,1,Malkosh / Malkauns,20.0
+mArgahindOLaM,mArgahindOLaM,S R2 G2 M1 P D2 N2 S,S N2 D2 P M1 G2 S,0.0,Natabhairavi,S-R2-G2-M1-P-D2-N2-S,S-N2-D2-P-M1-G2-S,False,1,mArgahindOLaM,20.0
+Nāgagāndhāri,Nāgagāndhāri,S R2 M1 G2 M1 P D1 N2 S,S N2 D1 P M1 G2 R2 S,0.0,Natabhairavi,S-R2-M1-G2-M1-P-D1-N2-S,S-N2-D1-P-M1-G2-R2-S,False,1,Nāgagāndhāri,20.0
+Navarathna Vilāsam,Navarathna Vilāsam,S R2 G2 M1 P D1 P S,S D1 P M1 G2 M1 R2 S,0.0,Natabhairavi,S-R2-G2-M1-P-D1-P-S,S-D1-P-M1-G2-M1-R2-S,False,1,Navarathna Vilāsam,20.0
+Nīlamati,Nīlamati,S G2 M1 P D1 N2 S,S N2 D1 M1 G2 S,0.0,Natabhairavi,S-G2-M1-P-D1-N2-S,S-N2-D1-M1-G2-S,False,1,Nīlamati,20.0
+Nīlaveni,Nīlaveni,S R2 G2 M1 P D1 N2 D1 S,S D1 P M1 G2 R2 S,0.0,Natabhairavi,S-R2-G2-M1-P-D1-N2-D1-S,S-D1-P-M1-G2-R2-S,False,1,Nīlaveni,20.0
+Poornashađjam,Poornashađjam,S R2 G2 M1 N2 N2 S,S N2 P M1 G2 R2 S,0.0,Natabhairavi,S-R2-G2-M1-N2-N2-S,S-N2-P-M1-G2-R2-S,False,1,Poornashađjam,20.0
+Rājarājeshwari,Rājarājeshwari,S R2 M1 P D1 S,S N2 D1 P M1 G2 R2 S,0.0,Natabhairavi,S-R2-M1-P-D1-S,S-N2-D1-P-M1-G2-R2-S,False,1,Rājarājeshwari,20.0
+Sāramati,Sāramati,S R2 G2 M1 P D1 N2 S,S N2 D1 M1 G2 S,0.0,Natabhairavi,S-R2-G2-M1-P-D1-N2-S,S-N2-D1-M1-G2-S,False,1,Sāramati,20.0
+Sāranga Kāpi,Sāranga Kāpi,S R1 P M1 R1 P R1 M1 P N2 S,S N2 D1 P M1 G2 R1 S,0.0,Natabhairavi,S-R1-P-M1-R1-P-R1-M1-P-N2-S,S-N2-D1-P-M1-G2-R1-S,False,1,Sāranga Kāpi,20.0
+Sharadapriya,Sharadapriya,S R2 G2 P N2 S,S N2 P G2 R2 S,0.0,Natabhairavi,S-R2-G2-P-N2-S,S-N2-P-G2-R2-S,True,1,Sharadapriya,20.0
+Shree Navarasachandrika,Shree Navarasachandrika,S R2 G2 M1 P D1 S,S D1 P M1 G2 R2 S,0.0,Natabhairavi,S-R2-G2-M1-P-D1-S,S-D1-P-M1-G2-R2-S,True,1,Shree Navarasachandrika,20.0
+Sindhu Dhanyāsi,Sindhu Dhanyāsi,S G2 M1 P N2 S,S N2 D1 M1 P M1 G2 R2 S,0.0,Natabhairavi,S-G2-M1-P-N2-S,S-N2-D1-M1-P-M1-G2-R2-S,False,1,Sindhu Dhanyāsi,20.0
+Shuddha Desi,Shuddha Desi,S R2 G2 R2 M1 P D1 N2 S,S N2 D1 P M1 G2 R2 S,0.0,Natabhairavi,S-R2-G2-R2-M1-P-D1-N2-S,S-N2-D1-P-M1-G2-R2-S,False,1,Shuddha Desi,20.0
+Shuddha Sālavi,Shuddha Sālavi,S G2 M1 P N2 S,S N2 P M1 R2 S,0.0,Natabhairavi,S-G2-M1-P-N2-S,S-N2-P-M1-R2-S,False,1,Shuddha Sālavi,20.0
+Sukumāri,Sukumāri,S G2 M1 P N2 D1 N2 S,S N2 P M1 G2 M1 R2 S,0.0,Natabhairavi,S-G2-M1-P-N2-D1-N2-S,S-N2-P-M1-G2-M1-R2-S,False,1,Sukumāri,20.0
+Sushama (Raga created by M. Balamuralikrishna),Sushama (Raga created by M. Balamuralikrishna),S R2 M1 P D1 S,S D1 P M1 R2 S,0.0,Natabhairavi,S-R2-M1-P-D1-S,S-D1-P-M1-R2-S,True,1,Sushama (Raga created by M. Balamuralikrishna),20.0
+Sutradhāri,Sutradhāri,(Also 27) S R2 M1 P D1 S,S D1 P M1 R2 S,0.0,Natabhairavi,(Also 27) S-R2-M1-P-D1-S,S-D1-P-M1-R2-S,False,1,Sutradhāri,20.0
+Tarkshika,Tarkshika,S R2 M1 P N2 S,S N2 D1 P M1 R2 G2 R2 S,0.0,Natabhairavi,S-R2-M1-P-N2-S,S-N2-D1-P-M1-R2-G2-R2-S,False,1,Tarkshika,20.0
+Udayarāga,Udayarāga,S G2 M1 P N2 S,S N2 P M1 G2 S,0.0,Natabhairavi,S-G2-M1-P-N2-S,S-N2-P-M1-G2-S,True,1,Udayarāga,20.0
+Vasantavarāli,Vasantavarāli,S R2 M1 P D1 S,S N2 D1 P G2 R2 S,0.0,Natabhairavi,S-R2-M1-P-D1-S,S-N2-D1-P-G2-R2-S,False,1,Vasantavarāli,20.0
+21 Kīravāṇi,Kīravāṇi,S R2 G2 M1 P D1 N3 S,S N3 D1 P M1 G2 R2 S,1.0,Kīravāṇi,S-R2-G2-M1-P-D1-N3-S,S-N3-D1-P-M1-G2-R2-S,True,1,Kīravāṇi,21.0
+Keeranāvali,Keeranāvali,S R2 G2 M1 P D1 N3 S,S P M1 G2 R2 S,0.0,Kīravāṇi,S-R2-G2-M1-P-D1-N3-S,S-P-M1-G2-R2-S,False,1,Keeranāvali,21.0
+Aymmukhan,Aymmukhan,S G2 M1 P D1 N3 S,S N3 D1 P M1 G2 S,0.0,Kīravāṇi,S-G2-M1-P-D1-N3-S,S-N3-D1-P-M1-G2-S,True,1,Aymmukhan,21.0
+Bhānupriya,Bhānupriya,S R2 G2 D1 N3 S,S N3 D1 G2 R2 S,0.0,Kīravāṇi,S-R2-G2-D1-N3-S,S-N3-D1-G2-R2-S,True,1,Bhānupriya,21.0
+Beethovanapriya (invented by Ramesh Vinayakam[5]),Beethovanapriya (invented by Ramesh Vinayakam[5]),G̣2 P̣ Ṇ3 S R2 G2 M1 P D1,P M2 P R2 M1 G2 S,0.0,Kīravāṇi,G̣2-P̣-Ṇ3-S-R2-G2-M1-P-D1,P-M2-P-R2-M1-G2-S,False,1,Beethovanapriya (invented by Ramesh Vinayakam[5]),21.0
+Chandrika,Chandrika,S R2 G2 P D1 N3 S,S N3 D1 P G2 R2 S,0.0,Kīravāṇi,S-R2-G2-P-D1-N3-S,S-N3-D1-P-G2-R2-S,True,1,Chandrika,21.0
+Gaganabhoopālam,Gaganabhoopālam,S M1 G2 M1 P D1 N3,S N3 D1 M1 G2 R2 S,0.0,Kīravāṇi,S-M1-G2-M1-P-D1-N3,S-N3-D1-M1-G2-R2-S,False,1,Gaganabhoopālam,21.0
+Hamsapancama,Hamsapancama,S G2 M1 P N3 D1 N3 P S,S N3 D1 M1 G2 R2 S,0.0,Kīravāṇi,S-G2-M1-P-N3-D1-N3-P-S,S-N3-D1-M1-G2-R2-S,False,1,Hamsapancama,21.0
+Hamsavāhini,Hamsavāhini,S R2 M1 P D1 N3 S,S N3 D1 P M1 R2 S,0.0,Kīravāṇi,S-R2-M1-P-D1-N3-S,S-N3-D1-P-M1-R2-S,True,1,Hamsavāhini,21.0
+Jayashree,Jayashree,S R2 G2 M1 P D1 N3 D1 S,S N3 D1 P M1 G2 R2 S,0.0,Kīravāṇi,S-R2-G2-M1-P-D1-N3-D1-S,S-N3-D1-P-M1-G2-R2-S,False,1,Jayashree,21.0
+"Kadaram (Chandrakosh, Chandrakauns, Chandrakaush)","Kadaram (Chandrakosh, Chandrakauns, Chandrakaush)",S G2 M1 D1 N3 S,S N3 D1 M1 G2 S,0.0,Kīravāṇi,S-G2-M1-D1-N3-S,S-N3-D1-M1-G2-S,True,1,"Kadaram (Chandrakosh, Chandrakauns, Chandrakaush)",21.0
+Kalyāna Vasantam,Kalyāna Vasantam,S G2 M1 D1 N3 S,S N3 D1 P M1 G2 R2 S,0.0,Kīravāṇi,S-G2-M1-D1-N3-S,S-N3-D1-P-M1-G2-R2-S,False,1,Kalyāna Vasantam,21.0
+Kusumāvali,Kusumāvali,S G2 M1 P D1 S,S N3 D1 P M1 G2 M1 R1 S,0.0,Kīravāṇi,S-G2-M1-P-D1-S,S-N3-D1-P-M1-G2-M1-R1-S,False,1,Kusumāvali,21.0
+Mādhavi,Mādhavi,S M1 G2 M1 P D1 N3 S,S N3 D1 P M1 S M1 G2 R1 S,0.0,Kīravāṇi,S-M1-G2-M1-P-D1-N3-S,S-N3-D1-P-M1-S-M1-G2-R1-S,False,1,Mādhavi,21.0
+Mishramanolayam,Mishramanolayam,S R2 M1 P D1 S,S D2 D1 P M1 R2 S,0.0,Kīravāṇi,S-R2-M1-P-D1-S,S-D2-D1-P-M1-R2-S,False,1,Mishramanolayam,21.0
+Priyadarshani,Priyadarshani,S R2 M1 D1 N3 S,S N3 D1 M1 R2 S,0.0,Kīravāṇi,S-R2-M1-D1-N3-S,S-N3-D1-M1-R2-S,True,1,Priyadarshani,21.0
+Rishipriya,Rishipriya,S R2 G2 M1 P D1 N3 S,S N3 P M1 G2 R2 S,0.0,Kīravāṇi,S-R2-G2-M1-P-D1-N3-S,S-N3-P-M1-G2-R2-S,False,1,Rishipriya,21.0
+Sāmapriya,Sāmapriya,S R2 M1 P D1 S,S D1 P M1 R2 S,0.0,Kīravāṇi,S-R2-M1-P-D1-S,S-D1-P-M1-R2-S,True,1,Sāmapriya,21.0
+Shrothasvini,Shrothasvini,S G2 M1 P N3 S,S N3 P M1 G2 S,0.0,Kīravāṇi,S-G2-M1-P-N3-S,S-N3-P-M1-G2-S,True,1,Shrothasvini,21.0
+Vasanthamanohari,Vasanthamanohari,S R2 G2 M1 D1 N3 S,S N3 D1 M1 G2 R2 S,0.0,Kīravāṇi,S-R2-G2-M1-D1-N3-S,S-N3-D1-M1-G2-R2-S,True,1,Vasanthamanohari,21.0
+22 Kharaharapriyā,Kharaharapriyā,S R2 G2 M1 P D2 N2 S,S N2 D2 P M1 G2 R2 S,1.0,Kharaharapriyā,S-R2-G2-M1-P-D2-N2-S,S-N2-D2-P-M1-G2-R2-S,True,1,Kharaharapriyā,22.0
+Shree,Shree,S R2 M1 P N2 S,S N2 P D2 N2 P M1 R2 G2 R2 S,0.0,Kharaharapriyā,S-R2-M1-P-N2-S,S-N2-P-D2-N2-P-M1-R2-G2-R2-S,False,1,Shree,22.0
+Andolikā,Andolikā,S R2 M1 P N2 S,S N2 D2 M1 R2 S,0.0,Kharaharapriyā,S-R2-M1-P-N2-S,S-N2-D2-M1-R2-S,False,1,Andolikā,22.0
+Abheri,Abheri,S G2 M1 P N2 S,S N2 D2 P M1 G2 R2 S,0.0,Kharaharapriyā,S-G2-M1-P-N2-S,S-N2-D2-P-M1-G2-R2-S,False,1,Abheri,22.0
+Abhogi,Abhogi,S R2 G2 M1 D2 S,S D2 M1 G2 R2 S,0.0,Kharaharapriyā,S-R2-G2-M1-D2-S,S-D2-M1-G2-R2-S,True,1,Abhogi,22.0
+Ādi Kāpi,Ādi Kāpi,S R2 M1 G2 M1 P D2 N2 S,S N2 D2 P M1 G2 R2 S,0.0,Kharaharapriyā,S-R2-M1-G2-M1-P-D2-N2-S,S-N2-D2-P-M1-G2-R2-S,False,1,Ādi Kāpi,22.0
+Āryamati,Āryamati,S R2 G2 P D2 S,S N2 D2 P D2 M1 G2 R2 S,0.0,Kharaharapriyā,S-R2-G2-P-D2-S,S-N2-D2-P-D2-M1-G2-R2-S,False,1,Āryamati,22.0
+Agnikopa,Agnikopa,S G2 M1 P N2 S,S N2 P M1 G2 R2 S,0.0,Kharaharapriyā,S-G2-M1-P-N2-S,S-N2-P-M1-G2-R2-S,False,1,Agnikopa,22.0
+Bālachandrika,Bālachandrika,S G2 M1 P D2 N2 S,S N2 D2 M1 G2 R2 S,0.0,Kharaharapriyā,S-G2-M1-P-D2-N2-S,S-N2-D2-M1-G2-R2-S,False,1,Bālachandrika,22.0
+Basant Bahār {Hindustani},Basant Bahār {Hindustani},S M2 P G3 M2 N3 D1 N3 S,R2 S N2 D2 P M1 G2 M1 G2 R2 S,0.0,Kharaharapriyā,S-M2-P-G3-M2-N3-D1-N3-S,R2-S-N2-D2-P-M1-G2-M1-G2-R2-S,False,1,Basant Bahār {Hindustani},22.0
+Bageshri,Bageshri,S G2 M1 D2 N2 S,S N2 D2 M1 P D2 G2 M1 R2 S,0.0,Kharaharapriyā,S-G2-M1-D2-N2-S,S-N2-D2-M1-P-D2-G2-M1-R2-S,False,1,Bageshri,22.0
+Bhagavatapriya,Bhagavatapriya,S R2 G2 M1 P N2 S,S N2 D2 P M1 G2 R2 S,0.0,Kharaharapriyā,S-R2-G2-M1-P-N2-S,S-N2-D2-P-M1-G2-R2-S,False,1,Bhagavatapriya,22.0
+Bhagavathpriya,Bhagavathpriya,S R2 G2 M1 R2 M1 P D2 N2 S,S N2 D2 P M1 R2 S,0.0,Kharaharapriyā,S-R2-G2-M1-R2-M1-P-D2-N2-S,S-N2-D2-P-M1-R2-S,False,1,Bhagavathpriya,22.0
+Bhimpalasi {Hindustani},Bhimpalasi {Hindustani},N2 S G2 M1 P N2 S,S N2 D2 P M1 G2 R2 S,0.0,Kharaharapriyā,N2-S-G2-M1-P-N2-S,S-N2-D2-P-M1-G2-R2-S,False,1,Bhimpalasi {Hindustani},22.0
+Brindāvana Sāranga {Hindustani},Brindāvana Sāranga {Hindustani},S R2 M1 P N3 S,S N2 P M1 R2 G2 R2 S (Anya swara* : N3),0.0,Kharaharapriyā,S-R2-M1-P-N3-S,S-N2-P-M1-R2-G2-R2-S (Anya swara*-: N3),False,1,Brindāvana Sāranga {Hindustani},22.0
+Brindāvani {Hindustani},Brindāvani {Hindustani},S R2 M1 P N3 S,S N2 P M1 R2 S (Anya swara* : N3),0.0,Kharaharapriyā,S-R2-M1-P-N3-S,S-N2-P-M1-R2-S (Anya swara*-: N3),False,1,Brindāvani {Hindustani},22.0
+Chakrapradipta,Chakrapradipta,S R2 G2 M1 P M1 D2 N2 S,S N2 D2 M1 G2 S,0.0,Kharaharapriyā,S-R2-G2-M1-P-M1-D2-N2-S,S-N2-D2-M1-G2-S,False,1,Chakrapradipta,22.0
+Chittaranjani,Chittaranjani,S R2 G2 M1 P D2 N2,N2 D2 P M1 G2 R2 S,0.0,Kharaharapriyā,S-R2-G2-M1-P-D2-N2,N2-D2-P-M1-G2-R2-S,True,1,Chittaranjani,22.0
+Darbar,Darbar,S R2 M1 P D2 N2 S,R2 S N2 S D2 P M1 R2 G2 G2 R2 S,0.0,Kharaharapriyā,S-R2-M1-P-D2-N2-S,R2-S-N2-S-D2-P-M1-R2-G2-G2-R2-S,False,1,Darbar,22.0
+Dayavati,Dayavati,S R2 G2 P N2 S,S N2 P M1 G2 S,0.0,Kharaharapriyā,S-R2-G2-P-N2-S,S-N2-P-M1-G2-S,False,1,Dayavati,22.0
+Devāmruthavarshani,Devāmruthavarshani,S R2 G2 M1 N2 D2 N2 S,S N2 D2 P M1 G2 R2 S,0.0,Kharaharapriyā,S-R2-G2-M1-N2-D2-N2-S,S-N2-D2-P-M1-G2-R2-S,False,1,Devāmruthavarshani,22.0
+Deva Manohari,Deva Manohari,S R2 M1 P D2 N2 S,S N2 D2 N2 P M1 R2 S,0.0,Kharaharapriyā,S-R2-M1-P-D2-N2-S,S-N2-D2-N2-P-M1-R2-S,False,1,Deva Manohari,22.0
+Dhanakāpi,Dhanakāpi,S R2 M1 P N2 S (Varies),S N2 D2 N2 P M1 G2 R2 S,0.0,Kharaharapriyā,S-R2-M1-P-N2-S (Varies),S-N2-D2-N2-P-M1-G2-R2-S,False,1,Dhanakāpi,22.0
+Dilipika,Dilipika,S R2 G2 M1 P N2 D2 N2 P D2 N2 S,S N2 D2 P M1 G2 R2 S,0.0,Kharaharapriyā,S-R2-G2-M1-P-N2-D2-N2-P-D2-N2-S,S-N2-D2-P-M1-G2-R2-S,False,1,Dilipika,22.0
+Gowla Kannada,Gowla Kannada,S R2 G2 M1 P D2 N2 S,S N2 P M1 G2 S,0.0,Kharaharapriyā,S-R2-G2-M1-P-D2-N2-S,S-N2-P-M1-G2-S,False,1,Gowla Kannada,22.0
+Gāra {Hindustani},Gāra {Hindustani},S G2 M1 P D2 N3 S,S N2 D2 P M1 G3 R2 G2 R2 S N3 S N2 D2 S (Anya swara* : G3 D1 N3),0.0,Kharaharapriyā,S-G2-M1-P-D2-N3-S,S-N2-D2-P-M1-G3-R2-G2-R2-S-N3-S-N2-D2-S (Anya swara*-: G3-D1-N3),False,1,Gāra {Hindustani},22.0
+Hamsa ābheri,Hamsa ābheri,S G2 P M1 P N2 S,S N2 D2 P M1 G2 S,0.0,Kharaharapriyā,S-G2-P-M1-P-N2-S,S-N2-D2-P-M1-G2-S,False,1,Hamsa ābheri,22.0
+Haridasapriya,Haridasapriya,S P M1 G3 M1 P N2 S,S N2 D2 N2 P M1 G2 R2 S,0.0,Kharaharapriyā,S-P-M1-G3-M1-P-N2-S,S-N2-D2-N2-P-M1-G2-R2-S,False,1,Haridasapriya,22.0
+Harinārāyani,Harinārāyani,S R2 G2 M1 P M1 D2 N2 S,S N2 P M1 G2 R2 S,0.0,Kharaharapriyā,S-R2-G2-M1-P-M1-D2-N2-S,S-N2-P-M1-G2-R2-S,False,1,Harinārāyani,22.0
+Hindustāni Kāpi,Hindustāni Kāpi,S R2 M1 P N2 S,S N2 D2 N2 P M1 G2 M1 D2 P G2 R2 S N2 S (Anya swara* : G3 D1 N3),0.0,Kharaharapriyā,S-R2-M1-P-N2-S,S-N2-D2-N2-P-M1-G2-M1-D2-P-G2-R2-S-N2-S (Anya swara*-: G3-D1-N3),False,1,Hindustāni Kāpi,22.0
+Huseni,Huseni,S R2 G2 M1 P N2 D2 N2 S,S N2 D1 P M1 G2 R2 S (Anya swara* : D1),0.0,Kharaharapriyā,S-R2-G2-M1-P-N2-D2-N2-S,S-N2-D1-P-M1-G2-R2-S (Anya swara*-: D1),False,1,Huseni,22.0
+Jatādhāri,Jatādhāri,S R2 M1 P D2 N2 S,S N2 D2 P M1 R2 S,0.0,Kharaharapriyā,S-R2-M1-P-D2-N2-S,S-N2-D2-P-M1-R2-S,True,1,Jatādhāri,22.0
+Jayamanohari,Jayamanohari,S R2 G2 M1 D2 S,S N2 D2 M1 G2 R2 S,0.0,Kharaharapriyā,S-R2-G2-M1-D2-S,S-N2-D2-M1-G2-R2-S,False,1,Jayamanohari,22.0
+Jayanārāyani,Jayanārāyani,S R2 G2 M1 P D2 S,S N2 D2 P M1 G2 R2 S,0.0,Kharaharapriyā,S-R2-G2-M1-P-D2-S,S-N2-D2-P-M1-G2-R2-S,False,1,Jayanārāyani,22.0
+Jayanthasena,Jayanthasena,S G2 M1 P D2 S,S N2 D2 P M1 G2 S,0.0,Kharaharapriyā,S-G2-M1-P-D2-S,S-N2-D2-P-M1-G2-S,False,1,Jayanthasena,22.0
+Jog {Hindustani},Jog {Hindustani},S G3 M1 P N2 S,S N2 P M1 G3 M1 G2 S (Anya swara* : G2),0.0,Kharaharapriyā,S-G3-M1-P-N2-S,S-N2-P-M1-G3-M1-G2-S (Anya swara*-: G2),False,1,Jog {Hindustani},22.0
+Kanadā,Kanadā,S R2 G2 M1 D2 N2 S,S N2 P M1 G2 M1 R2 S,0.0,Kharaharapriyā,S-R2-G2-M1-D2-N2-S,S-N2-P-M1-G2-M1-R2-S,False,1,Kanadā,22.0
+Kāpi,Kāpi,S R2 M1 P N3 S,S N2 D2 N2 P M1 G2 R2 S (Anya swara* : G3 D1 N3),0.0,Kharaharapriyā,S-R2-M1-P-N3-S,S-N2-D2-N2-P-M1-G2-R2-S (Anya swara*-: G3-D1-N3),False,1,Kāpi,22.0
+Kāpijingala,Kāpijingala,S N2 S R2 G2 M1,M1 G2 R2 S N2 D2 N2 S,0.0,Kharaharapriyā,S-N2-S-R2-G2-M1,M1-G2-R2-S-N2-D2-N2-S,False,1,Kāpijingala,22.0
+Kalānidhi,Kalānidhi,S R2 G2 M1 S P M1 D2 N2 S,S N2 D2 P M1 G2 R2 S,0.0,Kharaharapriyā,S-R2-G2-M1-S-P-M1-D2-N2-S,S-N2-D2-P-M1-G2-R2-S,False,1,Kalānidhi,22.0
+Kalika,Kalika,S R2 G2 P D2 N2 S,S N2 D2 P G2 R2 S,0.0,Kharaharapriyā,S-R2-G2-P-D2-N2-S,S-N2-D2-P-G2-R2-S,True,1,Kalika,22.0
+Kannadagowla,Kannadagowla,S R2 G2 M1 P N2 S,S N2 D2 P M1 G2 S,0.0,Kharaharapriyā,S-R2-G2-M1-P-N2-S,S-N2-D2-P-M1-G2-S,False,1,Kannadagowla,22.0
+Karnātaka Hindolam,Karnātaka Hindolam,S G2 M1 D2 N2 S,S N2 D2 M1 G2 S,0.0,Kharaharapriyā,S-G2-M1-D2-N2-S,S-N2-D2-M1-G2-S,True,1,Karnātaka Hindolam,22.0
+Karnātaka Kāpi,Karnātaka Kāpi,S R2 G2 M1 P D2 N2 S,S N2 D2 P M1 G2 R2 S,0.0,Kharaharapriyā,S-R2-G2-M1-P-D2-N2-S,S-N2-D2-P-M1-G2-R2-S,True,1,Karnātaka Kāpi,22.0
+Karnātaka Devagāndhari,Karnātaka Devagāndhari,S G2 M1 P N2 S,S N2 D2 P M1 G2 R2 S,0.0,Kharaharapriyā,S-G2-M1-P-N2-S,S-N2-D2-P-M1-G2-R2-S,False,1,Karnātaka Devagāndhari,22.0
+Karnaranjani,Karnaranjani,S R2 G2 M1 G2 P D2 S,S N2 D2 P M1 G2 R2 S,0.0,Kharaharapriyā,S-R2-G2-M1-G2-P-D2-S,S-N2-D2-P-M1-G2-R2-S,False,1,Karnaranjani,22.0
+Kowmodaki,Kowmodaki,S R2 G2 M1 P D2 N2 S,S D2 P G2 S,0.0,Kharaharapriyā,S-R2-G2-M1-P-D2-N2-S,S-D2-P-G2-S,False,1,Kowmodaki,22.0
+Kowshika,Kowshika,S G2 M1 D2 N2 S,S N2 D2 M1 G2 M1 R2 S,0.0,Kharaharapriyā,S-G2-M1-D2-N2-S,S-N2-D2-M1-G2-M1-R2-S,False,1,Kowshika,22.0
+Lalitamanohari,Lalitamanohari,S G2 M1 P D2 N2 S,S N2 P M1 G2 R2 S,0.0,Kharaharapriyā,S-G2-M1-P-D2-N2-S,S-N2-P-M1-G2-R2-S,False,1,Lalitamanohari,22.0
+Mādhavamanohari,Mādhavamanohari,S R2 G2 M1 P N2 D2 N2 S,S N2 D2 M1 G2 R2 S,0.0,Kharaharapriyā,S-R2-G2-M1-P-N2-D2-N2-S,S-N2-D2-M1-G2-R2-S,False,1,Mādhavamanohari,22.0
+Mālavashree,Mālavashree,S G2 M1 P N2 D2 N2 P D2 N2 S,S N2 D2 P M1 G2 R2 S,0.0,Kharaharapriyā,S-G2-M1-P-N2-D2-N2-P-D2-N2-S,S-N2-D2-P-M1-G2-R2-S,False,1,Mālavashree,22.0
+Māyapradeeptam,Māyapradeeptam,S M1 G2 M1 P D2 N2 S,S D2 P M1 G2 R2 S,0.0,Kharaharapriyā,S-M1-G2-M1-P-D2-N2-S,S-D2-P-M1-G2-R2-S,False,1,Māyapradeeptam,22.0
+Madhyamarāvali,Madhyamarāvali,S R2 G2 P D2 N2 S,S N2 D2 P G2 R2 S,0.0,Kharaharapriyā,S-R2-G2-P-D2-N2-S,S-N2-D2-P-G2-R2-S,True,1,Madhyamarāvali,22.0
+Madhyamāvathi,Madhyamāvathi,S R2 M1 P N2 S,S N2 P M1 R2 S,0.0,Kharaharapriyā,S-R2-M1-P-N2-S,S-N2-P-M1-R2-S,True,1,Madhyamāvathi,22.0
+Mahānandhi,Mahānandhi,S R2 G2 P D2 S,S D2 P G2 R2 S,0.0,Kharaharapriyā,S-R2-G2-P-D2-S,S-D2-P-G2-R2-S,True,1,Mahānandhi,22.0
+Mandāmari,Mandāmari,S R2 M1 P D2 S,S N2 S D2 P M1 G2 R2 S,0.0,Kharaharapriyā,S-R2-M1-P-D2-S,S-N2-S-D2-P-M1-G2-R2-S,False,1,Mandāmari,22.0
+Mangalāvathi,Mangalāvathi,S R2 M1 P D2 S,S D2 P M1 G2 R2 S,0.0,Kharaharapriyā,S-R2-M1-P-D2-S,S-D2-P-M1-G2-R2-S,False,1,Mangalāvathi,22.0
+Manirangu,Manirangu,S R2 M1 P N2 S,S N2 P M1 G2 R2 S,0.0,Kharaharapriyā,S-R2-M1-P-N2-S,S-N2-P-M1-G2-R2-S,False,1,Manirangu,22.0
+Manjari,Manjari,S G2 R2 G2 M1 P N2 D2 N2 S,S N2 D2 P M1 G2 R2 S,0.0,Kharaharapriyā,S-G2-R2-G2-M1-P-N2-D2-N2-S,S-N2-D2-P-M1-G2-R2-S,False,1,Manjari,22.0
+Manohari,Manohari,S G2 R2 G2 M1 P D2 S,S D2 P M1 G2 R2 S,0.0,Kharaharapriyā,S-G2-R2-G2-M1-P-D2-S,S-D2-P-M1-G2-R2-S,False,1,Manohari,22.0
+Manorama,Manorama,S R2 G2 M1 P D1 P S,S N2 D1 P M1 G2 R2 S,0.0,Kharaharapriyā,S-R2-G2-M1-P-D1-P-S,S-N2-D1-P-M1-G2-R2-S,False,1,Manorama,22.0
+Maruvadhanyāsi,Maruvadhanyāsi,S G2 M1 P D2 S,S N2 D2 P M1 D2 M1 G2 R2 S,0.0,Kharaharapriyā,S-G2-M1-P-D2-S,S-N2-D2-P-M1-D2-M1-G2-R2-S,False,1,Maruvadhanyāsi,22.0
+Mishramanolayam,Mishramanolayam,S R2 M1 P D1 S,S D2 D1 P M1 R2 S,0.0,Kharaharapriyā,S-R2-M1-P-D1-S,S-D2-D1-P-M1-R2-S,False,1,Mishramanolayam,22.0
+Mishra shivaranjani,Mishra shivaranjani,S R2 G2 P D2 S,S D2 P G2 R2 S (Anya swara* : R1 G3 M1 M2 D1 N2 N3),0.0,Kharaharapriyā,S-R2-G2-P-D2-S,S-D2-P-G2-R2-S (Anya swara*-: R1-G3-M1-M2-D1-N2-N3),False,1,Mishra shivaranjani,22.0
+Malhar or Miyān ki Malhār {Hindustani},Malhar or Miyān ki Malhār {Hindustani},S R2 P M1 P N2 D2 N3 S,S N2 P M1 P G2 M1 R2 S (Anya swara* : N3),0.0,Kharaharapriyā,S-R2-P-M1-P-N2-D2-N3-S,S-N2-P-M1-P-G2-M1-R2-S (Anya swara*-: N3),False,1,Malhar or Miyān ki Malhār {Hindustani},22.0
+Mukhāri,Mukhāri,S R2 M1 P N2 D2 S,S N2 D1 P M1 G2 R2 S (Anya swara* : D1),0.0,Kharaharapriyā,S-R2-M1-P-N2-D2-S,S-N2-D1-P-M1-G2-R2-S (Anya swara*-: D1),False,1,Mukhāri,22.0
+Nādachintāmani,Nādachintāmani,S R2 G2 M1 N2 D2 N2 S,S N2 D2 P M1 G2 R2 S,0.0,Kharaharapriyā,S-R2-G2-M1-N2-D2-N2-S,S-N2-D2-P-M1-G2-R2-S,False,1,Nādachintāmani,22.0
+Nādatārangini,Nādatārangini,S P M1 R2 G2 S,S P N2 D2 P M1 G2 R2 G2 S,0.0,Kharaharapriyā,S-P-M1-R2-G2-S,S-P-N2-D2-P-M1-G2-R2-G2-S,False,1,Nādatārangini,22.0
+Nādavarangini,Nādavarangini,S P M1 N2 D2 N2 S,S P N2 D2 P M1 G2 R2 G2 S,0.0,Kharaharapriyā,S-P-M1-N2-D2-N2-S,S-P-N2-D2-P-M1-G2-R2-G2-S,False,1,Nādavarangini,22.0
+Nāgari,Nāgari,S R2 M1 P D2 N2 S,S N2 D2 P M1 G2 S,0.0,Kharaharapriyā,S-R2-M1-P-D2-N2-S,S-N2-D2-P-M1-G2-S,False,1,Nāgari,22.0
+Nāgavalli,Nāgavalli,S R2 M1 D2 N2 S,S N2 D2 M1 R2 S,0.0,Kharaharapriyā,S-R2-M1-D2-N2-S,S-N2-D2-M1-R2-S,True,1,Nāgavalli,22.0
+Nāyaki,Nāyaki,S R2 M1 P D2 N2 D2 P S,S N2 D2 P M1 R2 G2 R2 S,0.0,Kharaharapriyā,S-R2-M1-P-D2-N2-D2-P-S,S-N2-D2-P-M1-R2-G2-R2-S,False,1,Nāyaki,22.0
+Nigamagāmini,Nigamagāmini,M1 G2 S G2 M1 N2 S,S N2 M1 G2 M1 G2 S,0.0,Kharaharapriyā,M1-G2-S-G2-M1-N2-S,S-N2-M1-G2-M1-G2-S,False,1,Nigamagāmini,22.0
+Nirmalāngi,Nirmalāngi,S R2 M1 P N2 S,S N2 P M1 R2 S,0.0,Kharaharapriyā,S-R2-M1-P-N2-S,S-N2-P-M1-R2-S,True,1,Nirmalāngi,22.0
+Omkāri,Omkāri,S R2 G2 M1 P D2 S,S D2 P M1 G2 R2 S,0.0,Kharaharapriyā,S-R2-G2-M1-P-D2-S,S-D2-P-M1-G2-R2-S,True,1,Omkāri,22.0
+Panchamam,Panchamam,S R2 D2 P N2 S,S N2 D2 P M1 G2 R2 S,0.0,Kharaharapriyā,S-R2-D2-P-N2-S,S-N2-D2-P-M1-G2-R2-S,False,1,Panchamam,22.0
+Phalamanjari,Phalamanjari,S G2 M1 D2 S,S N2 D2 P M1 G2 M1 R2 S,0.0,Kharaharapriyā,S-G2-M1-D2-S,S-N2-D2-P-M1-G2-M1-R2-S,False,1,Phalamanjari,22.0
+Phalaranjani,Phalaranjani,S G2 M1 P M1 D2 S,S N2 D2 P M1 G2 M1 R2 S,0.0,Kharaharapriyā,S-G2-M1-P-M1-D2-S,S-N2-D2-P-M1-G2-M1-R2-S,False,1,Phalaranjani,22.0
+Pilu(peelu) {Hindustani},Pilu(peelu) {Hindustani},N3 S G3 M1 P N3 S,S N2 D2 P D1 P M1 G2 R2 S N3 S (Anya swara* : G3 D1 N3),0.0,Kharaharapriyā,N3-S-G3-M1-P-N3-S,S-N2-D2-P-D1-P-M1-G2-R2-S-N3-S (Anya swara*-: G3-D1-N3),False,1,Pilu(peelu) {Hindustani},22.0
+Poornakalānidhi,Poornakalānidhi,S G2 M1 P D2 N2 S,S D2 P M1 G2 R2 S,0.0,Kharaharapriyā,S-G2-M1-P-D2-N2-S,S-D2-P-M1-G2-R2-S,False,1,Poornakalānidhi,22.0
+Pushpalathika,Pushpalathika,S R2 G2 M1 P N2 S,S N2 P M1 G2 R2 S,0.0,Kharaharapriyā,S-R2-G2-M1-P-N2-S,S-N2-P-M1-G2-R2-S,True,1,Pushpalathika,22.0
+Ratipatipriya,Ratipatipriya,S R2 G2 P N2 S,S N2 P G2 R2 S,0.0,Kharaharapriyā,S-R2-G2-P-N2-S,S-N2-P-G2-R2-S,True,1,Ratipatipriya,22.0
+Reethigowla,Reethigowla,S G2 R2 G2 M1 N2 D2 M1 N2 N2 S,S N2 D2 M1 G2 M1 P M1 G2 R2 S,0.0,Kharaharapriyā,S-G2-R2-G2-M1-N2-D2-M1-N2-N2-S,S-N2-D2-M1-G2-M1-P-M1-G2-R2-S,False,1,Reethigowla,22.0
+Rudrapriyā,Rudrapriyā,S R2 G2 M1 P D2 N2 S,S N2 P M1 G2 R2 S,0.0,Kharaharapriyā,S-R2-G2-M1-P-D2-N2-S,S-N2-P-M1-G2-R2-S,False,1,Rudrapriyā,22.0
+Sahāna (Original),Sahāna (Original),S R2 G2 M1 P M1 D2 N2 S,S N2 D2 P M1 G2 G2 R2 G2 R2 S (Anya swara* : G3),0.0,Kharaharapriyā,S-R2-G2-M1-P-M1-D2-N2-S,S-N2-D2-P-M1-G2-G2-R2-G2-R2-S (Anya swara*-: G3),False,1,Sahāna (Original),22.0
+Sālagabhairavi,Sālagabhairavi,S R2 M1 P D2 S,S N2 D2 P M1 G2 R2 S,0.0,Kharaharapriyā,S-R2-M1-P-D2-S,S-N2-D2-P-M1-G2-R2-S,False,1,Sālagabhairavi,22.0
+Sārang {Hindustani},Sārang {Hindustani},S R2 M1 P N2 S,S N2 P M1 R2 S,0.0,Kharaharapriyā,S-R2-M1-P-N2-S,S-N2-P-M1-R2-S,True,1,Sārang {Hindustani},22.0
+Saindhavi,Saindhavi,N2 D2 N2 S R2 G2 M1 P D2 N2,D2 P M1 G2 R2 S N2 D2 N2 S,0.0,Kharaharapriyā,N2-D2-N2-S-R2-G2-M1-P-D2-N2,D2-P-M1-G2-R2-S-N2-D2-N2-S,False,1,Saindhavi,22.0
+Sangrama,Sangrama,S R2 M1 D2 N2 P S,S N2 D2 G2 R2 S,0.0,Kharaharapriyā,S-R2-M1-D2-N2-P-S,S-N2-D2-G2-R2-S,False,1,Sangrama,22.0
+Sankrāndanapriyā,Sankrāndanapriyā,S R2 G2 P D2 S,S D2 P G2 R2 S,0.0,Kharaharapriyā,S-R2-G2-P-D2-S,S-D2-P-G2-R2-S,True,1,Sankrāndanapriyā,22.0
+Sarvachoodāmani,Sarvachoodāmani,S R2 M1 G2 M1 P D2 N2 S,S N2 P D2 N2 D2 P M1 G2 R2 G2 R2 S,0.0,Kharaharapriyā,S-R2-M1-G2-M1-P-D2-N2-S,S-N2-P-D2-N2-D2-P-M1-G2-R2-G2-R2-S,False,1,Sarvachoodāmani,22.0
+Shivapriyā,Shivapriyā,S R2 G2 P D2 S,S D2 P G2 R2 S,0.0,Kharaharapriyā,S-R2-G2-P-D2-S,S-D2-P-G2-R2-S,True,1,Shivapriyā,22.0
+Shivaranjani,Shivaranjani,S R2 G2 P D2 S,S D2 P G2 R2 S,0.0,Kharaharapriyā,S-R2-G2-P-D2-S,S-D2-P-G2-R2-S,True,1,Shivaranjani,22.0
+Shree Manohari,Shree Manohari,S G2 R2 G2 M1 P D2 S,S D2 P M1 G2 R2 S,0.0,Kharaharapriyā,S-G2-R2-G2-M1-P-D2-S,S-D2-P-M1-G2-R2-S,False,1,Shree Manohari,22.0
+Shree Manoranjani,Shree Manoranjani,S G2 M1 D2 N2 S,S N2 D2 M1 G2 R2 S,0.0,Kharaharapriyā,S-G2-M1-D2-N2-S,S-N2-D2-M1-G2-R2-S,False,1,Shree Manoranjani,22.0
+Shreeranjani,Shreeranjani,S R2 G2 M1 D2 N2 S,S N2 D2 M1 G2 R2 S,0.0,Kharaharapriyā,S-R2-G2-M1-D2-N2-S,S-N2-D2-M1-G2-R2-S,True,1,Shreeranjani,22.0
+Siddhasena,Siddhasena,S G2 R2 G2 M1 P D2 S,S N2 D2 M1 P M1 R2 G2 R2 S,0.0,Kharaharapriyā,S-G2-R2-G2-M1-P-D2-S,S-N2-D2-M1-P-M1-R2-G2-R2-S,False,1,Siddhasena,22.0
+Suddha Bangāla,Suddha Bangāla,S R2 M1 P D2 S,S D2 P M1 R2 G2 R2 S,0.0,Kharaharapriyā,S-R2-M1-P-D2-S,S-D2-P-M1-R2-G2-R2-S,False,1,Suddha Bangāla,22.0
+Suddha Bhairavi,Suddha Bhairavi,S G2 M1 P N2 D2 S,S N2 D2 M1 G2 R2 S,0.0,Kharaharapriyā,S-G2-M1-P-N2-D2-S,S-N2-D2-M1-G2-R2-S,False,1,Suddha Bhairavi,22.0
+Suddha Dhanyāsi,Suddha Dhanyāsi,S G2 M1 P N2 S,S N2 P M1 G2 S,0.0,Kharaharapriyā,S-G2-M1-P-N2-S,S-N2-P-M1-G2-S,True,1,Suddha Dhanyāsi,22.0
+Suddha Hindolam (Varamu),Suddha Hindolam (Varamu),S G2 M1 D2 N2 S,S N2 D2 M1 G2 S,0.0,Kharaharapriyā,S-G2-M1-D2-N2-S,S-N2-D2-M1-G2-S,True,1,Suddha Hindolam (Varamu),22.0
+Suddha Manohari,Suddha Manohari,S R2 G2 M1 P D2 S,S N2 P M1 R2 G2 S,0.0,Kharaharapriyā,S-R2-G2-M1-P-D2-S,S-N2-P-M1-R2-G2-S,False,1,Suddha Manohari,22.0
+Suddha Velāvali,Suddha Velāvali,S R2 M1 P N2 S,S N2 D2 N2 P M1 G2 R2 S,0.0,Kharaharapriyā,S-R2-M1-P-N2-S,S-N2-D2-N2-P-M1-G2-R2-S,False,1,Suddha Velāvali,22.0
+Sugunabhooshani,Sugunabhooshani,S G2 M1 P M1 D2 N2 S,S N2 D2 P M1 D2 M1 R2 S,0.0,Kharaharapriyā,S-G2-M1-P-M1-D2-N2-S,S-N2-D2-P-M1-D2-M1-R2-S,False,1,Sugunabhooshani,22.0
+Swarabhooshani,Swarabhooshani,S G2 M1 P D2 N2 S,S N2 D2 P M1 R2 S,0.0,Kharaharapriyā,S-G2-M1-P-D2-N2-S,S-N2-D2-P-M1-R2-S,False,1,Swarabhooshani,22.0
+Swarakalānidhi,Swarakalānidhi,S M1 G2 M1 P D2 N2 S,S N2 D2 N2 P M1 G2 R2 S,0.0,Kharaharapriyā,S-M1-G2-M1-P-D2-N2-S,S-N2-D2-N2-P-M1-G2-R2-S,False,1,Swarakalānidhi,22.0
+Swararanjani,Swararanjani,S R2 G2 M1 D2 N2 S,S N2 P M1 G2 M1 R2 S,0.0,Kharaharapriyā,S-R2-G2-M1-D2-N2-S,S-N2-P-M1-G2-M1-R2-S,False,1,Swararanjani,22.0
+Tavamukhāri,Tavamukhāri,S R2 G2 P D2 S,S N2 D2 P M1 G2 R2 S,0.0,Kharaharapriyā,S-R2-G2-P-D2-S,S-N2-D2-P-M1-G2-R2-S,False,1,Tavamukhāri,22.0
+Vajrakānti,Vajrakānti,S G2 M1 P N2 S,S N2 D1 P M1 G2 R2 S,0.0,Kharaharapriyā,S-G2-M1-P-N2-S,S-N2-D1-P-M1-G2-R2-S,False,1,Vajrakānti,22.0
+23 Gourimanohari,Gourimanohari,S R2 G2 M1 P D2 N3 S,S N3 D2 P M1 G2 R2 S,1.0,Gourimanohari,S-R2-G2-M1-P-D2-N3-S,S-N3-D2-P-M1-G2-R2-S,True,1,Gourimanohari,23.0
+Gowrivelāvali,Gowrivelāvali,S R2 G2 S R2 M1 P D2 S,S N3 D2 P M1 G2 R2 S,0.0,Gourimanohari,S-R2-G2-S-R2-M1-P-D2-S,S-N3-D2-P-M1-G2-R2-S,False,1,Gowrivelāvali,23.0
+Gowrishankar,Gowrishankar,S R2 G2 M1 P N3 S,S N3 D2 P M1 G2 R2 S,0.0,Gourimanohari,S-R2-G2-M1-P-N3-S,S-N3-D2-P-M1-G2-R2-S,False,1,Gowrishankar,23.0
+Hamsadeepika,Hamsadeepika,S R2 G2 M1 D2 S,S N3 D2 P M1 G2 R2 S,0.0,Gourimanohari,S-R2-G2-M1-D2-S,S-N3-D2-P-M1-G2-R2-S,False,1,Hamsadeepika,23.0
+Hrudkamali,Hrudkamali,S R2 M1 D2 N3 S,S N3 D2 M1 R2 S,0.0,Gourimanohari,S-R2-M1-D2-N3-S,S-N3-D2-M1-R2-S,True,1,Hrudkamali,23.0
+Lavanthika,Lavanthika,S R2 M1 P N3 S,S N3 P M1 R2 S,0.0,Gourimanohari,S-R2-M1-P-N3-S,S-N3-P-M1-R2-S,True,1,Lavanthika,23.0
+Sundaramanohari,Sundaramanohari,S R2 M1 P N3 S,S N3 D2 P M1 G2 R2 S,0.0,Gourimanohari,S-R2-M1-P-N3-S,S-N3-D2-P-M1-G2-R2-S,False,1,Sundaramanohari,23.0
+Patdīp {Hindustani},Patdīp {Hindustani},N3 S G2 M1 P N3 S,S N3 D2 P M1 P G2 M1 G2 R2 S,0.0,Gourimanohari,N3-S-G2-M1-P-N3-S,S-N3-D2-P-M1-P-G2-M1-G2-R2-S,False,1,Patdīp {Hindustani},23.0
+Thyagaraja Mangalam,Thyagaraja Mangalam,S G2 M1 P N3 S,S N3 D2 P M1 G2 R2 S,0.0,Gourimanohari,S-G2-M1-P-N3-S,S-N3-D2-P-M1-G2-R2-S,False,1,Thyagaraja Mangalam,23.0
+Vasantashree (Amba Manohari),Vasantashree (Amba Manohari),S R2 G2 M1 D2 N3 S,S N3 D2 M1 G2 R2 S,0.0,Gourimanohari,S-R2-G2-M1-D2-N3-S,S-N3-D2-M1-G2-R2-S,True,1,Vasantashree (Amba Manohari),23.0
+Velāvali,Velāvali,S G2 M1 D2 N3 S,S N3 D2 P M1 G2 R2 S,0.0,Gourimanohari,S-G2-M1-D2-N3-S,S-N3-D2-P-M1-G2-R2-S,False,1,Velāvali,23.0
+24 Varuṇapriyā,Varuṇapriyā,S R2 G2 M1 P D3 N3 S,S N3 D3 P M1 G2 R2 S,1.0,Varuṇapriyā,S-R2-G2-M1-P-D3-N3-S,S-N3-D3-P-M1-G2-R2-S,True,1,Varuṇapriyā,24.0
+Veeravasantham,Veeravasantham,S R2 G2 M1 P S,S N3 D3 P M1 G2 R2 S,0.0,Varuṇapriyā,S-R2-G2-M1-P-S,S-N3-D3-P-M1-G2-R2-S,False,1,Veeravasantham,24.0
+25 Māraranjani,Māraranjani,S R2 G3 M1 P D1 N1 S,S N1 D1 P M1 G3 R2 S,1.0,Māraranjani,S-R2-G3-M1-P-D1-N1-S,S-N1-D1-P-M1-G3-R2-S,True,1,Māraranjani,25.0
+Sharāvathi,Sharāvathi,S R2 G3 M1 P D1 N1 D1 S,S N1 D1 P M1 G3 R2 S,0.0,Māraranjani,S-R2-G3-M1-P-D1-N1-D1-S,S-N1-D1-P-M1-G3-R2-S,False,1,Sharāvathi,25.0
+Devasalaga,Devasalaga,S G3 P D1 N1 S,S N1 D1 P M1 G3 R2 S,0.0,Māraranjani,S-G3-P-D1-N1-S,S-N1-D1-P-M1-G3-R2-S,False,1,Devasalaga,25.0
+Kesari,Kesari,S R2 G3 M1 P M1 D1 P D1 S,S D1 N1 D1 P M1 G2 R2 S,0.0,Māraranjani,S-R2-G3-M1-P-M1-D1-P-D1-S,S-D1-N1-D1-P-M1-G2-R2-S,False,1,Kesari,25.0
+Gayakamandini,Gayakamandini,S R2 G3 M1 P D1 S,S D1 P M1 G3 R2 S,0.0,Māraranjani,S R2 G3 M1 P D1 S,S D1 P M1 G3 R2 S,False,1,Gayakamandini,25.0
+Rājathilaka,Rājathilaka,S R2 G3 M1 P S,S P M1 G3 R2 S,0.0,Māraranjani,S-R2-G3-M1-P-S,S-P-M1-G3-R2-S,True,1,Rājathilaka,25.0
+26 Chārukesi,Chārukesi,S R2 G3 M1 P D1 N2 S,S N2 D1 P M1 G3 R2 S,1.0,Chārukesi,S-R2-G3-M1-P-D1-N2-S,S-N2-D1-P-M1-G3-R2-S,True,1,Chārukesi,26.0
+Tarangini,Tarangini,S R2 G3 P D1 N2 D1 S,S D1 P M1 G3 R2 S,0.0,Chārukesi,S-R2-G3-P-D1-N2-D1-S,S-D1-P-M1-G3-R2-S,False,1,Tarangini,26.0
+Chirswaroopi,Chirswaroopi,S R2 G3 M1 P D1 N2 S,S N2 D1 P M1 G3 R2 S,0.0,Chārukesi,S-R2-G3-M1-P-D1-N2-S,S-N2-D1-P-M1-G3-R2-S,True,1,Chirswaroopi,26.0
+Māravi,Māravi,S G3 M1 P N2 S,S N2 D1 P M1 G3 R2 S,0.0,Chārukesi,S-G3-M1-P-N2-S,S-N2-D1-P-M1-G3-R2-S,False,1,Māravi,26.0
+Poorvadhanyāsi,Poorvadhanyāsi,S M1 G3 M1 N2 S,S N2 D1 P M1 G3 R2 S,0.0,Chārukesi,S-M1-G3-M1-N2-S,S-N2-D1-P-M1-G3-R2-S,False,1,Poorvadhanyāsi,26.0
+Shiva Manohari,Shiva Manohari,S M1 G3 M1 P D1 N2 S,S N2 D1 P M1 G3 R2 S,0.0,Chārukesi,S-M1-G3-M1-P-D1-N2-S,S-N2-D1-P-M1-G3-R2-S,False,1,Shiva Manohari,26.0
+Shukrajyothi,Shukrajyothi,S R2 G3 M1 P D1 N2 S,S N2 P D1 M1 G3 R2 S,0.0,Chārukesi,S-R2-G3-M1-P-D1-N2-S,S-N2-P-D1-M1-G3-R2-S,False,1,Shukrajyothi,26.0
+Ushābharanam,Ushābharanam,S G3 M1 D1 P M1 D1 N2 S,S N2 D1 P M1 G3 R2 G3 M1 R2 S,0.0,Chārukesi,S-G3-M1-D1-P-M1-D1-N2-S,S-N2-D1-P-M1-G3-R2-G3-M1-R2-S,False,1,Ushābharanam,26.0
+27 Sarasāngi,Sarasāngi,S R2 G3 M1 P D1 N3 S,S N3 D1 P M1 G3 R2 S,1.0,Sarasāngi,S-R2-G3-M1-P-D1-N3-S,S-N3-D1-P-M1-G3-R2-S,True,1,Sarasāngi,27.0
+Sowrasenā,Sowrasenā,S R2 M1 P D1 S,S N3 D1 P M1 G3 R2 S,0.0,Sarasāngi,S-R2-M1-P-D1-S,S-N3-D1-P-M1-G3-R2-S,False,1,Sowrasenā,27.0
+Haripriya,Haripriya,S R1 G3 M1 P S,S N3 D1 P M1 G3 S,0.0,Sarasāngi,S-R1-G3-M1-P-S,S-N3-D1-P-M1-G3-S,False,1,Haripriya,27.0
+Srirangapriya,Srirangapriya,S R2 G3 M1 P D1 S,S D1 P M1 G3 R2 S,0.0,Sarasāngi,S-R2-G3-M1-P-D1-S,S-D1-P-M1-G3-R2-S,True,1,Srirangapriya,27.0
+Kamalā Manohari,Kamalā Manohari,S G3 M1 P N3 S,S N3 D1 P M1 G3 S,0.0,Sarasāngi,S-G3-M1-P-N3-S,S-N3-D1-P-M1-G3-S,False,1,Kamalā Manohari,27.0
+Madhulika,Madhulika,S R2 G3 M1 N3 S,S N3 M1 G3 R2 S,0.0,Sarasāngi,S-R2-G3-M1-N3-S,S-N3-M1-G3-R2-S,True,1,Madhulika,27.0
+Nalinakānthi,Nalinakānthi,S G3 R2 M1 P N3 S,S N3 P M1 G3 R2 S,0.0,Sarasāngi,S-G3-R2-M1-P-N3-S,S-N3-P-M1-G3-R2-S,False,1,Nalinakānthi,27.0
+Neelamani,Neelamani,S R2 M1 P D1 N3 S,S N3 D1 P M1 R2 S,0.0,Sarasāngi,S-R2-M1-P-D1-N3-S,S-N3-D1-P-M1-R2-S,True,1,Neelamani,27.0
+Salavi,Salavi,S G3 R2 G3 M1 P D1 N3 D1 S,S N3 D1 P M1 G3 R2 S,0.0,Sarasāngi,S-G3-R2-G3-M1-P-D1-N3-D1-S,S-N3-D1-P-M1-G3-R2-S,False,1,Salavi,27.0
+Sarasānana,Sarasānana,S R2 G3 M1 D1 N3 S,S N3 D1 M1 G3 R2 S,0.0,Sarasāngi,S-R2-G3-M1-D1-N3-S,S-N3-D1-M1-G3-R2-S,True,1,Sarasānana,27.0
+Saraseeruha,Saraseeruha,S R2 G3 M1 D1 N1 D1 S,S N1 D1 M1 G3 R2,0.0,Sarasāngi,S-R2-G3-M1-D1-N1-D1-S,S-N1-D1-M1-G3-R2,False,1,Saraseeruha,27.0
+Simhavāhini,Simhavāhini,S G2 M1 P D1 N3 S,S N3 D1 P M1 G3 R2 S,0.0,Sarasāngi,S-G2-M1-P-D1-N3-S,S-N3-D1-P-M1-G3-R2-S,False,1,Simhavāhini,27.0
+Surasena,Surasena,S R2 M1 P D1 S,S N3 D1 P M1 G3 S R2 S,0.0,Sarasāngi,S-R2-M1-P-D1-S,S-N3-D1-P-M1-G3-S-R2-S,False,1,Surasena,27.0
+Sutradhāri,Sutradhāri,(Also 20) S R2 M1 P D1 S,S D1 P M1 R2 S,0.0,Sarasāngi,(Also 20) S-R2-M1-P-D1-S,S-D1-P-M1-R2-S,False,1,Sutradhāri,27.0
+Vasanthi,Vasanthi,S R2 G3 P D1 S,S D1 P G3 R2 S,0.0,Sarasāngi,S-R2-G3-P-D1-S,S-D1-P-G3-R2-S,True,1,Vasanthi,27.0
+28 Harikāmbhōji,Harikāmbhōji,S R2 G3 M1 P D2 N2 S,S N2 D2 P M1 G3 R2 S,1.0,Harikāmbhōji,S-R2-G3-M1-P-D2-N2-S,S-N2-D2-P-M1-G3-R2-S,True,1,Harikāmbhōji,28.0
+Harikedāragowla,Harikedāragowla,S R2 G3 M1 P D2 N2 S,S N2 D2 P M1 G3 R2 S,0.0,Harikāmbhōji,S-R2-G3-M1-P-D2-N2-S,S-N2-D2-P-M1-G3-R2-S,True,1,Harikedāragowla,28.0
+Ambhojini,Ambhojini,S R2 G3 M1 D2 S,S D2 M1 G3 R2 S,0.0,Harikāmbhōji,S-R2-G3-M1-D2-S,S-D2-M1-G3-R2-S,True,1,Ambhojini,28.0
+Andhali,Andhali,S R2 M1 P N2 S,S N2 P M1 R2 G3 M1 R2 S,0.0,Harikāmbhōji,S-R2-M1-P-N2-S,S-N2-P-M1-R2-G3-M1-R2-S,False,1,Andhali,28.0
+Aparoopam,Aparoopam,S R2 G3 M1 P N2 D2 N2 S,S D2 M1 G3 R2 G3 S,0.0,Harikāmbhōji,S-R2-G3-M1-P-N2-D2-N2-S,S-D2-M1-G3-R2-G3-S,False,1,Aparoopam,28.0
+Bālahamsa,Bālahamsa,S R2 M1 P D2 S,S N2 D2 P M1 R2 M1 G3 S,0.0,Harikāmbhōji,S-R2-M1-P-D2-S,S-N2-D2-P-M1-R2-M1-G3-S,False,1,Bālahamsa,28.0
+Bahudāri,Bahudāri,S G3 M1 P D2 N2 S,S N2 P M1 G3 S,0.0,Harikāmbhōji,S-G3-M1-P-D2-N2-S,S-N2-P-M1-G3-S,False,1,Bahudāri,28.0
+Chāyalagakhamās,Chāyalagakhamās,S M1 G3 M1 P D2 N2 S,S N2 D2 P M1 G3 R2 S,0.0,Harikāmbhōji,S-M1-G3-M1-P-D2-N2-S,S-N2-D2-P-M1-G3-R2-S,False,1,Chāyalagakhamās,28.0
+Chāyatārangini,Chāyatārangini,S R2 M1 G3 M1 P N2 S,S N2 D2 P M1 G3 R2 S,0.0,Harikāmbhōji,S-R2-M1-G3-M1-P-N2-S,S-N2-D2-P-M1-G3-R2-S,False,1,Chāyatārangini,28.0
+Chandrahasitham,Chandrahasitham,S R2 G3 M1 D2 N2 S,S N2 D2 M1 G3 R2 S,0.0,Harikāmbhōji,S-R2-G3-M1-D2-N2-S,S-N2-D2-M1-G3-R2-S,True,1,Chandrahasitham,28.0
+Dasharatipriya,Dasharatipriya,S M1 G3 M1 P D2 N2 D2 S,S N2 D2 P M1 G3 M1 R2 S,0.0,Harikāmbhōji,S-M1-G3-M1-P-D2-N2-D2-S,S-N2-D2-P-M1-G3-M1-R2-S,False,1,Dasharatipriya,28.0
+Dayaranjani,Dayaranjani,S R2 M1 P D2 S,S N2 D2 M1 G3 S,0.0,Harikāmbhōji,S-R2-M1-P-D2-S,S-N2-D2-M1-G3-S,False,1,Dayaranjani,28.0
+Desh {Hindustani},Desh {Hindustani},S R2 M1 P N3 S,S N2 D2 P M1 G3 R2 S (Anya swara* : N3),0.0,Harikāmbhōji,S-R2-M1-P-N3-S,S-N2-D2-P-M1-G3-R2-S (Anya swara*-: N3),False,1,Desh {Hindustani},28.0
+Deshākshi,Deshākshi,S R2 G3 P D2 S,S N2 D2 P M1 G3 R2 S,0.0,Harikāmbhōji,S-R2-G3-P-D2-S,S-N2-D2-P-M1-G3-R2-S,False,1,Deshākshi,28.0
+Deshkār {Hindustani},Deshkār {Hindustani},S R2 G3 P D2 S,S D2 P G3 R2 S,0.0,Harikāmbhōji,S-R2-G3-P-D2-S,S-D2-P-G3-R2-S,True,1,Deshkār {Hindustani},28.0
+Dwaithachintāmani,Dwaithachintāmani,S G3 M1 D2 N2 S,S N2 D2 M1 P G3 R2 S,0.0,Harikāmbhōji,S-G3-M1-D2-N2-S,S-N2-D2-M1-P-G3-R2-S,False,1,Dwaithachintāmani,28.0
+Dwijāvanthi /Jujāvanthi,Dwijāvanthi /Jujāvanthi,S R2 M1 G3 M1 P D2 S,S N2 D2 P M1 G3 M1 R2 G2 R2 S N2 D2 N2 S (Anya swara* : G2 N3),0.0,Harikāmbhōji,S-R2-M1-G3-M1-P-D2-S,S-N2-D2-P-M1-G3-M1-R2-G2-R2-S-N2-D2-N2-S (Anya swara*-: G2-N3),False,1,Dwijāvanthi /Jujāvanthi,28.0
+Eeshamanohari,Eeshamanohari,S R2 G3 M1 P D2 N2 S,S N2 D2 P M1 R2 M1 G3 R2 S,0.0,Harikāmbhōji,S-R2-G3-M1-P-D2-N2-S,S-N2-D2-P-M1-R2-M1-G3-R2-S,False,1,Eeshamanohari,28.0
+Eeshaivaridhi,Eeshaivaridhi,S R2 M1 D2 N2 S,S N2 P M1 R2 S,0.0,Harikāmbhōji,S-R2-M1-D2-N2-S,S-N2-P-M1-R2-S,False,1,Eeshaivaridhi,28.0
+Gāndhāralola,Gāndhāralola,S R2 M1 P D2 S,S N2 D2 P M1 G3 M1 G3 R2 S,0.0,Harikāmbhōji,S-R2-M1-P-D2-S,S-N2-D2-P-M1-G3-M1-G3-R2-S,False,1,Gāndhāralola,28.0
+Gāra {Hindustani},Gāra {Hindustani},S G3 M1 P D2 N3 S,S N2 D2 P M1 G3 R2 G2 R2 S N3 S N2 D2 S (Anya swara* : G2 D1 N3),0.0,Harikāmbhōji,S-G3-M1-P-D2-N3-S,S-N2-D2-P-M1-G3-R2-G2-R2-S-N3-S-N2-D2-S (Anya swara*-: G2-D1-N3),False,1,Gāra {Hindustani},28.0
+Gavati {Hindustani},Gavati {Hindustani},S M1 P N2 S,S D2 M1 P G3 M1 R2 N2 S,0.0,Harikāmbhōji,S-M1-P-N2-S,S-D2-M1-P-G3-M1-R2-N2-S,False,1,Gavati {Hindustani},28.0
+Guhamanohari,Guhamanohari,S R2 M1 D2 N2 S,S N2 D2 M1 R2 S,0.0,Harikāmbhōji,S-R2-M1-D2-N2-S,S-N2-D2-M1-R2-S,True,1,Guhamanohari,28.0
+Guharanjani,Guharanjani,S R2 S M1 P D2 N2 S,S N2 D2 N2 P M1 G3 S,0.0,Harikāmbhōji,S-R2-S-M1-P-D2-N2-S,S-N2-D2-N2-P-M1-G3-S,False,1,Guharanjani,28.0
+Hamsaroopini,Hamsaroopini,S R2 G3 P D2 S,S N2 P M1 R2 S,0.0,Harikāmbhōji,S-R2-G3-P-D2-S,S-N2-P-M1-R2-S,False,1,Hamsaroopini,28.0
+Haridasapriya,Haridasapriya,S P M1 G3 M1 P N2 S,S N2 D2 N2 P M1 G2 R2 S,0.0,Harikāmbhōji,S-P-M1-G3-M1-P-N2-S,S-N2-D2-N2-P-M1-G2-R2-S,False,1,Haridasapriya,28.0
+Harikedāram,Harikedāram,S R2 G3 M1 P D2 N2 S N2 S,S N2 S D2 N2 D2 P M1 G3 R2 S,0.0,Harikāmbhōji,S-R2-G3-M1-P-D2-N2-S-N2-S,S-N2-S-D2-N2-D2-P-M1-G3-R2-S,False,1,Harikedāram,28.0
+Harini,Harini,S G3 M1 P D2 N2 D2 S,S N2 S N2 D2 P M1 G3 M1 G2 R2 S,0.0,Harikāmbhōji,S-G3-M1-P-D2-N2-D2-S,S-N2-S-N2-D2-P-M1-G3-M1-G2-R2-S,False,1,Harini,28.0
+Harithapriya,Harithapriya,S R2 M1 P D2 S,S N2 D2 P M1 G3 R2 G3 R2 S,0.0,Harikāmbhōji,S-R2-M1-P-D2-S,S-N2-D2-P-M1-G3-R2-G3-R2-S,False,1,Harithapriya,28.0
+Hemasāranga,Hemasāranga,S R2 G3 M1 P D2 N2 D2 S,S P M1 G3 R2 S,0.0,Harikāmbhōji,S-R2-G3-M1-P-D2-N2-D2-S,S-P-M1-G3-R2-S,False,1,Hemasāranga,28.0
+Jaijaiwanti {Hindustani},Jaijaiwanti {Hindustani},S D2 N2 R2 S R2 G3 M1 P M1 G3 M1 G3 R2 M1 P N3 S,S N2 D2 P D2 M1 G3 M1 R2 G2 R2 S N3 S (Anya swara* : G2 N3),0.0,Harikāmbhōji,S-D2-N2-R2-S-R2-G3-M1-P-M1-G3-M1-G3-R2-M1-P-N3-S,S-N2-D2-P-D2-M1-G3-M1-R2-G2-R2-S-N3-S (Anya swara*-: G2-N3),False,1,Jaijaiwanti {Hindustani},28.0
+Jaithshree,Jaithshree,S R2 G3 P D2 S,S D2 P G3 R2 S,0.0,Harikāmbhōji,S-R2-G3-P-D2-S,S-D2-P-G3-R2-S,True,1,Jaithshree,28.0
+Jana Sammodhini,Jana Sammodhini,S R2 G3 P D2 N2 S,S N2 D2 P G3 R2 S,0.0,Harikāmbhōji,S-R2-G3-P-D2-N2-S,S-N2-D2-P-G3-R2-S,True,1,Jana Sammodhini,28.0
+Jayarāma,Jayarāma,S R2 G3 M1 P D2 N2 S,S N2 D2 P M1 G3 S,0.0,Harikāmbhōji,S-R2-G3-M1-P-D2-N2-S,S-N2-D2-P-M1-G3-S,False,1,Jayarāma,28.0
+Jhinjoti {Hindustani},Jhinjoti {Hindustani},D2 S R2 G3 M1 P D2 N2,D2 P M1 G3 R2 S N2 D2 P D2 S,0.0,Harikāmbhōji,D2-S-R2-G3-M1-P-D2-N2,D2-P-M1-G3-R2-S-N2-D2-P-D2-S,False,1,Jhinjoti {Hindustani},28.0
+Jujahuli,Jujahuli,S M1 G3 M1 P D2 N2 S,S N2 D2 P M1 G3 S,0.0,Harikāmbhōji,S-M1-G3-M1-P-D2-N2-S,S-N2-D2-P-M1-G3-S,False,1,Jujahuli,28.0
+Kāmbhoji,Kāmbhoji,S R2 G3 M1 P D2 S,S N2 D2 P M1 G3 R2 S N3 P D2 S (Anya swara* : N3),0.0,Harikāmbhōji,S-R2-G3-M1-P-D2-S,S-N2-D2-P-M1-G3-R2-S-N3-P-D2-S (Anya swara*-: N3),False,1,Kāmbhoji,28.0
+Kāpi Nārāyani,Kāpi Nārāyani,S R2 M1 P D2 N2 S,S N2 D2 P M1 G3 R2 S,0.0,Harikāmbhōji,S-R2-M1-P-D2-N2-S,S-N2-D2-P-M1-G3-R2-S,False,1,Kāpi Nārāyani,28.0
+Khamāj {Hindustani},Khamāj {Hindustani},S G3 M1 P D2 N3 S,S N2 D2 P M1 G3 R2 S (Anya swara* : N3),0.0,Harikāmbhōji,S-G3-M1-P-D2-N3-S,S-N2-D2-P-M1-G3-R2-S (Anya swara*-: N3),False,1,Khamāj {Hindustani},28.0
+Kamās,Kamās,S M1 G3 M1 P D2 N2 S,S N2 D2 P M1 G3 R2 S (Anya swara* : N3),0.0,Harikāmbhōji,S-M1-G3-M1-P-D2-N2-S,S-N2-D2-P-M1-G3-R2-S (Anya swara*-: N3),False,1,Kamās,28.0
+Karnātaka Behāg,Karnātaka Behāg,S R2 G3 M1 P D2 N2 S,S N2 D2 N2 P D2 M1 G3 R2 S,0.0,Harikāmbhōji,S-R2-G3-M1-P-D2-N2-S,S-N2-D2-N2-P-D2-M1-G3-R2-S,False,1,Karnātaka Behāg,28.0
+Karnātaka Devagāndhāri,Karnātaka Devagāndhāri,S G3 M1 P N2 S,S N2 D2 P M1 G3 R2 S,0.0,Harikāmbhōji,S-G3-M1-P-N2-S,S-N2-D2-P-M1-G3-R2-S,False,1,Karnātaka Devagāndhāri,28.0
+Karnātaka Khamās,Karnātaka Khamās,S G3 M1 P D2 N2 S,S N2 D2 P M1 G3 S,0.0,Harikāmbhōji,S-G3-M1-P-D2-N2-S,S-N2-D2-P-M1-G3-S,True,1,Karnātaka Khamās,28.0
+Kedāragowla,Kedāragowla,S R2 M1 P N2 S,S N2 D2 P M1 G3 R2 S,0.0,Harikāmbhōji,S-R2-M1-P-N2-S,S-N2-D2-P-M1-G3-R2-S,False,1,Kedāragowla,28.0
+Keshavapriyā,Keshavapriyā,S R2 S M1 P D2 N2 S,S N2 S P M1 G3 R2 S,0.0,Harikāmbhōji,S-R2-S-M1-P-D2-N2-S,S-N2-S-P-M1-G3-R2-S,False,1,Keshavapriyā,28.0
+Kokiladhwani,Kokiladhwani,S R2 G3 M1 D2 N2 D2 S,S N2 D2 N2 P M1 G3 R2 S,0.0,Harikāmbhōji,S-R2-G3-M1-D2-N2-D2-S,S-N2-D2-N2-P-M1-G3-R2-S,False,1,Kokiladhwani,28.0
+Kokilavarāli,Kokilavarāli,S R2 M1 P D2 S,S N2 D2 M1 P M1 G3 R2 G3 S,0.0,Harikāmbhōji,S-R2-M1-P-D2-S,S-N2-D2-M1-P-M1-G3-R2-G3-S,False,1,Kokilavarāli,28.0
+Kunthalavarāli,Kunthalavarāli,S M1 P D2 N2 D2 S,S N2 D2 P M1 S,0.0,Harikāmbhōji,S-M1-P-D2-N2-D2-S,S-N2-D2-P-M1-S,False,1,Kunthalavarāli,28.0
+Mālavi,Mālavi,S R2 G3 M1 P N2 M1 D2 N2 S,S N2 D2 N2 P M1 G3 M1 R2 S,0.0,Harikāmbhōji,S-R2-G3-M1-P-N2-M1-D2-N2-S,S-N2-D2-N2-P-M1-G3-M1-R2-S,False,1,Mālavi,28.0
+Madhurakokila,Madhurakokila,S R2 G3 D2 N2 S,S N2 D2 G3 R2 S,0.0,Harikāmbhōji,S-R2-G3-D2-N2-S,S-N2-D2-G3-R2-S,True,1,Madhurakokila,28.0
+Mahathi,Mahathi,S G3 P N2 S,S N2 P G3 S,0.0,Harikāmbhōji,S-G3-P-N2-S,S-N2-P-G3-S,True,1,Mahathi,28.0
+Mahuri,Mahuri,S R2 M1 G3 R2 G3 P D2 S,S N2 D2 P M1 G3 R2 S R2 G3 R2 S,0.0,Harikāmbhōji,S-R2-M1-G3-R2-G3-P-D2-S,S-N2-D2-P-M1-G3-R2-S-R2-G3-R2-S,False,1,Mahuri,28.0
+Manjupriya,Manjupriya,S G3 M1 P N2 S,S N2 D2 P G3 R2 S,0.0,Harikāmbhōji,S-G3-M1-P-N2-S,S-N2-D2-P-G3-R2-S,False,1,Manjupriya,28.0
+Manoharam,Manoharam,S R2 G3 M1 D2 N2 S,S N2 P M1 R2 S,0.0,Harikāmbhōji,S-R2-G3-M1-D2-N2-S,S-N2-P-M1-R2-S,False,1,Manoharam,28.0
+Mattakokila,Mattakokila,S R2 P D2 N2 D2 S,S D2 N2 D2 P R2 S,0.0,Harikāmbhōji,S-R2-P-D2-N2-D2-S,S-D2-N2-D2-P-R2-S,True,1,Mattakokila,28.0
+Meghana,Meghana,S M1 G3 M1 P D2 S,S N2 D2 M1 G3 S,0.0,Harikāmbhōji,S-M1-G3-M1-P-D2-S,S-N2-D2-M1-G3-S,False,1,Meghana,28.0
+Mohanam,Mohanam,S R2 G3 P D2 S,S D2 P G3 R2 S,0.0,Harikāmbhōji,S-R2-G3-P-D2-S,S-D2-P-G3-R2-S,True,1,Mohanam,28.0
+Nādavalli,Nādavalli,S R2 M1 D2 N2 S,S N2 D2 M1 R2 S,0.0,Harikāmbhōji,S-R2-M1-D2-N2-S,S-N2-D2-M1-R2-S,True,1,Nādavalli,28.0
+Nāgaswarāvali,Nāgaswarāvali,S G3 M1 P D2 S,S D2 P M1 G3 S,0.0,Harikāmbhōji,S-G3-M1-P-D2-S,S-D2-P-M1-G3-S,True,1,Nāgaswarāvali,28.0
+Nārāyanagowla,Nārāyanagowla,S R2 M1 P N2 D2 N2 S,S N2 D2 P M1 G3 R2 G3 S,0.0,Harikāmbhōji,S-R2-M1-P-N2-D2-N2-S,S-N2-D2-P-M1-G3-R2-G3-S,False,1,Nārāyanagowla,28.0
+Nārāyani,Nārāyani,S R2 M1 P D2 S,S N2 D2 P M1 R2 S,0.0,Harikāmbhōji,S-R2-M1-P-D2-S,S-N2-D2-P-M1-R2-S,False,1,Nārāyani,28.0
+Nāttai Kurinji,Nāttai Kurinji,S R2 G3 M1 N2 D2 N2 P D2 N2 S,S N2 D2 M1 G3 M1 P G3 R2 S,0.0,Harikāmbhōji,S-R2-G3-M1-N2-D2-N2-P-D2-N2-S,S-N2-D2-M1-G3-M1-P-G3-R2-S,False,1,Nāttai Kurinji,28.0
+Nāttai Nārāyani,Nāttai Nārāyani,S R2 G3 M1 D2 N2 D2 S,S N2 D2 P M1 G3 M1 R2 S,0.0,Harikāmbhōji,S-R2-G3-M1-D2-N2-D2-S,S-N2-D2-P-M1-G3-M1-R2-S,False,1,Nāttai Nārāyani,28.0
+Nandhkowns {Hindustani},Nandhkowns {Hindustani},S G3 M1 P M1 D2 N2 S,S N2 D2 P M1 G3 S G3 S,0.0,Harikāmbhōji,S-G3-M1-P-M1-D2-N2-S,S-N2-D2-P-M1-G3-S-G3-S,False,1,Nandhkowns {Hindustani},28.0
+Narani,Narani,S R2 M1 P D2 S,S N2 D2 P M1 R2 S,0.0,Harikāmbhōji,S-R2-M1-P-D2-S,S-N2-D2-P-M1-R2-S,False,1,Narani,28.0
+Navarasa Kalānidhi,Navarasa Kalānidhi,S R2 M1 P S N2 S,S N2 D2 P M1 G3 R2 S,0.0,Harikāmbhōji,S-R2-M1-P-S-N2-S,S-N2-D2-P-M1-G3-R2-S,False,1,Navarasa Kalānidhi,28.0
+Navarasa kannada,Navarasa kannada,S G3 M1 P S,S N2 D2 M1 G3 R2 S,0.0,Harikāmbhōji,S-G3-M1-P-S,S-N2-D2-M1-G3-R2-S,False,1,Navarasa kannada,28.0
+Neela,Neela,S G3 M1 D2 N2 S,S N2 D2 M1 G3 S,0.0,Harikāmbhōji,S-G3-M1-D2-N2-S,S-N2-D2-M1-G3-S,True,1,Neela,28.0
+Pārsi,Pārsi,S R2 G3 M1 D2 N2 S,S N2 D2 P M1 G3 R2 S,0.0,Harikāmbhōji,S-R2-G3-M1-D2-N2-S,S-N2-D2-P-M1-G3-R2-S,False,1,Pārsi,28.0
+Parameshwarapriyā,Parameshwarapriyā,S R2 G3 M1 P N2 S,S N2 P M1 R2 S,0.0,Harikāmbhōji,S-R2-G3-M1-P-N2-S,S-N2-P-M1-R2-S,False,1,Parameshwarapriyā,28.0
+Pashupathipriyā,Pashupathipriyā,S R2 M1 P M1 D2 S,S D2 M1 P R2 M1 S,0.0,Harikāmbhōji,S-R2-M1-P-M1-D2-S,S-D2-M1-P-R2-M1-S,False,1,Pashupathipriyā,28.0
+Poornakāmbhoji,Poornakāmbhoji,S R2 G3 M1 P N2 S,S D2 P M1 G3 R2 S,0.0,Harikāmbhōji,S-R2-G3-M1-P-N2-S,S-D2-P-M1-G3-R2-S,False,1,Poornakāmbhoji,28.0
+Pratāpa Nāttai,Pratāpa Nāttai,S R2 G3 M1 D2 P D2 N3 S,S N3 D2 P M1 G3 S,0.0,Harikāmbhōji,S-R2-G3-M1-D2-P-D2-N3-S,S-N3-D2-P-M1-G3-S,False,1,Pratāpa Nāttai,28.0
+Pratāpavarāli,Pratāpavarāli,S R2 M1 P D2 P S,S D2 P M1 G3 R2 S,0.0,Harikāmbhōji,S-R2-M1-P-D2-P-S,S-D2-P-M1-G3-R2-S,False,1,Pratāpavarāli,28.0
+Pravalajyoti,Pravalajyoti,S R2 M1 P D2 N2 S,S N2 D2 P M1 G3 S,0.0,Harikāmbhōji,S-R2-M1-P-D2-N2-S,S-N2-D2-P-M1-G3-S,False,1,Pravalajyoti,28.0
+Rāgapanjaramu,Rāgapanjaramu,S R2 M1 P D2 N2 D2 S,S N2 D2 M1 R2 S,0.0,Harikāmbhōji,S-R2-M1-P-D2-N2-D2-S,S-N2-D2-M1-R2-S,False,1,Rāgapanjaramu,28.0
+Rāgavinodini,Rāgavinodini,S R2 G3 M1 D2 S,S D2 M1 G3 R2 S,0.0,Harikāmbhōji,S-R2-G3-M1-D2-S,S-D2-M1-G3-R2-S,True,1,Rāgavinodini,28.0
+Rāgeshree,Rāgeshree,S G3 M1 D2 N2 S,S N2 D2 M1 G3 R2 S,0.0,Harikāmbhōji,S-G3-M1-D2-N2-S,S-N2-D2-M1-G3-R2-S,False,1,Rāgeshree,28.0
+Ravi Chandrikā,Ravi Chandrikā,S R2 G3 M1 D2 S,S N2 D2 M1 G3 R2 S,0.0,Harikāmbhōji,S-R2-G3-M1-D2-S,S-N2-D2-M1-G3-R2-S,False,1,Ravi Chandrikā,28.0
+Sāvithri,Sāvithri,S G3 M1 P N2 S,S N2 P M1 G3 S,0.0,Harikāmbhōji,S-G3-M1-P-N2-S,S-N2-P-M1-G3-S,True,1,Sāvithri,28.0
+Sahāna,Sahāna,S R2 G3 M1 P M1 D2 N2 S,S N2 S D2 N2 D2 P M1 G3 M1 R2 G3 R2 S,0.0,Harikāmbhōji,S-R2-G3-M1-P-M1-D2-N2-S,S-N2-S-D2-N2-D2-P-M1-G3-M1-R2-G3-R2-S,False,1,Sahāna,28.0
+Saraswathi Manohari,Saraswathi Manohari,S R2 G3 M1 D2 S,S D2 N2 P M1 G3 R2 S,0.0,Harikāmbhōji,S-R2-G3-M1-D2-S,S-D2-N2-P-M1-G3-R2-S,False,1,Saraswathi Manohari,28.0
+Sathvamanjari,Sathvamanjari,S R2 M1 P D2 S,S N2 D2 P M1 N2 D2 M1 R2 S,0.0,Harikāmbhōji,S-R2-M1-P-D2-S,S-N2-D2-P-M1-N2-D2-M1-R2-S,False,1,Sathvamanjari,28.0
+Shakunthala,Shakunthala,S R2 G3 M1 D2 N2 S,S N2 D2 M1 G3 S,0.0,Harikāmbhōji,S-R2-G3-M1-D2-N2-S,S-N2-D2-M1-G3-S,False,1,Shakunthala,28.0
+Shankaraharigowla,Shankaraharigowla,S R2 G3 M1 P D2 N3 S,S N2 D2 P M1 G3 R2 S,0.0,Harikāmbhōji,S-R2-G3-M1-P-D2-N3-S,S-N2-D2-P-M1-G3-R2-S,False,1,Shankaraharigowla,28.0
+Shenchukāmbhoji,Shenchukāmbhoji,S P M1 D2 N2 S,S N2 D2 P M1 G3 R2 S,0.0,Harikāmbhōji,S-P-M1-D2-N2-S,S-N2-D2-P-M1-G3-R2-S,False,1,Shenchukāmbhoji,28.0
+Chenjurutti,Chenjurutti,D2 S R2 G3 M1 P D2 N2,N2 D2 P M1 G3 R2 S N2 D2 P D2 S (Anya swara* : G2),0.0,Harikāmbhōji,D2-S-R2-G3-M1-P-D2-N2,N2-D2-P-M1-G3-R2-S-N2-D2-P-D2-S (Anya swara*-: G2),False,1,Chenjurutti,28.0
+Shiva Kāmbhoji,Shiva Kāmbhoji,S R2 G3 M1 N2 S,S N2 P M1 G3 R2 S,0.0,Harikāmbhōji,S-R2-G3-M1-N2-S,S-N2-P-M1-G3-R2-S,False,1,Shiva Kāmbhoji,28.0
+Surutti,Surutti,S R2 M1 P N2 D2 N2 S,S N2 D2 P M1 G3 P M1 R2 S,0.0,Harikāmbhōji,S-R2-M1-P-N2-D2-N2-S,S-N2-D2-P-M1-G3-P-M1-R2-S,False,1,Surutti,28.0
+Shyāmā,Shyāmā,S R2 M1 P D2 S,S D2 P M1 G3 R2 S,0.0,Harikāmbhōji,S-R2-M1-P-D2-S,S-D2-P-M1-G3-R2-S,False,1,Shyāmā,28.0
+Simhavikrama,Simhavikrama,S R2 G3 R2 M1 P D2 P N2 S,S N2 D2 P M1 G3 R2 S,0.0,Harikāmbhōji,S-R2-G3-R2-M1-P-D2-P-N2-S,S-N2-D2-P-M1-G3-R2-S,False,1,Simhavikrama,28.0
+Sindhu Kannada,Sindhu Kannada,S M1 G3 M1 R2 G3 M1 P D2 P S,S N2 D2 P M1 G3 R2 S,0.0,Harikāmbhōji,S-M1-G3-M1-R2-G3-M1-P-D2-P-S,S-N2-D2-P-M1-G3-R2-S,False,1,Sindhu Kannada,28.0
+Sindhu Surutti,Sindhu Surutti,S R2 M1 P N2 S S N2 S,S N2 D2 P M1 R2 M1 G3 R2 S,0.0,Harikāmbhōji,S-R2-M1-P-N2-S-S-N2-S,S-N2-D2-P-M1-R2-M1-G3-R2-S,False,1,Sindhu Surutti,28.0
+Suddha Khamās,Suddha Khamās,S M1 G3 M1 P D2 N2 S,S N2 D2 P M1 G3 R2 S,0.0,Harikāmbhōji,S-M1-G3-M1-P-D2-N2-S,S-N2-D2-P-M1-G3-R2-S,False,1,Suddha Khamās,28.0
+Suddha Varāli,Suddha Varāli,S R2 G3 M1 D2 N2 S,S N2 D2 N2 P M1 G3 S,0.0,Harikāmbhōji,S-R2-G3-M1-D2-N2-S,S-N2-D2-N2-P-M1-G3-S,False,1,Suddha Varāli,28.0
+Suddha,Suddha,S R2 M1 P D2 S,S N2 D2 P M1 R2 S,0.0,Harikāmbhōji,S-R2-M1-P-D2-S,S-N2-D2-P-M1-R2-S,False,1,Suddha,28.0
+Suddhatarangini,Suddhatarangini,S R2 M1 P D2 S,S N2 D2 P M1 G3 R2 S,0.0,Harikāmbhōji,S-R2-M1-P-D2-S,S-N2-D2-P-M1-G3-R2-S,False,1,Suddhatarangini,28.0
+Sumanapriyā,Sumanapriyā,S R2 G3 M1 P D2 P S,S D2 S P M1 G3 R2 S,0.0,Harikāmbhōji,S-R2-G3-M1-P-D2-P-S,S-D2-S-P-M1-G3-R2-S,False,1,Sumanapriyā,28.0
+Suposhini,Suposhini,S R2 S M1 P N2 D2 S,S D2 P M1 R2 M1 S,0.0,Harikāmbhōji,S-R2-S-M1-P-N2-D2-S,S-D2-P-M1-R2-M1-S,False,1,Suposhini,28.0
+Suvarnakriyā,Suvarnakriyā,S R2 G3 P N2 D2 S,S N2 P G3 R2 S,0.0,Harikāmbhōji,S-R2-G3-P-N2-D2-S,S-N2-P-G3-R2-S,False,1,Suvarnakriyā,28.0
+Swarāvali,Swarāvali,S M1 G3 M1 P N2 D2 N2 S,S N2 D2 P M1 G3 R2 S,0.0,Harikāmbhōji,S-M1-G3-M1-P-N2-D2-N2-S,S-N2-D2-P-M1-G3-R2-S,False,1,Swarāvali,28.0
+Swaravedi,Swaravedi,S M1 G3 M1 P N2 D2 N2 S,S N2 D2 P M1 G3 S,0.0,Harikāmbhōji,S-M1-G3-M1-P-N2-D2-N2-S,S-N2-D2-P-M1-G3-S,False,1,Swaravedi,28.0
+Tilakavathi,Tilakavathi,S R2 G3 M1 P D2 P S,S D2 P M1 R2 S,0.0,Harikāmbhōji,S-R2-G3-M1-P-D2-P-S,S-D2-P-M1-R2-S,False,1,Tilakavathi,28.0
+Tilang {Hindustani},Tilang {Hindustani},S G3 M1 P N3 S,S N2 P M1 G3 S (Anya swara* : N3),0.0,Harikāmbhōji,S-G3-M1-P-N3-S,S-N2-P-M1-G3-S (Anya swara*-: N3),False,1,Tilang {Hindustani},28.0
+Umābharanam,Umābharanam,S R2 G3 M1 P D2 N2 S,S N2 P M1 R2 G3 M1 R2 S,0.0,Harikāmbhōji,S-R2-G3-M1-P-D2-N2-S,S-N2-P-M1-R2-G3-M1-R2-S,False,1,Umābharanam,28.0
+Vaishnavi,Vaishnavi,S R2 G3 M1 P D2 S,S D2 P M1 G3 R2 S,0.0,Harikāmbhōji,S-R2-G3-M1-P-D2-S,S-D2-P-M1-G3-R2-S,True,1,Vaishnavi,28.0
+Veenavadini,Veenavadini,S R2 G3 P N2 S,S N2 P G3 R2 S,0.0,Harikāmbhōji,S-R2-G3-P-N2-S,S-N2-P-G3-R2-S,True,1,Veenavadini,28.0
+Vivardhani,Vivardhani,S R2 M1 P S,S N2 D2 P M1 G3 R2 S,0.0,Harikāmbhōji,S-R2-M1-P-S,S-N2-D2-P-M1-G3-R2-S,False,1,Vivardhani,28.0
+Yadukula Kāmbhoji,Yadukula Kāmbhoji,S R2 M1 P D2 S,S N2 D2 P M1 G3 R2 S,0.0,Harikāmbhōji,S-R2-M1-P-D2-S,S-N2-D2-P-M1-G3-R2-S,False,1,Yadukula Kāmbhoji,28.0
+29 Dhīraśankarābharaṇam,Dhīraśankarābharaṇam,S R2 G3 M1 P D2 N3 S,S N3 D2 P M1 G3 R2 S,1.0,Dhīraśankarābharaṇam,S-R2-G3-M1-P-D2-N3-S,S-N3-D2-P-M1-G3-R2-S,True,1,Dhīraśankarābharaṇam,29.0
+Ānandharoopa,Ānandharoopa,S R2 G3 P D2 N3 S,S N3 D2 P G3 R2 S,0.0,Dhīraśankarābharaṇam,S-R2-G3-P-D2-N3-S,S-N3-D2-P-G3-R2-S,True,1,Ānandharoopa,29.0
+Ārabhi,Ārabhi,S R2 M1 P D2 S,S N3 D2 P M1 G3 R2 S,0.0,Dhīraśankarābharaṇam,S-R2-M1-P-D2-S,S-N3-D2-P-M1-G3-R2-S,False,1,Ārabhi,29.0
+Atāna,Atāna,S R2 M1 P N2 S,S N2 D2 P M1 G2 M1 R2 S (Anya swara* : G2 N2),0.0,Dhīraśankarābharaṇam,S-R2-M1-P-N2-S,S-N2-D2-P-M1-G2-M1-R2-S (Anya swara*-: G2-N2),False,1,Atāna,29.0
+Bangāla,Bangāla,S R2 G3 M1 P M1 R2 P S,S N3 P M1 R2 G3 M1 R2 S,0.0,Dhīraśankarābharaṇam,S-R2-G3-M1-P-M1-R2-P-S,S-N3-P-M1-R2-G3-M1-R2-S,False,1,Bangāla,29.0
+Begada,Begada,S G3 R2 G3 M1 P D2 P S,S N2 D2 P M1 G3 R2 S,0.0,Dhīraśankarābharaṇam,S-G3-R2-G3-M1-P-D2-P-S,S-N2-D2-P-M1-G3-R2-S,False,1,Begada,29.0
+Behāg (Carnatic adaptation),Behāg (Carnatic adaptation),S G3 M1 P N3 D2 N3 S,S N3 D2 P M1 G3 R2 S (Anya swara* : M2 N2),0.0,Dhīraśankarābharaṇam,S-G3-M1-P-N3-D2-N3-S,S-N3-D2-P-M1-G3-R2-S (Anya swara*-: M2-N2),False,1,Behāg (Carnatic adaptation),29.0
+Behāg Deshikam,Behāg Deshikam,S R2 G3 M1 M2 P D2 N3 S,S N3 D2 P M2 M1 G3 R2 S,0.0,Dhīraśankarābharaṇam,S-R2-G3-M1-M2-P-D2-N3-S,S-N3-D2-P-M2-M1-G3-R2-S,True,1,Behāg Deshikam,29.0
+Bihag {Original/Hindustani},Bihag {Original/Hindustani},N3 S G3 M1 P N3 S,S N3 D2 P M2 P G3 M1 G3 R2 S (Anya swara* : M2),0.0,Dhīraśankarābharaṇam,N3-S-G3-M1-P-N3-S,S-N3-D2-P-M2-P-G3-M1-G3-R2-S (Anya swara*-: M2),False,1,Bihag {Original/Hindustani},29.0
+Bilahari,Bilahari,S R2 G3 P D2 S,S N3 D2 P M1 G3 R2 S (Anya swara* : N2),0.0,Dhīraśankarābharaṇam,S-R2-G3-P-D2-S,S-N3-D2-P-M1-G3-R2-S (Anya swara*-: N2),False,1,Bilahari,29.0
+Buddhamanohari,Buddhamanohari,S R2 G3 M1 S P S,S P M1 G3 R2 S,0.0,Dhīraśankarābharaṇam,S-R2-G3-M1-S-P-S,S-P-M1-G3-R2-S,False,1,Buddhamanohari,29.0
+Buddharanjani,Buddharanjani,S R2 G3 M1 P S,S N3 P M1 G3 M1 R2 S,0.0,Dhīraśankarābharaṇam,S-R2-G3-M1-P-S,S-N3-P-M1-G3-M1-R2-S,False,1,Buddharanjani,29.0
+Chāyā,Chāyā,S P M1 P D2 P N3 R2 S,S D2 P M1 P D2 P G3 M1 R2 S,0.0,Dhīraśankarābharaṇam,S-P-M1-P-D2-P-N3-R2-S,S-D2-P-M1-P-D2-P-G3-M1-R2-S,False,1,Chāyā,29.0
+Chāyashankarābharanam,Chāyashankarābharanam,S R1 M1 P D2 N3 S,S N3 D2 P M1 G3 R1 S,0.0,Dhīraśankarābharaṇam,S-R1-M1-P-D2-N3-S,S-N3-D2-P-M1-G3-R1-S,False,1,Chāyashankarābharanam,29.0
+Devagāndhāri,Devagāndhāri,S R2 M1 P D2 S,S N3 D2 P M1 G3 R2 S (Anya swara* : N2),0.0,Dhīraśankarābharaṇam,S-R2-M1-P-D2-S,S-N3-D2-P-M1-G3-R2-S (Anya swara*-: N2),False,1,Devagāndhāri,29.0
+Dharmalakhi,Dharmalakhi,S M1 P D2 N3 S,S N3 D2 P M1 S,0.0,Dhīraśankarābharaṇam,S-M1-P-D2-N3-S,S-N3-D2-P-M1-S,True,1,Dharmalakhi,29.0
+Dhurvanki,Dhurvanki,S R2 M1 P D2 S,S N3 D2 P M1 G3 R2 S,0.0,Dhīraśankarābharaṇam,S-R2-M1-P-D2-S,S-N3-D2-P-M1-G3-R2-S,False,1,Dhurvanki,29.0
+Durga {Hindustani},Durga {Hindustani},S R2 M1 D2 P D2 S,S D2 P M1 R2 S,0.0,Dhīraśankarābharaṇam,S-R2-M1-D2-P-D2-S,S-D2-P-M1-R2-S,False,1,Durga {Hindustani},29.0
+Gajagowri,Gajagowri,S R2 M1 G3 M1 N3 P D2 S,S N3 D2 P M1 P M1 G3 R2 S,0.0,Dhīraśankarābharaṇam,S-R2-M1-G3-M1-N3-P-D2-S,S-N3-D2-P-M1-P-M1-G3-R2-S,False,1,Gajagowri,29.0
+Garudadhvani,Garudadhvani,S R2 G3 M1 P D2 N3 S,S D2 P G3 R2 S,0.0,Dhīraśankarābharaṇam,S-R2-G3-M1-P-D2-N3-S,S-D2-P-G3-R2-S,False,1,Garudadhvani,29.0
+Gowdamalhār,Gowdamalhār,S R2 M1 P D2 S,S N3 M1 G3 R2 S,0.0,Dhīraśankarābharaṇam,S-R2-M1-P-D2-S,S-N3-M1-G3-R2-S,False,1,Gowdamalhār,29.0
+Hamsadhwani,Hamsadhwani,S R2 G3 P N3 S,S N3 P G3 R2 S,0.0,Dhīraśankarābharaṇam,S-R2-G3-P-N3-S,S-N3-P-G3-R2-S,True,1,Hamsadhwani,29.0
+Hamsavinodhini,Hamsavinodhini,S R2 G3 M1 D2 N3 S,S N3 D2 M1 G3 R2 S,0.0,Dhīraśankarābharaṇam,S-R2-G3-M1-D2-N3-S,S-N3-D2-M1-G3-R2-S,True,1,Hamsavinodhini,29.0
+Hemant {Hindustani},Hemant {Hindustani},N3 S D2 N3 S G3 G3 M1 D2 N3 S,S N3 D2 P M1 G3 R2 S,0.0,Dhīraśankarābharaṇam,N3-S-D2-N3-S-G3-G3-M1-D2-N3-S,S-N3-D2-P-M1-G3-R2-S,False,1,Hemant {Hindustani},29.0
+Jana Ranjani,Jana Ranjani,S R2 G3 M1 P D2 P N3 S,S D2 P M1 R2 S,0.0,Dhīraśankarābharaṇam,S-R2-G3-M1-P-D2-P-N3-S,S-D2-P-M1-R2-S,False,1,Jana Ranjani,29.0
+Julavu,Julavu,P D2 N3 S R2 G3 M1 P,M1 G3 R2 S N3 D2 P M1,0.0,Dhīraśankarābharaṇam,P-D2-N3-S-R2-G3-M1-P,M1-G3-R2-S-N3-D2-P-M1,False,1,Julavu,29.0
+Kamaripriyā,Kamaripriyā,S G3 M1 D2 N3 S,S N3 D2 M1 M1 G3 M1 R2 S,0.0,Dhīraśankarābharaṇam,S-G3-M1-D2-N3-S,S-N3-D2-M1-M1-G3-M1-R2-S,False,1,Kamaripriyā,29.0
+Kannada,Kannada,S R2 G3 M1 P M1 D2 N3 S,S N3 S D2 P M1 G3 M1 G3 M1 R2 S,0.0,Dhīraśankarābharaṇam,S-R2-G3-M1-P-M1-D2-N3-S,S-N3-S-D2-P-M1-G3-M1-G3-M1-R2-S,False,1,Kannada,29.0
+Kathanakuthuhalam,Kathanakuthuhalam,S R2 M1 D2 N3 G3 P S,S N3 D2 P M1 G3 R2 S,0.0,Dhīraśankarābharaṇam,S-R2-M1-D2-N3-G3-P-S,S-N3-D2-P-M1-G3-R2-S,False,1,Kathanakuthuhalam,29.0
+Kaushikadhwani / Bhinna shadaj {Hindustani},Kaushikadhwani / Bhinna shadaj {Hindustani},S G3 M1 D2 N3 S,S N3 D2 M1 G3 S,0.0,Dhīraśankarābharaṇam,S-G3-M1-D2-N3-S,S-N3-D2-M1-G3-S,True,1,Kaushikadhwani / Bhinna shadaj {Hindustani},29.0
+Kedaram,Kedaram,S M1 G3 M1 P N3 S,S N3 P M1 G3 R2 S,0.0,Dhīraśankarābharaṇam,S-M1-G3-M1-P-N3-S,S-N3-P-M1-G3-R2-S,False,1,Kedaram,29.0
+Kokilabhāshani,Kokilabhāshani,S R2 G3 M1 P D2 N3 S,S N3 P M1 G3 M1 R2 S,0.0,Dhīraśankarābharaṇam,S-R2-G3-M1-P-D2-N3-S,S-N3-P-M1-G3-M1-R2-S,False,1,Kokilabhāshani,29.0
+Kolahalam,Kolahalam,S P M1 G3 M1 P D2 N3 S,S N3 D2 P M1 G3 R2 S,0.0,Dhīraśankarābharaṇam,S-P-M1-G3-M1-P-D2-N3-S,S-N3-D2-P-M1-G3-R2-S,False,1,Kolahalam,29.0
+Kurinji,Kurinji,S N3 S R2 G3 M1 P D2,D2 P M1 G3 R2 S N3 S,0.0,Dhīraśankarābharaṇam,S-N3-S-R2-G3-M1-P-D2,D2-P-M1-G3-R2-S-N3-S,True,1,Kurinji,29.0
+Kusumavichithra,Kusumavichithra,S G3 R2 G3 M1 P N3 P D2 N3 S,S D2 N3 D2 M1 G3 P M1 G3 R2 S,0.0,Dhīraśankarābharaṇam,S-G3-R2-G3-M1-P-N3-P-D2-N3-S,S-D2-N3-D2-M1-G3-P-M1-G3-R2-S,False,1,Kusumavichithra,29.0
+Kutuhala,Kutuhala,S R2 M1 N3 D2 P N3 S,S N3 D2 P M1 G3 R2 S,0.0,Dhīraśankarābharaṇam,S-R2-M1-N3-D2-P-N3-S,S-N3-D2-P-M1-G3-R2-S,False,1,Kutuhala,29.0
+Lahari,Lahari,S R2 G3 P D2 S,S D2 P M1 G3 R2 S,0.0,Dhīraśankarābharaṇam,S-R2-G3-P-D2-S,S-D2-P-M1-G3-R2-S,False,1,Lahari,29.0
+Mānd {Hindustani},Mānd {Hindustani},S G3 M1 D2 N3 S,S N3 D2 P M1 G3 R2 S (Anya swara* : R1 G2 M2 D1 N2),0.0,Dhīraśankarābharaṇam,S-G3-M1-D2-N3-S,S-N3-D2-P-M1-G3-R2-S (Anya swara*-: R1-G2-M2-D1-N2),False,1,Mānd {Hindustani},29.0
+Māyadravila,Māyadravila,S R2 G3 M1 P D2 N3 S,S N2 P M1 P G3 M1 R2 S,0.0,Dhīraśankarābharaṇam,S-R2-G3-M1-P-D2-N3-S,S-N2-P-M1-P-G3-M1-R2-S,False,1,Māyadravila,29.0
+Mohanadhwani,Mohanadhwani,S R2 G3 P D2 S,S N3 P D2 P G3 R2 S,0.0,Dhīraśankarābharaṇam,S-R2-G3-P-D2-S,S-N3-P-D2-P-G3-R2-S,False,1,Mohanadhwani,29.0
+Nāgabhooshani,Nāgabhooshani,S R2 M1 P D2 N3 S,S D2 P M1 R2 S,0.0,Dhīraśankarābharaṇam,S-R2-M1-P-D2-N3-S,S-D2-P-M1-R2-S,False,1,Nāgabhooshani,29.0
+Nāgadhwani,Nāgadhwani,S R2 S M1 G3 M1 P N3 D2 N3 S,S N3 D2 N3 P M1 G3 S,0.0,Dhīraśankarābharaṇam,S-R2-S-M1-G3-M1-P-N3-D2-N3-S,S-N3-D2-N3-P-M1-G3-S,False,1,Nāgadhwani,29.0
+Nārāyanadeshākshi,Nārāyanadeshākshi,S R2 M1 G3 R2 G3 M1 P D2 N3 S,S N3 D2 P M1 G3 R2 S,0.0,Dhīraśankarābharaṇam,S-R2-M1-G3-R2-G3-M1-P-D2-N3-S,S-N3-D2-P-M1-G3-R2-S,False,1,Nārāyanadeshākshi,29.0
+Navaroj,Navaroj,P D2 N3 S R2 G3 M1 P,M1 G1 R3 S N2 D2 P (Anya swara* : N2),0.0,Dhīraśankarābharaṇam,P-D2-N3-S-R2-G3-M1-P,M1-G1-R3-S-N2-D2-P (Anya swara*-: N2),False,1,Navaroj,29.0
+Neelāmbari,Neelāmbari,S R2 G3 M1 P D2 P N3 S,S N3 P M1 G3 R2 G3 S (Anya swara* : N2),0.0,Dhīraśankarābharaṇam,S-R2-G3-M1-P-D2-P-N3-S,S-N3-P-M1-G3-R2-G3-S (Anya swara*-: N2),False,1,Neelāmbari,29.0
+Niroshta,Niroshta,S R2 G3 D2 N3 S,S N3 D2 G3 R2 S,0.0,Dhīraśankarābharaṇam,S-R2-G3-D2-N3-S,S-N3-D2-G3-R2-S,True,1,Niroshta,29.0
+Pahādi {Hindustani},Pahādi {Hindustani},S R2 G3 P D2 P D2 S,N3 D2 P G3 M1 G3 R2 S N3 D2 P D2 S (Anya swara* : R1 G2 M2 D1 N2),0.0,Dhīraśankarābharaṇam,S-R2-G3-P-D2-P-D2-S,N3-D2-P-G3-M1-G3-R2-S-N3-D2-P-D2-S (Anya swara*-: R1-G2-M2-D1-N2),False,1,Pahādi {Hindustani},29.0
+Poornachandrika,Poornachandrika,S R2 G3 M1 P D2 P S,S N3 P M1 R2 G3 M1 R2 S,0.0,Dhīraśankarābharaṇam,S-R2-G3-M1-P-D2-P-S,S-N3-P-M1-R2-G3-M1-R2-S,False,1,Poornachandrika,29.0
+Poornagowla,Poornagowla,S R2 G3 M1 P N3 D2 N3 P D2 N3 S,S N3 D2 N3 P M1 G3 R2 S,0.0,Dhīraśankarābharaṇam,S-R2-G3-M1-P-N3-D2-N3-P-D2-N3-S,S-N3-D2-N3-P-M1-G3-R2-S,False,1,Poornagowla,29.0
+Poorvagowla,Poorvagowla,S G3 R2 G3 S R2 M1 P D2 N3 S,S N3 D2 P M1 G3 R2 S,0.0,Dhīraśankarābharaṇam,S-G3-R2-G3-S-R2-M1-P-D2-N3-S,S-N3-D2-P-M1-G3-R2-S,False,1,Poorvagowla,29.0
+Rathnabhooshani,Rathnabhooshani,S R2 G3 M1 P S,S P M1 G3 R2 S,0.0,Dhīraśankarābharaṇam,S-R2-G3-M1-P-S,S-P-M1-G3-R2-S,True,1,Rathnabhooshani,29.0
+Reetuvilāsa,Reetuvilāsa,S G3 M1 P D2 N3 S,S N3 D2 P M1 G3 S,0.0,Dhīraśankarābharaṇam,S-G3-M1-P-D2-N3-S,S-N3-D2-P-M1-G3-S,True,1,Reetuvilāsa,29.0
+Sāranga Mallār,Sāranga Mallār,S R2 M1 P D2 N3 S,S N3 D2 P M1 R2 S N3 S,0.0,Dhīraśankarābharaṇam,S-R2-M1-P-D2-N3-S,S-N3-D2-P-M1-R2-S-N3-S,False,1,Sāranga Mallār,29.0
+Shankara,Shankara,S G3 P S,S N3 D2 P G3 P R2 G3 S,0.0,Dhīraśankarābharaṇam,S-G3-P-S,S-N3-D2-P-G3-P-R2-G3-S,False,1,Shankara,29.0
+Shankara {Hindustani},Shankara {Hindustani},S G3 P N3 D2 S N3 S,S N3 D2 P G3 P G3 R2 S,0.0,Dhīraśankarābharaṇam,S-G3-P-N3-D2-S-N3-S,S-N3-D2-P-G3-P-G3-R2-S,False,1,Shankara {Hindustani},29.0
+Shankaraharigowla,Shankaraharigowla,S R2 G3 M1 P D2 N3 S,S N2 D2 P M1 G3 R2 S,0.0,Dhīraśankarābharaṇam,S-R2-G3-M1-P-D2-N3-S,S-N2-D2-P-M1-G3-R2-S,False,1,Shankaraharigowla,29.0
+Shankaramohana,Shankaramohana,S R2 G3 P N3 D2 S N3,S D2 P G3 R2 S,0.0,Dhīraśankarābharaṇam,S-R2-G3-P-N3-D2-S-N3,S-D2-P-G3-R2-S,False,1,Shankaramohana,29.0
+Shankari,Shankari,S G3 P N3 S,S N3 P G3 S,0.0,Dhīraśankarābharaṇam,S-G3-P-N3-S,S-N3-P-G3-S,True,1,Shankari,29.0
+Sindhu,Sindhu,S M1 P D2 S,S N3 D2 M1 P M1 G3 R2 S,0.0,Dhīraśankarābharaṇam,S-M1-P-D2-S,S-N3-D2-M1-P-M1-G3-R2-S,False,1,Sindhu,29.0
+Sindhu Mandāri,Sindhu Mandāri,S R2 G3 M1 P S,S N3 D2 P G3 M1 P M1 R2 S,0.0,Dhīraśankarābharaṇam,S-R2-G3-M1-P-S,S-N3-D2-P-G3-M1-P-M1-R2-S,False,1,Sindhu Mandāri,29.0
+Suddha Mālavi,Suddha Mālavi,S R2 G3 M1 P N3 S,S D2 N3 P M1 G3 R2 S,0.0,Dhīraśankarābharaṇam,S-R2-G3-M1-P-N3-S,S-D2-N3-P-M1-G3-R2-S,False,1,Suddha Mālavi,29.0
+Suddha Sārang,Suddha Sārang,S R2 G3 M1 P D2 N3 D2 S,S D2 P M1 R2 G3 R2 S,0.0,Dhīraśankarābharaṇam,S-R2-G3-M1-P-D2-N3-D2-S,S-D2-P-M1-R2-G3-R2-S,False,1,Suddha Sārang,29.0
+Suddha Sāveri,Suddha Sāveri,S R2 M1 P D2 S,S D2 P M1 R2 S,0.0,Dhīraśankarābharaṇam,S-R2-M1-P-D2-S,S-D2-P-M1-R2-S,True,1,Suddha Sāveri,29.0
+Suddha Vasantha,Suddha Vasantha,S R2 G3 M1 P N3 S,S N3 D2 N3 P M1 G3 S,0.0,Dhīraśankarābharaṇam,S-R2-G3-M1-P-N3-S,S-N3-D2-N3-P-M1-G3-S,False,1,Suddha Vasantha,29.0
+Suranandini,Suranandini,S R2 G3 P D2 N3 S,S N3 D2 P G3 R2 S,0.0,Dhīraśankarābharaṇam,S-R2-G3-P-D2-N3-S,S-N3-D2-P-G3-R2-S,True,1,Suranandini,29.0
+Suraranjani,Suraranjani,S G3 P R2 M1 D2 S,S N3 D2 P M1 G3 R2 S,0.0,Dhīraśankarābharaṇam,S-G3-P-R2-M1-D2-S,S-N3-D2-P-M1-G3-R2-S,False,1,Suraranjani,29.0
+Tāndavam,Tāndavam,S G3 P D2 N3 S,S N3 D2 P G3 S,0.0,Dhīraśankarābharaṇam,S-G3-P-D2-N3-S,S-N3-D2-P-G3-S,True,1,Tāndavam,29.0
+Vallabhi,Vallabhi,S R2 G3 M1 P D2 N3 S,S N3 D2 N3 D2 P M1 P G3 M1 R2 S,0.0,Dhīraśankarābharaṇam,S-R2-G3-M1-P-D2-N3-S,S-N3-D2-N3-D2-P-M1-P-G3-M1-R2-S,False,1,Vallabhi,29.0
+Vasanthamalai,Vasanthamalai,S R2 M1 P N3 S,S D2 P M1 R2 S,0.0,Dhīraśankarābharaṇam,S-R2-M1-P-N3-S,S-D2-P-M1-R2-S,False,1,Vasanthamalai,29.0
+Vedhāndhagamana,Vedhāndhagamana,S G3 M1 P N3 S,S N3 P M1 G3 S,0.0,Dhīraśankarābharaṇam,S-G3-M1-P-N3-S,S-N3-P-M1-G3-S,True,1,Vedhāndhagamana,29.0
+Veerapratāpa,Veerapratāpa,S G3 M1 P D2 S,S N3 D2 P M1 G3 R2 S,0.0,Dhīraśankarābharaṇam,S-G3-M1-P-D2-S,S-N3-D2-P-M1-G3-R2-S,False,1,Veerapratāpa,29.0
+Vilāsini,Vilāsini,S R2 G3 M1 P N3 S,S N3 P M1 G3 R2 S,0.0,Dhīraśankarābharaṇam,S-R2-G3-M1-P-N3-S,S-N3-P-M1-G3-R2-S,True,1,Vilāsini,29.0
+30 Nāganandini,Nāganandini,S R2 G3 M1 P D3 N3 S,S N3 D3 P M1 G3 R2 S,1.0,Nāganandini,S-R2-G3-M1-P-D3-N3-S,S-N3-D3-P-M1-G3-R2-S,True,1,Nāganandini,30.0
+Nāgabharanam,Nāgabharanam,S R2 G2 M1 P D3 N3 S,S N3 D3 P M1 G2 R2 S,0.0,Nāganandini,S-R2-G2-M1-P-D3-N3-S,S-N3-D3-P-M1-G2-R2-S,True,1,Nāgabharanam,30.0
+Gambheeravani,Gambheeravani,S G3 P M1 D3 N3 S,S N3 P M1 G3 R2 G3 R2 S,0.0,Nāganandini,S-G3-P-M1-D3-N3-S,S-N3-P-M1-G3-R2-G3-R2-S,False,1,Gambheeravani,30.0
+Lalithagāndharva,Lalithagāndharva,S R2 G3 M1 P D3 N3 S,S N3 P G3 R2 S,0.0,Nāganandini,S-R2-G3-M1-P-D3-N3-S,S-N3-P-G3-R2-S,False,1,Lalithagāndharva,30.0
+Sāmanta,Sāmanta,S R2 G3 M1 P D3 N3 S,S N3 D3 N3 D3 P M1 G3 R2 S,0.0,Nāganandini,S-R2-G3-M1-P-D3-N3-S,S-N3-D3-N3-D3-P-M1-G3-R2-S,False,1,Sāmanta,30.0
+31 Yāgapriyā,Yāgapriyā,S R3 G3 M1 P D1 N1 S,S N1 D1 P M1 G3 R3 S,1.0,Yāgapriyā,S-R3-G3-M1-P-D1-N1-S,S-N1-D1-P-M1-G3-R3-S,True,1,Yāgapriyā,31.0
+Kalāvathi,Kalāvathi,S R3 G3 M1 P D1 N1 S,S N1 D1 P M1 G3 R3 S,0.0,Yāgapriyā,S-R3-G3-M1-P-D1-N1-S,S-N1-D1-P-M1-G3-R3-S,True,1,Kalāvathi,31.0
+Damarugapriya,Damarugapriya,S R3 G3 P D1 N1 S,S N1 D1 P G3 R3 S,0.0,Yāgapriyā,S-R3-G3-P-D1-N1-S,S-N1-D1-P-G3-R3-S,True,1,Damarugapriya,31.0
+Desharanjani,Desharanjani,S R3 M1 P D1 N1 S,S N1 D1 P M1 R3 S,0.0,Yāgapriyā,S-R3-M1-P-D1-N1-S,S-N1-D1-P-M1-R3-S,True,1,Desharanjani,31.0
+Deshyathodi,Deshyathodi,S G2 M1 P D1 N2 S,S N2 D1 P M1 G2 R1 S,0.0,Yāgapriyā,S-G2-M1-P-D1-N2-S,S-N2-D1-P-M1-G2-R1-S,False,1,Deshyathodi,31.0
+Kalāhamsa,Kalāhamsa,S R3 G3 M1 P D1 S,S N1 D1 P M1 G3 R3 S,0.0,Yāgapriyā,S-R3-G3-M1-P-D1-S,S-N1-D1-P-M1-G3-R3-S,False,1,Kalāhamsa,31.0
+Niranjani,Niranjani,S R3 M1 D1 N1 S,S N1 D1 M1 R3 S,0.0,Yāgapriyā,S-R3-M1-D1-N1-S,S-N1-D1-M1-R3-S,True,1,Niranjani,31.0
+Prathāpahamsi,Prathāpahamsi,S G3 M1 P N1 D1 N1 S,S N1 D1 P M1 G3 M1 R3 S,0.0,Yāgapriyā,S-G3-M1-P-N1-D1-N1-S,S-N1-D1-P-M1-G3-M1-R3-S,False,1,Prathāpahamsi,31.0
+32 Rāgavardhini,Rāgavardhini,S R3 G3 M1 P D1 N2 S,S N2 D1 P M1 G3 R3 S,1.0,Rāgavardhini,S-R3-G3-M1-P-D1-N2-S,S-N2-D1-P-M1-G3-R3-S,True,1,Rāgavardhini,32.0
+Rāgachoodāmani,Rāgachoodāmani,S R3 G3 M1 P N2 S,S N2 D1 M1 R3 G3 S,0.0,Rāgavardhini,S-R3-G3-M1-P-N2-S,S-N2-D1-M1-R3-G3-S,False,1,Rāgachoodāmani,32.0
+Amudagāndhāri,Amudagāndhāri,S G3 M1 P D1 N2 S,S N2 D1 P M1 G3 R3 S,0.0,Rāgavardhini,S-G3-M1-P-D1-N2-S,S-N2-D1-P-M1-G3-R3-S,False,1,Amudagāndhāri,32.0
+Dhowmya,Dhowmya,S R3 G3 M1 P D1 N2 P S,S N2 D1 P M1 G3 R3 S,0.0,Rāgavardhini,S-R3-G3-M1-P-D1-N2-P-S,S-N2-D1-P-M1-G3-R3-S,False,1,Dhowmya,32.0
+Hindoladarbār,Hindoladarbār,S G3 M1 P S,S N2 D1 P M1 R3 S,0.0,Rāgavardhini,S-G3-M1-P-S,S-N2-D1-P-M1-R3-S,False,1,Hindoladarbār,32.0
+Ramyā,Ramyā,S R3 G3 M1 P D1 N2 P S,S N2 D1 P M1 G3 R3 S,0.0,Rāgavardhini,S-R3-G3-M1-P-D1-N2-P-S,S-N2-D1-P-M1-G3-R3-S,False,1,Ramyā,32.0
+Sāmantajingala,Sāmantajingala,S R3 G3 M1 P D1 N2 S,S N2 P D1 N2 P M1 G3 M1 R3 G3 S,0.0,Rāgavardhini,S-R3-G3-M1-P-D1-N2-S,S-N2-P-D1-N2-P-M1-G3-M1-R3-G3-S,False,1,Sāmantajingala,32.0
+33 Gāngeyabhuśani,Gāngeyabhuśani,S R3 G3 M1 P D1 N3 S,S N3 D1 P M1 G3 R3 S,1.0,Gāngeyabhuśani,S-R3-G3-M1-P-D1-N3-S,S-N3-D1-P-M1-G3-R3-S,True,1,Gāngeyabhuśani,33.0
+Gangātarangini,Gangātarangini,S R3 G3 M1 P D1 N3 S,S N3 D1 P M1 M1 G3 M1 R3 S,0.0,Gāngeyabhuśani,S-R3-G3-M1-P-D1-N3-S,S-N3-D1-P-M1-M1-G3-M1-R3-S,False,1,Gangātarangini,33.0
+34 Vāgadhīśvari,Vāgadhīśvari,S R3 G3 M1 P D2 N2 S,S N2 D2 P M1 G3 R3 S,1.0,Vāgadhīśvari,S-R3-G3-M1-P-D2-N2-S,S-N2-D2-P-M1-G3-R3-S,True,1,Vāgadhīśvari,34.0
+Amarasindhu,Amarasindhu,S R3 G3 P D2 N2 S,S N2 D2 P G3 R3 S,0.0,Vāgadhīśvari,S-R3-G3-P-D2-N2-S,S-N2-D2-P-G3-R3-S,True,1,Amarasindhu,34.0
+Bhogachāyā Nāttai,Bhogachāyā Nāttai,S R3 G3 R3 G3 M1 P N2 N2 S,S N2 D2 N2 P S N2 P M1 M1 R3 S,0.0,Vāgadhīśvari,S-R3-G3-R3-G3-M1-P-N2-N2-S,S-N2-D2-N2-P-S-N2-P-M1-M1-R3-S,False,1,Bhogachāyā Nāttai,34.0
+Bhānumanjari,Bhānumanjari,S R3 G3 M1 P N2 S,S N2 P M1 R3 G3 R3 S,0.0,Vāgadhīśvari,S-R3-G3-M1-P-N2-S,S-N2-P-M1-R3-G3-R3-S,False,1,Bhānumanjari,34.0
+Chāyanāttai,Chāyanāttai,S R3 G3 M1 P M1 P S,S N2 D2 N2 P M1 R3 S,0.0,Vāgadhīśvari,S-R3-G3-M1-P-M1-P-S,S-N2-D2-N2-P-M1-R3-S,False,1,Chāyanāttai,34.0
+Maghathi,Maghathi,S R3 M1 P D2 N2 S,S N2 D2 P M1 R3 S,0.0,Vāgadhīśvari,S-R3-M1-P-D2-N2-S,S-N2-D2-P-M1-R3-S,True,1,Maghathi,34.0
+Drāvida Kalāvati,Drāvida Kalāvati,S R3 G3 P D2 S,S N2 D2 P G3 R3 S,0.0,Vāgadhīśvari,S-R3-G3-P-D2-S,S-N2-D2-P-G3-R3-S,False,1,Drāvida Kalāvati,34.0
+Mohanāngi,Mohanāngi,S R3 G3 P D2 S,S D2 P G3 P D2 P G3 R3 S,0.0,Vāgadhīśvari,S-R3-G3-P-D2-S,S-D2-P-G3-P-D2-P-G3-R3-S,False,1,Mohanāngi,34.0
+Murali,Murali,S R3 G3 M1 D2 N2 S,S N2 D2 M1 G3 R3 S,0.0,Vāgadhīśvari,S-R3-G3-M1-D2-N2-S,S-N2-D2-M1-G3-R3-S,True,1,Murali,34.0
+Sharadabharana,Sharadabharana,S M1 G3 M1 P M1 D2 N2 S,S N2 D2 M1 P M1 R3 S,0.0,Vāgadhīśvari,S-M1-G3-M1-P-M1-D2-N2-S,S-N2-D2-M1-P-M1-R3-S,False,1,Sharadabharana,34.0
+Vikhavathi,Vikhavathi,S R3 G3 P D2 S,S D2 P G3 R3 S,0.0,Vāgadhīśvari,S-R3-G3-P-D2-S,S-D2-P-G3-R3-S,True,1,Vikhavathi,34.0
+35 Śūlini,Śūlini,S R3 G3 M1 P D2 N3 S,S N3 D2 P M1 G3 R3 S,1.0,Śūlini,S-R3-G3-M1-P-D2-N3-S,S-N3-D2-P-M1-G3-R3-S,True,1,Śūlini,35.0
+Shailadeshākshhi,Shailadeshākshhi,S M1 G3 P D2 S,S N3 D2 S N3 P M1 G3 S,0.0,Śūlini,S-M1-G3-P-D2-S,S-N3-D2-S-N3-P-M1-G3-S,False,1,Shailadeshākshhi,35.0
+Suryavasantham,Suryavasantham,S M1 G3 M1 D2 N3 S,S N3 D2 M1 G3 R3 S,0.0,Śūlini,S-M1-G3-M1-D2-N3-S,S-N3-D2-M1-G3-R3-S,False,1,Suryavasantham,35.0
+Dheerahindolam,Dheerahindolam,S G3 M1 D2 N3 S,S N3 D2 P M1 G3 R3 S,0.0,Śūlini,S-G3-M1-D2-N3-S,S-N3-D2-P-M1-G3-R3-S,False,1,Dheerahindolam,35.0
+Ganavaridhi,Ganavaridhi,S M1 R3 G3 M1 P D2 N2 S,S D2 N2 P M1 R3 S,0.0,Śūlini,S-M1-R3-G3-M1-P-D2-N2-S,S-D2-N2-P-M1-R3-S,False,1,Ganavaridhi,35.0
+Shokavarāli,Shokavarāli,S G3 D2 N3,D2 P M1 G3 R3 S,0.0,Śūlini,S-G3-D2-N3,D2-P-M1-G3-R3-S,False,1,Shokavarāli,35.0
+36 Chalanāṭṭai,Chalanāṭṭai,S R3 G3 M1 P D3 N3 S,S N3 D3 P M1 G3 R3 S,1.0,Chalanāṭṭai,S-R3-G3-M1-P-D3-N3-S,S-N3-D3-P-M1-G3-R3-S,True,1,Chalanāṭṭai,36.0
+Devanāttai,Devanāttai,S G3 M1 P S,S N3 D3 P M1 G3 R3 S,0.0,Chalanāṭṭai,S-G3-M1-P-S,S-N3-D3-P-M1-G3-R3-S,False,1,Devanāttai,36.0
+Gambheeranāṭṭai,Gambheeranāṭṭai,S G3 M1 P N3 S,S N3 P M1 G3 S,0.0,Chalanāṭṭai,S-G3-M1-P-N3-S,S-N3-P-M1-G3-S,True,1,Gambheeranāṭṭai,36.0
+Ganaranjani,Ganaranjani,S R3 G3 M1 P M1 D3 N3 S,S N3 D3 P M1 P M1 R3 S,0.0,Chalanāṭṭai,S-R3-G3-M1-P-M1-D3-N3-S,S-N3-D3-P-M1-P-M1-R3-S,False,1,Ganaranjani,36.0
+Nāṭṭai,Nāṭṭai,S R3 G3 M1 P N3 S,S N3 P M1 G3 R3 S,0.0,Chalanāṭṭai,S-R3-G3-M1-P-N3-S,S-N3-P-M1-G3-R3-S,True,1,Nāṭṭai,36.0
+37 Sālagam,Sālagam,S R1 G1 M2 P D1 N1 S,S N1 D1 P M2 G1 R1 S,1.0,Sālagam,S-R1-G1-M2-P-D1-N1-S,S-N1-D1-P-M2-G1-R1-S,True,1,Sālagam,37.0
+Sowgandhini,Sowgandhini,S R1 M2 P D1 S,S N1 D1 P M2 G1 R1 S,0.0,Sālagam,S-R1-M2-P-D1-S,S-N1-D1-P-M2-G1-R1-S,False,1,Sowgandhini,37.0
+Bhogasāveri,Bhogasāveri,S R1 M2 D1 N1,D1 P M2 G1 R1 S,0.0,Sālagam,S-R1-M2-D1-N1,D1-P-M2-G1-R1-S,False,1,Bhogasāveri,37.0
+38 Jalārnavam,Jalārnavam,S R1 G1 M2 P D1 N2 S,S N2 D1 P M2 G1 R1 S,1.0,Jalārnavam,S-R1-G1-M2-P-D1-N2-S,S-N2-D1-P-M2-G1-R1-S,True,1,Jalārnavam,38.0
+Jaganmohinam,Jaganmohinam,S R1 G1 M2 P D1 N2 S,S N2 D1 P M2 G1 R1 S,0.0,Jalārnavam,S-R1-G1-M2-P-D1-N2-S,S-N2-D1-P-M2-G1-R1-S,True,1,Jaganmohinam,38.0
+Jaganmohana,Jaganmohana,S R1 G1 M2 P D2 S,S N2 D1 P M2 G1 R1 S,0.0,Jalārnavam,S-R1-G1-M2-P-D2-S,S-N2-D1-P-M2-G1-R1-S,False,1,Jaganmohana,38.0
+39 Jhālavarāḷi,Jhālavarāḷi,S R1 G1 M2 P D1 N3 S,S N3 D1 P M2 G1 R1 S,1.0,Jhālavarāḷi,S-R1-G1-M2-P-D1-N3-S,S-N3-D1-P-M2-G1-R1-S,True,1,Jhālavarāḷi,39.0
+Dhālivarāli,Dhālivarāli,S R1 G1 M2 P D1 N3 S,S N3 D1 P M2 G1 R1 S,0.0,Jhālavarāḷi,S-R1-G1-M2-P-D1-N3-S,S-N3-D1-P-M2-G1-R1-S,True,1,Dhālivarāli,39.0
+Bhoopālapanchamam,Bhoopālapanchamam,S G1 R1 G1 P M2 D1 S,S P D1 M2 G1 R1 S,0.0,Jhālavarāḷi,S-G1-R1-G1-P-M2-D1-S,S-P-D1-M2-G1-R1-S,False,1,Bhoopālapanchamam,39.0
+Godari,Godari,S R1 G1 R1 M2 G1 M2 P D1 N3 S,S N3 D1 P M2 R1 S,0.0,Jhālavarāḷi,S-R1-G1-R1-M2-G1-M2-P-D1-N3-S,S-N3-D1-P-M2-R1-S,False,1,Godari,39.0
+Jālasugandhi,Jālasugandhi,S R1 G1 M2 P D1 S,S D1 P M2 G1 R1 S,0.0,Jhālavarāḷi,S-R1-G1-M2-P-D1-S,S-D1-P-M2-G1-R1-S,True,1,Jālasugandhi,39.0
+Janāvali,Janāvali,S G2 R1 G2 M2 P D1 N3 D1 S,S N3 D1 P M2 G2 R1 S,0.0,Jhālavarāḷi,S-G2-R1-G2-M2-P-D1-N3-D1-S,S-N3-D1-P-M2-G2-R1-S,False,1,Janāvali,39.0
+Karunāmritavarshini,Karunāmritavarshini,S R1 G1 M2 P D1 N3 P S,S N3 D1 M2 G1 R1 S,0.0,Jhālavarāḷi,S-R1-G1-M2-P-D1-N3-P-S,S-N3-D1-M2-G1-R1-S,False,1,Karunāmritavarshini,39.0
+Kokilapanchamam,Kokilapanchamam,S G1 R1 G1 P D1 N3 S,S N3 D1 P M2 G1 R1 S,0.0,Jhālavarāḷi,S-G1-R1-G1-P-D1-N3-S,S-N3-D1-P-M2-G1-R1-S,False,1,Kokilapanchamam,39.0
+Varāli,Varāli,S G1 R1 G1 M2 P D1 N3 S,S N3 D1 P M2 G1 R1 S,0.0,Jhālavarāḷi,S-G1-R1-G1-M2-P-D1-N3-S,S-N3-D1-P-M2-G1-R1-S,False,1,Varāli,39.0
+40 Navanītam,Navanītam,S R1 G1 M2 P D2 N2 S,S N2 D2 P M2 G1 R1 S,1.0,Navanītam,S-R1-G1-M2-P-D2-N2-S,S-N2-D2-P-M2-G1-R1-S,True,1,Navanītam,40.0
+Nabhomani,Nabhomani,S G1 R1 G1 M2 P S,S N2 D2 P M2 G1 R1 S,0.0,Navanītam,S-G1-R1-G1-M2-P-S,S-N2-D2-P-M2-G1-R1-S,False,1,Nabhomani,40.0
+41 Pāvani,Pāvani,S R1 G1 M2 P D2 N3 S,S N3 D2 P M2 G1 R1 S,1.0,Pāvani,S-R1-G1-M2-P-D2-N3-S,S-N3-D2-P-M2-G1-R1-S,True,1,Pāvani,41.0
+Kumbhini,Kumbhini,S G1 R1 G1 M2 P N3 D2 N3 S,S N3 D2 P M2 G1 R1 S,0.0,Pāvani,S-G1-R1-G1-M2-P-N3-D2-N3-S,S-N3-D2-P-M2-G1-R1-S,False,1,Kumbhini,41.0
+Chandrajyothi,Chandrajyothi,S R1 G1 M2 P D2 S,S D2 P M2 G1 R1 S,0.0,Pāvani,S-R1-G1-M2-P-D2-S,S-D2-P-M2-G1-R1-S,True,1,Chandrajyothi,41.0
+Prabhāvali,Prabhāvali,S R1 M2 P D2 N3 S,S N3 D2 M2 P M2 R1 G1 R1 S,0.0,Pāvani,S-R1-M2-P-D2-N3-S,S-N3-D2-M2-P-M2-R1-G1-R1-S,False,1,Prabhāvali,41.0
+Poornalalitha,Poornalalitha,S R1 M2 G1 R1 M2 P N3 D2 N3 S,S N3 D2 P M2 G1 R1 S,0.0,Pāvani,S-R1-M2-G1-R1-M2-P-N3-D2-N3-S,S-N3-D2-P-M2-G1-R1-S,False,1,Poornalalitha,41.0
+Poornapanchamam,Poornapanchamam,"(See 15, 16) S R1 G1 M2 P D2",D2 P M2 G1 R1 S,0.0,Pāvani,"(See 15, 16) S-R1-G1-M2-P-D2",D2-P-M2-G1-R1-S,False,1,Poornapanchamam,41.0
+42 Raghupriyā,Raghupriyā,S R1 G1 M2 P D3 N3 S,S N3 D3 P M2 G1 R1 S,1.0,Raghupriyā,S-R1-G1-M2-P-D3-N3-S,S-N3-D3-P-M2-G1-R1-S,True,1,Raghupriyā,42.0
+Ravi Kriyā,Ravi Kriyā,S G1 R1 G1 M2 P D3 N3 S,S N3 P M2 G1 R1 S,0.0,Raghupriyā,S-G1-R1-G1-M2-P-D3-N3-S,S-N3-P-M2-G1-R1-S,False,1,Ravi Kriyā,42.0
+Gāndharva,Gāndharva,M2 P D3 N3 S R1 G1,R1 S N3 P M2 P,0.0,Raghupriyā,M2-P-D3-N3-S-R1-G1,R1-S-N3-P-M2-P,False,1,Gāndharva,42.0
+Gomathi,Gomathi,S R1 G1 M2 P D3 N3,P M2 G1 R1 S,0.0,Raghupriyā,S-R1-G1-M2-P-D3-N3,P-M2-G1-R1-S,False,1,Gomathi,42.0
+Raghuleela,Raghuleela,S M2 R1 P M2 G1 M2 P M2 R1 M2 P N3 S,S N3 D3 N3 P M2 G1 M2 R1 M2 G1 R1 S,0.0,Raghupriyā,S-M2-R1-P-M2-G1-M2-P-M2-R1-M2-P-N3-S,S-N3-D3-N3-P-M2-G1-M2-R1-M2-G1-R1-S,False,1,Raghuleela,42.0
+43 Ghavāmbhodi,Ghavāmbhodi,S R1 G2 M2 P D1 N1 S,S N1 D1 P M2 G2 R1 S,1.0,Ghavāmbhodi,S-R1-G2-M2-P-D1-N1-S,S-N1-D1-P-M2-G2-R1-S,True,1,Ghavāmbhodi,43.0
+Geervāni,Geervāni,S R1 G2 M2 P D1 N1 S,S N1 D1 P M2 G2 R1 S,0.0,Ghavāmbhodi,S-R1-G2-M2-P-D1-N1-S,S-N1-D1-P-M2-G2-R1-S,True,1,Geervāni,43.0
+Kanchanabowli,Kanchanabowli,S G2 M2 P D1 S,S N1 D1 P M1 G2 R1 S,0.0,Ghavāmbhodi,S-G2-M2-P-D1-S,S-N1-D1-P-M1-G2-R1-S,False,1,Kanchanabowli,43.0
+Mahathi,Mahathi,S G2 M2 P D1 N1 S,S N1 D1 P M2 G2 S,0.0,Ghavāmbhodi,S-G2-M2-P-D1-N1-S,S-N1-D1-P-M2-G2-S,True,1,Mahathi,43.0
+Mechagāndhāri,Mechagāndhāri,S R3 G3 M1 P D2 N2 S,S N2 D2 N2 P M1 G3 M1 R3 S,0.0,Ghavāmbhodi,S-R3-G3-M1-P-D2-N2-S,S-N2-D2-N2-P-M1-G3-M1-R3-S,False,1,Mechagāndhāri,43.0
+Suvarnadeepakam,Suvarnadeepakam,S R1 G2 M2 P D1 S,S D1 P M2 G2 R1 S,0.0,Ghavāmbhodi,S-R1-G2-M2-P-D1-S,S-D1-P-M2-G2-R1-S,True,1,Suvarnadeepakam,43.0
+Vijayabhooshāvali,Vijayabhooshāvali,S R1 G3 M2 P S,S N3 D3 P M2 G3 R1 S,0.0,Ghavāmbhodi,S-R1-G3-M2-P-S,S-N3-D3-P-M2-G3-R1-S,False,1,Vijayabhooshāvali,43.0
+44 Bhavapriyā,Bhavapriyā,S R1 G2 M2 P D1 N2 S,S N2 D1 P M2 G2 R1 S,1.0,Bhavapriyā,S-R1-G2-M2-P-D1-N2-S,S-N2-D1-P-M2-G2-R1-S,True,1,Bhavapriyā,44.0
+Bhavāni,Bhavāni,S R1 G2 M2 D1 N2 S,S N2 D1 M2 G2 R1 S,0.0,Bhavapriyā,S-R1-G2-M2-D1-N2-S,S-N2-D1-M2-G2-R1-S,True,1,Bhavāni,44.0
+Bhavāni,Bhavāni,S R1 G2 M2 P D1 P N2 S,S N2 D1 P M2 G2 R1 S,0.0,Bhavapriyā,S-R1-G2-M2-P-D1-P-N2-S,S-N2-D1-P-M2-G2-R1-S,False,1,Bhavāni,44.0
+Kanchanāvathi,Kanchanāvathi,S R1 G2 M2 P N2 S,S N2 P M2 G2 R1 S,0.0,Bhavapriyā,S-R1-G2-M2-P-N2-S,S-N2-P-M2-G2-R1-S,True,1,Kanchanāvathi,44.0
+45 Śubhapantuvarāḷi,Śubhapantuvarāḷi,S R1 G2 M2 P D1 N3 S,S N3 D1 P M2 G2 R1 S,1.0,Śubhapantuvarāḷi,S-R1-G2-M2-P-D1-N3-S,S-N3-D1-P-M2-G2-R1-S,True,1,Śubhapantuvarāḷi,45.0
+Shivapanthuvarāli,Shivapanthuvarāli,S R1 G2 M2 P D1 N3 S,S N3 D1 P M2 G2 R1 S,0.0,Śubhapantuvarāḷi,S-R1-G2-M2-P-D1-N3-S,S-N3-D1-P-M2-G2-R1-S,True,1,Shivapanthuvarāli,45.0
+Arunāngi,Arunāngi,S R1 M2 P N3 D1 S,S N3 D1 M2 R1 G2 R1 S,0.0,Śubhapantuvarāḷi,S-R1-M2-P-N3-D1-S,S-N3-D1-M2-R1-G2-R1-S,False,1,Arunāngi,45.0
+Bandhuvarāli,Bandhuvarāli,S M2 S N3 D1 P M2,D1 M2 G2 R1 S,0.0,Śubhapantuvarāḷi,S-M2-S-N3-D1-P-M2,D1-M2-G2-R1-S,False,1,Bandhuvarāli,45.0
+Bhānudhanyāsi,Bhānudhanyāsi,S R1 G2 M2 N3 D1 N3,D1 P M2 G2 R1 S N3 S,0.0,Śubhapantuvarāḷi,S-R1-G2-M2-N3-D1-N3,D1-P-M2-G2-R1-S-N3-S,False,1,Bhānudhanyāsi,45.0
+Bhānukeeravāni,Bhānukeeravāni,S R1 G2 M2 P D1 N3 S,S N3 D1 M2 G2 R1 S,0.0,Śubhapantuvarāḷi,S-R1-G2-M2-P-D1-N3-S,S-N3-D1-M2-G2-R1-S,False,1,Bhānukeeravāni,45.0
+Chāyaranjani,Chāyaranjani,S G2 M2 P N2 S,S N2 D1 P M2 G2 S,0.0,Śubhapantuvarāḷi,S-G2-M2-P-N2-S,S-N2-D1-P-M2-G2-S,False,1,Chāyaranjani,45.0
+Dhowreyani,Dhowreyani,S R1 G2 M2 N3 S,S N3 D1 P M2 G2 R1 S,0.0,Śubhapantuvarāḷi,S-R1-G2-M2-N3-S,S-N3-D1-P-M2-G2-R1-S,False,1,Dhowreyani,45.0
+Hindusthāni Todi,Hindusthāni Todi,N3 R1 G2 M2 D1 N3 S,S N3 D1 P M2 G2 R1 S,0.0,Śubhapantuvarāḷi,N3-R1-G2-M2-D1-N3-S,S-N3-D1-P-M2-G2-R1-S,False,1,Hindusthāni Todi,45.0
+Jālakesari,Jālakesari,S R1 M2 P D1 N3 S,S D1 P M2 R1 S,0.0,Śubhapantuvarāḷi,S-R1-M2-P-D1-N3-S,S-D1-P-M2-R1-S,False,1,Jālakesari,45.0
+Kumudhachandrikā,Kumudhachandrikā,S G2 M2 D1 S,S N3 D1 M2 G2 R1 S,0.0,Śubhapantuvarāḷi,S-G2-M2-D1-S,S-N3-D1-M2-G2-R1-S,False,1,Kumudhachandrikā,45.0
+Mahānandhini,Mahānandhini,S M2 G2 M2 P D1 N3 S,S D1 N3 D1 P M2 G2 R1 S,0.0,Śubhapantuvarāḷi,S-M2-G2-M2-P-D1-N3-S,S-D1-N3-D1-P-M2-G2-R1-S,False,1,Mahānandhini,45.0
+Multani {Hindustani},Multani {Hindustani},S G2 M2 P N3 S,S N3 D1 P M2 G2 R1 S,0.0,Śubhapantuvarāḷi,S-G2-M2-P-N3-S,S-N3-D1-P-M2-G2-R1-S,False,1,Multani {Hindustani},45.0
+Parpathi,Parpathi,S G2 M2 P N3 S,S N3 P M2 G2 S,0.0,Śubhapantuvarāḷi,S-G2-M2-P-N3-S,S-N3-P-M2-G2-S,True,1,Parpathi,45.0
+Shekharachandrikā,Shekharachandrikā,S R1 G2 M2 D1 N3 S,S N3 D1 M2 G2 R1 S,0.0,Śubhapantuvarāḷi,S-R1-G2-M2-D1-N3-S,S-N3-D1-M2-G2-R1-S,True,1,Shekharachandrikā,45.0
+46 Śadvidamārgini,Śadvidamārgini,S R1 G2 M2 P D2 N2 S,S N2 D2 P M2 G2 R1 S,1.0,Śadvidamārgini,S-R1-G2-M2-P-D2-N2-S,S-N2-D2-P-M2-G2-R1-S,True,1,Śadvidamārgini,46.0
+Sthavarājam,Sthavarājam,S R1 M2 P D2 S,S N2 D2 M2 G2 S,0.0,Śadvidamārgini,S-R1-M2-P-D2-S,S-N2-D2-M2-G2-S,False,1,Sthavarājam,46.0
+Ganahemāvati,Ganahemāvati,S G2 M2 P N2 S,S N2 D2 P M2 G2 S,0.0,Śadvidamārgini,S-G2-M2-P-N2-S,S-N2-D2-P-M2-G2-S,False,1,Ganahemāvati,46.0
+Indhudhanyāsi,Indhudhanyāsi,S G2 M2 D2 N2 S,S N2 D2 P D2 M2 G2 R1 S,0.0,Śadvidamārgini,S-G2-M2-D2-N2-S,S-N2-D2-P-D2-M2-G2-R1-S,False,1,Indhudhanyāsi,46.0
+Shreekānti,Shreekānti,S G2 M2 P D2 N2 S,S N2 D2 P M2 G2 S,0.0,Śadvidamārgini,S-G2-M2-P-D2-N2-S,S-N2-D2-P-M2-G2-S,True,1,Shreekānti,46.0
+Teevravāhini,Teevravāhini,S R1 G2 M2 P D2 P N2 S,S N2 D2 P M2 G2 R1 G2 M2 R1 S,0.0,Śadvidamārgini,S-R1-G2-M2-P-D2-P-N2-S,S-N2-D2-P-M2-G2-R1-G2-M2-R1-S,False,1,Teevravāhini,46.0
+Vaishalini,Vaishalini,R1 G2 M2 D2 N2,N2 D2 M2 G2 R1,0.0,Śadvidamārgini,R1 G2 M2 D2 N2,N2 D2 M2 G2 R1,False,1,Vaishalini,46.0
+47 Suvarnāngi,Suvarnāngi,S R1 G2 M2 P D2 N3 S,S N3 D2 P M2 G2 R1 S,1.0,Suvarnāngi,S-R1-G2-M2-P-D2-N3-S,S-N3-D2-P-M2-G2-R1-S,True,1,Suvarnāngi,47.0
+Sowveeram,Sowveeram,S R1 G2 M2 P D2 N3 S,S N3 D2 P M2 G2 R1 S,0.0,Suvarnāngi,S-R1-G2-M2-P-D2-N3-S,S-N3-D2-P-M2-G2-R1-S,True,1,Sowveeram,47.0
+Abhiru,Abhiru,S R1 G2 R1 M2 P N3 S,S D2 P M2 G2 R1 G2 S,0.0,Suvarnāngi,S-R1-G2-R1-M2-P-N3-S,S-D2-P-M2-G2-R1-G2-S,False,1,Abhiru,47.0
+Rathikā,Rathikā,S M2 G2 M2 P D2 N3 S,S N3 D2 P M2 G2 R1 S,0.0,Suvarnāngi,S-M2-G2-M2-P-D2-N3-S,S-N3-D2-P-M2-G2-R1-S,False,1,Rathikā,47.0
+Vijayashree,Vijayashree,S R1 G2 M2 P N2 S,S N2 P M2 G2 R1 S,0.0,Suvarnāngi,S-R1-G2-M2-P-N2-S,S-N2-P-M2-G2-R1-S,True,1,Vijayashree,47.0
+48 Divyamaṇi,Divyamaṇi,S R1 G2 M2 P D3 N3 S,S N3 D3 P M2 G2 R1 S,1.0,Divyamaṇi,S-R1-G2-M2-P-D3-N3-S,S-N3-D3-P-M2-G2-R1-S,True,1,Divyamaṇi,48.0
+Jeevanthikā,Jeevanthikā,S M2 P D3 N3 S,S N3 P M2 G2 S,0.0,Divyamaṇi,S-M2-P-D3-N3-S,S-N3-P-M2-G2-S,False,1,Jeevanthikā,48.0
+Deshamukhāri,Deshamukhāri,S R1 G2 M2 P D3 N3 D3 S,S D3 N3 D3 P M2 G2 R1 S,0.0,Divyamaṇi,S-R1-G2-M2-P-D3-N3-D3-S,S-D3-N3-D3-P-M2-G2-R1-S,True,1,Deshamukhāri,48.0
+Dundubi,Dundubi,S R1 G2 M2 P D3 N3 S,S N3 P M2 G2 R1 S,0.0,Divyamaṇi,S-R1-G2-M2-P-D3-N3-S,S-N3-P-M2-G2-R1-S,False,1,Dundubi,48.0
+Jeevanthini,Jeevanthini,S M2 P D3 N3 S,S N3 P M2 G2 S,0.0,Divyamaṇi,S-M2-P-D3-N3-S,S-N3-P-M2-G2-S,False,1,Jeevanthini,48.0
+Suddha Gāndhāri,Suddha Gāndhāri,S R1 G2 M2 N3 S,S N3 D3 N3 S N3 P M2 R1 S,0.0,Divyamaṇi,S-R1-G2-M2-N3-S,S-N3-D3-N3-S-N3-P-M2-R1-S,False,1,Suddha Gāndhāri,48.0
+49 Dhavaḻāmbari,Dhavaḻāmbari,S R1 G3 M2 P D1 N1 S,S N1 D1 P M2 G3 R1 S,1.0,Dhavaḻāmbari,S-R1-G3-M2-P-D1-N1-S,S-N1-D1-P-M2-G3-R1-S,True,1,Dhavaḻāmbari,49.0
+Dhavalāngam,Dhavalāngam,S R1 G3 M2 P D1 S,S N1 D1 P M2 G3 R1 S,0.0,Dhavaḻāmbari,S-R1-G3-M2-P-D1-S,S-N1-D1-P-M2-G3-R1-S,False,1,Dhavalāngam,49.0
+Abhirāmam,Abhirāmam,S R1 M2 P D1 N1 S,S N1 D1 P M2 G2 R1 S,0.0,Dhavaḻāmbari,S-R1-M2-P-D1-N1-S,S-N1-D1-P-M2-G2-R1-S,False,1,Abhirāmam,49.0
+Bhinnapauarali,Bhinnapauarali,S M2 P D1 N1 D1 S,S N1 D1 P M2 G3 S,0.0,Dhavaḻāmbari,S-M2-P-D1-N1-D1-S,S-N1-D1-P-M2-G3-S,False,1,Bhinnapauarali,49.0
+Dharmini,Dharmini,S R1 G3 M2 D1 N1 S,S N1 D1 M2 G3 R1 S,0.0,Dhavaḻāmbari,S-R1-G3-M2-D1-N1-S,S-N1-D1-M2-G3-R1-S,True,1,Dharmini,49.0
+Sudharmini,Sudharmini,S R1 M2 P D1 N1 S,S N1 D1 M1 G3 R2 S,0.0,Dhavaḻāmbari,S-R1-M2-P-D1-N1-S,S-N1-D1-M1-G3-R2-S,False,1,Sudharmini,49.0
+50 Nāmanārāyaṇi,Nāmanārāyaṇi,S R1 G3 M2 P D1 N2 S,S N2 D1 P M2 G3 R1 S,1.0,Nāmanārāyaṇi,S-R1-G3-M2-P-D1-N2-S,S-N2-D1-P-M2-G3-R1-S,True,1,Nāmanārāyaṇi,50.0
+Nāmadeshi,Nāmadeshi,S R1 G3 M2 P D1 N2 S,S N2 D1 P M2 G3 R1 S,0.0,Nāmanārāyaṇi,S-R1-G3-M2-P-D1-N2-S,S-N2-D1-P-M2-G3-R1-S,True,1,Nāmadeshi,50.0
+Narmada,Narmada,S R1 G3 M2 D1 N2 S,S N2 D1 M2 P M2 G3 R1 S,0.0,Nāmanārāyaṇi,S-R1-G3-M2-D1-N2-S,S-N2-D1-M2-P-M2-G3-R1-S,False,1,Narmada,50.0
+Swaramanjari,Swaramanjari,S G3 M2 P D1 S,S N2 D1 P M2 G3 S,0.0,Nāmanārāyaṇi,S-G3-M2-P-D1-S,S-N2-D1-P-M2-G3-S,False,1,Swaramanjari,50.0
+51 Panthuvarāli (Kāmavardhini),Panthuvarāli (Kāmavardhini),S R1 G3 M2 P D1 N3 S,S N3 D1 P M2 G3 R1 S,1.0,Panthuvarāli (Kāmavardhini),S-R1-G3-M2-P-D1-N3-S,S-N3-D1-P-M2-G3-R1-S,True,1,Panthuvarāli (Kāmavardhini),51.0
+Kāshirāmakriyā,Kāshirāmakriyā,S G3 R1 G3 M2 P D1 N3 S,S N3 D1 P M1 G3 R1 S,0.0,Panthuvarāli (Kāmavardhini),S-G3-R1-G3-M2-P-D1-N3-S,S-N3-D1-P-M1-G3-R1-S,False,1,Kāshirāmakriyā,51.0
+Mandāri,Mandāri,S R1 G3 M2 P N3 S,S N3 P M2 G3 R1 S,0.0,Panthuvarāli (Kāmavardhini),S-R1-G3-M2-P-N3-S,S-N3-P-M2-G3-R1-S,True,1,Mandāri,51.0
+ādhi Panchama,ādhi Panchama,S R1 P D1 N3 S,S N3 D1 N3 P M2 G3 R1 S,0.0,Panthuvarāli (Kāmavardhini),S-R1-P-D1-N3-S,S-N3-D1-N3-P-M2-G3-R1-S,False,1,ādhi Panchama,51.0
+Basant /Vasant {Hindustani},Basant /Vasant {Hindustani},S G3 M2 D1 N3 S,S N3 D1 P M2 G3 M2 N3 D1 M2 G3 R1 S (Anya swara* : M1),0.0,Panthuvarāli (Kāmavardhini),S-G3-M2-D1-N3-S,S-N3-D1-P-M2-G3-M2-N3-D1-M2-G3-R1-S (Anya swara*-: M1),False,1,Basant /Vasant {Hindustani},51.0
+Basant Bahār {Hindustani},Basant Bahār {Hindustani},S M2 P G3 M2 N3 D1 N3 S,R2 S N2 D2 P M1 G2 M1 G2 R2 S,0.0,Panthuvarāli (Kāmavardhini),S-M2-P-G3-M2-N3-D1-N3-S,R2-S-N2-D2-P-M1-G2-M1-G2-R2-S,False,1,Basant Bahār {Hindustani},51.0
+Bhogavasantha,Bhogavasantha,S R1 G3 M2 D1 N3 S,S N3 D1 M2 G3 R1 S,0.0,Panthuvarāli (Kāmavardhini),S-R1-G3-M2-D1-N3-S,S-N3-D1-M2-G3-R1-S,True,1,Bhogavasantha,51.0
+Deepakam,Deepakam,S R2 M2 P D1 P S,S N3 D1 N3 P M2 G3 R1 S,0.0,Panthuvarāli (Kāmavardhini),S-R2-M2-P-D1-P-S,S-N3-D1-N3-P-M2-G3-R1-S,False,1,Deepakam,51.0
+Gamakapriyā,Gamakapriyā,S R1 G3 M2 P N3 D1 S,S D1 P M2 G3 R1 S,0.0,Panthuvarāli (Kāmavardhini),S-R1-G3-M2-P-N3-D1-S,S-D1-P-M2-G3-R1-S,False,1,Gamakapriyā,51.0
+Gamanapriyā,Gamanapriyā,S R1 G3 M2 P N3 D1 S,S D1 P M2 G3 R1 S,0.0,Panthuvarāli (Kāmavardhini),S-R1-G3-M2-P-N3-D1-S,S-D1-P-M2-G3-R1-S,False,1,Gamanapriyā,51.0
+Hamsanārāyani,Hamsanārāyani,S R1 G3 M2 P S,S N3 P M2 G3 R1 S,0.0,Panthuvarāli (Kāmavardhini),S-R1-G3-M2-P-S,S-N3-P-M2-G3-R1-S,False,1,Hamsanārāyani,51.0
+Indumathi,Indumathi,S G3 M2 D1 N3 S,S N3 D1 P M2 G3 S,0.0,Panthuvarāli (Kāmavardhini),S-G3-M2-D1-N3-S,S-N3-D1-P-M2-G3-S,False,1,Indumathi,51.0
+Kamalāptapriyā,Kamalāptapriyā,S R1 G3 M2 P D1 S,S D1 P M2 G3 R1 S,0.0,Panthuvarāli (Kāmavardhini),S-R1-G3-M2-P-D1-S,S-D1-P-M2-G3-R1-S,True,1,Kamalāptapriyā,51.0
+Kumudhakriyā,Kumudhakriyā,S R1 G3 M2 D1 S,S N3 D1 M2 G3 R1 S,0.0,Panthuvarāli (Kāmavardhini),S-R1-G3-M2-D1-S,S-N3-D1-M2-G3-R1-S,False,1,Kumudhakriyā,51.0
+Māruthi,Māruthi,S R1 M2 P N3 S,S N3 D1 P M2 G3 R1 S,0.0,Panthuvarāli (Kāmavardhini),S-R1-M2-P-N3-S,S-N3-D1-P-M2-G3-R1-S,False,1,Māruthi,51.0
+Ponni,Ponni,S G3 M2 P N3 S,S N3 P M2 G3 R1 S,0.0,Panthuvarāli (Kāmavardhini),S-G3-M2-P-N3-S,S-N3-P-M2-G3-R1-S,False,1,Ponni,51.0
+Prathāpa,Prathāpa,S G3 M2 D1 N3 S,S N3 D1 P M2 G3 R1 S,0.0,Panthuvarāli (Kāmavardhini),S-G3-M2-D1-N3-S,S-N3-D1-P-M2-G3-R1-S,False,1,Prathāpa,51.0
+Puriya Dhanashree {Hindustani},Puriya Dhanashree {Hindustani},N3 R1 G3 M2 P D1 P N3 S,R1 N3 D1 P M2 G3 M2 R1 G3 R1 S,0.0,Panthuvarāli (Kāmavardhini),N3-R1-G3-M2-P-D1-P-N3-S,R1-N3-D1-P-M2-G3-M2-R1-G3-R1-S,False,1,Puriya Dhanashree {Hindustani},51.0
+Tāndavapriyā,Tāndavapriyā,S R1 G3 M2 P S,S P M2 G3 R1 S,0.0,Panthuvarāli (Kāmavardhini),S-R1-G3-M2-P-S,S-P-M2-G3-R1-S,True,1,Tāndavapriyā,51.0
+52 Rāmapriyā,Rāmapriyā,S R1 G3 M2 P D2 N2 S,S N2 D2 P M2 G3 R1 S,1.0,Rāmapriyā,S-R1-G3-M2-P-D2-N2-S,S-N2-D2-P-M2-G3-R1-S,True,1,Rāmapriyā,52.0
+Ramāmanohari,Ramāmanohari,S R1 G3 M2 P D2 S,S N2 D2 P M2 G3 R1 S,0.0,Rāmapriyā,S-R1-G3-M2-P-D2-S,S-N2-D2-P-M2-G3-R1-S,False,1,Ramāmanohari,52.0
+Chintaramani,Chintaramani,S G3 M2 P D2 N2 S,S D2 P M2 G3 R1 S,0.0,Rāmapriyā,S-G3-M2-P-D2-N2-S,S-D2-P-M2-G3-R1-S,False,1,Chintaramani,52.0
+Hamsagamini,Hamsagamini,S G3 M2 P D2 N2 S,S N2 D2 P M2 D2 P M2 G3 R1 S,0.0,Rāmapriyā,S-G3-M2-P-D2-N2-S,S-N2-D2-P-M2-D2-P-M2-G3-R1-S,False,1,Hamsagamini,52.0
+Lokaranjani,Lokaranjani,S G3 M2 P M2 D2 N2 S,S N2 D2 N2 P M2 G3 R1 S,0.0,Rāmapriyā,S-G3-M2-P-M2-D2-N2-S,S-N2-D2-N2-P-M2-G3-R1-S,False,1,Lokaranjani,52.0
+Meghashyāmala,Meghashyāmala,S G3 M2 P D2 N2 D2 P S,S N2 D2 P M2 G3 R1 S,0.0,Rāmapriyā,S-G3-M2-P-D2-N2-D2-P-S,S-N2-D2-P-M2-G3-R1-S,False,1,Meghashyāmala,52.0
+Namoveenapaani (creation by Siri Girish),Namoveenapaani (creation by Siri Girish),S G3 M2 D2 N2 S,S N2 D2 M2 G3 R1 S,0.0,Rāmapriyā,S-G3-M2-D2-N2-S,S-N2-D2-M2-G3-R1-S,False,1,Namoveenapaani (creation by Siri Girish),52.0
+Patalāmbari,Patalāmbari,S R1 G3 M2 D2 S,S D2 M2 G3 R1 S,0.0,Rāmapriyā,S-R1-G3-M2-D2-S,S-D2-M2-G3-R1-S,True,1,Patalāmbari,52.0
+Raktimārgini,Raktimārgini,S P M2 D2 N2 S,S N2 D2 P M2 P G3 R1 S,0.0,Rāmapriyā,S-P-M2-D2-N2-S,S-N2-D2-P-M2-P-G3-R1-S,False,1,Raktimārgini,52.0
+Rasavinodini,Rasavinodini,S G3 M2 P D2 N2 S,S N2 D2 P M2 G3 S,0.0,Rāmapriyā,S-G3-M2-P-D2-N2-S,S-N2-D2-P-M2-G3-S,True,1,Rasavinodini,52.0
+Reethi Chandrikā,Reethi Chandrikā,S R1 G3 M2 P D2 S,S N2 D2 P M2 G3 R1 S,0.0,Rāmapriyā,S-R1-G3-M2-P-D2-S,S-N2-D2-P-M2-G3-R1-S,False,1,Reethi Chandrikā,52.0
+Seemantinipriyā,Seemantinipriyā,S R1 G3 M2 D2 N2 S,S N2 D2 M2 G3 R1 S,0.0,Rāmapriyā,S-R1-G3-M2-D2-N2-S,S-N2-D2-M2-G3-R1-S,True,1,Seemantinipriyā,52.0
+Sukhakari,Sukhakari,S R1 S P D2 N2 S,S N2 D2 P M2 G3 S R1 S,0.0,Rāmapriyā,S-R1-S-P-D2-N2-S,S-N2-D2-P-M2-G3-S-R1-S,False,1,Sukhakari,52.0
+Vedhaswaroopi,Vedhaswaroopi,S R1 G3 M2 P D2 N3 P S,S N3 D2 P N3 P M2 G3 S,0.0,Rāmapriyā,S-R1-G3-M2-P-D2-N3-P-S,S-N3-D2-P-N3-P-M2-G3-S,False,1,Vedhaswaroopi,52.0
+53 Gamanāśrama,Gamanāśrama,S R1 G3 M2 P D2 N3 S,S N3 D2 P M2 G3 R1 S,1.0,Gamanāśrama,S-R1-G3-M2-P-D2-N3-S,S-N3-D2-P-M2-G3-R1-S,True,1,Gamanāśrama,53.0
+Gamakakriyā,Gamakakriyā,S R1 G3 M2 P D2 S,S N3 D2 P M2 G3 R1 S,0.0,Gamanāśrama,S-R1-G3-M2-P-D2-S,S-N3-D2-P-M2-G3-R1-S,False,1,Gamakakriyā,53.0
+Alankāri,Alankāri,S G3 M2 D2 N3 D2 S,S N3 D2 M2 G3 S,0.0,Gamanāśrama,S-G3-M2-D2-N3-D2-S,S-N3-D2-M2-G3-S,False,1,Alankāri,53.0
+Bhatiyār {Hindustani},Bhatiyār {Hindustani},S D2 P D2 M2 P G3 M2 D2 S,R1 N3 D2 P M2 P G3 R1 S (Anya swara* : M1),0.0,Gamanāśrama,S-D2-P-D2-M2-P-G3-M2-D2-S,R1-N3-D2-P-M2-P-G3-R1-S (Anya swara*-: M1),False,1,Bhatiyār {Hindustani},53.0
+Dvigāndhārabhooshani,Dvigāndhārabhooshani,S R1 G2 G3 G2 P D2 S,S D2 P G2 G3 G2 R1 S D2 S,0.0,Gamanāśrama,S-R1-G2-G3-G2-P-D2-S,S-D2-P-G2-G3-G2-R1-S-D2-S,False,1,Dvigāndhārabhooshani,53.0
+Hamsānandi,Hamsānandi,S R1 G3 M2 D2 N3 S,S N3 D2 M2 G3 R1 S,0.0,Gamanāśrama,S-R1-G3-M2-D2-N3-S,S-N3-D2-M2-G3-R1-S,True,1,Hamsānandi,53.0
+Mechakāngi,Mechakāngi,S R1 G3 M2 P D2 P N3 S,S N3 P D2 P M2 G3 R1 S,0.0,Gamanāśrama,S-R1-G3-M2-P-D2-P-N3-S,S-N3-P-D2-P-M2-G3-R1-S,True,1,Mechakāngi,53.0
+Padmakalyāni,Padmakalyāni,S G3 P N3 S,S N3 D2 P M2 G3 S,0.0,Gamanāśrama,S-G3-P-N3-S,S-N3-D2-P-M2-G3-S,False,1,Padmakalyāni,53.0
+Poorvi Kalyāni,Poorvi Kalyāni,S R1 G3 M2 P D2 P S,S N3 D2 P M2 G3 R1 S,0.0,Gamanāśrama,S-R1-G3-M2-P-D2-P-S,S-N3-D2-P-M2-G3-R1-S,False,1,Poorvi Kalyāni,53.0
+Sharabadhvāja,Sharabadhvāja,S R1 G3 M2 P D2 S,S D2 P G3 R1 S,0.0,Gamanāśrama,S-R1-G3-M2-P-D2-S,S-D2-P-G3-R1-S,False,1,Sharabadhvāja,53.0
+Sohini {Hindustani},Sohini {Hindustani},S G3 M2 D2 N3 S,S N3 D2 M2 G3 R1 S,0.0,Gamanāśrama,S-G3-M2-D2-N3-S,S-N3-D2-M2-G3-R1-S,False,1,Sohini {Hindustani},53.0
+Vaishaka,Vaishaka,S R1 G3 M2 P D2 N3 S,S N3 D2 N3 P M2 G3 M2 R1 S,0.0,Gamanāśrama,S-R1-G3-M2-P-D2-N3-S,S-N3-D2-N3-P-M2-G3-M2-R1-S,False,1,Vaishaka,53.0
+54 Viśvambari,Viśvambari,S R1 G3 M2 P D3 N3 S,S N3 D3 P M2 G3 R1 S,1.0,Viśvambari,S-R1-G3-M2-P-D3-N3-S,S-N3-D3-P-M2-G3-R1-S,True,1,Viśvambari,54.0
+Vamshavathi,Vamshavathi,S R1 G3 M2 P D3 N3 S,S N3 P M2 G3 R1 S,0.0,Viśvambari,S-R1-G3-M2-P-D3-N3-S,S-N3-P-M2-G3-R1-S,False,1,Vamshavathi,54.0
+Hemāngi,Hemāngi,S R1 G3 M2 D3 S,S D3 M2 G3 R1 S,0.0,Viśvambari,S-R1-G3-M2-D3-S,S-D3-M2-G3-R1-S,True,1,Hemāngi,54.0
+Pooshakalyāni,Pooshakalyāni,S R1 G3 M2 P D3 N3 S,S N3 P M2 G3 R1 S,0.0,Viśvambari,S-R1-G3-M2-P-D3-N3-S,S-N3-P-M2-G3-R1-S,False,1,Pooshakalyāni,54.0
+Sharadhyuthi,Sharadhyuthi,S R1 G3 M2 P D3 N3 D3 S,S N3 D3 P M2 G3 R1 S,0.0,Viśvambari,S-R1-G3-M2-P-D3-N3-D3-S,S-N3-D3-P-M2-G3-R1-S,False,1,Sharadhyuthi,54.0
+Suddhakriyā,Suddhakriyā,S R1 M2 M2 P D3 S,S D3 P M2 G3 R1 S,0.0,Viśvambari,S-R1-M2-M2-P-D3-S,S-D3-P-M2-G3-R1-S,False,1,Suddhakriyā,54.0
+Sundarāngi,Sundarāngi,S R1 G3 P D3 N3 S,S N3 D3 P G3 R1 S,0.0,Viśvambari,S-R1-G3-P-D3-N3-S,S-N3-D3-P-G3-R1-S,True,1,Sundarāngi,54.0
+Vijayavasantham,Vijayavasantham,S M2 P D3 N3 S,S N3 P M2 G3 S,0.0,Viśvambari,S-M2-P-D3-N3-S,S-N3-P-M2-G3-S,False,1,Vijayavasantham,54.0
+55 Śāmaḻāngi,Śāmaḻāngi,S R2 G2 M2 P D1 N1 S,S N1 D1 P M2 G2 R2 S,1.0,Śāmaḻāngi,S-R2-G2-M2-P-D1-N1-S,S-N1-D1-P-M2-G2-R2-S,True,1,Śāmaḻāngi,55.0
+Shyāmalam,Shyāmalam,S R2 G2 M2 P D1 N1 S,S N1 D1 P M2 G2 R2 S,0.0,Śāmaḻāngi,S-R2-G2-M2-P-D1-N1-S,S-N1-D1-P-M2-G2-R2-S,True,1,Shyāmalam,55.0
+Deshāvali,Deshāvali,S R2 G2 M2 D1 N1 D1 S,S N1 D1 M2 G2 R2 S,0.0,Śāmaḻāngi,S-R2-G2-M2-D1-N1-D1-S,S-N1-D1-M2-G2-R2-S,False,1,Deshāvali,55.0
+Vijayamālavi,Vijayamālavi,S R2 M2 P D1 S,S N1 D1 P M2 R2 S,0.0,Śāmaḻāngi,S-R2-M2-P-D1-S,S-N1-D1-P-M2-R2-S,False,1,Vijayamālavi,55.0
+56 Śanmukhapriyā,Śanmukhapriyā,S R2 G2 M2 P D1 N2 S,S N2 D1 P M2 G2 R2 S,1.0,Śanmukhapriyā,S-R2-G2-M2-P-D1-N2-S,S-N2-D1-P-M2-G2-R2-S,True,1,Śanmukhapriyā,56.0
+Chāmaram,Chāmaram,S R2 M2 P D1 N2 S,S N2 D1 P M2 G2 R2 S,0.0,Śanmukhapriyā,S-R2-M2-P-D1-N2-S,S-N2-D1-P-M2-G2-R2-S,False,1,Chāmaram,56.0
+Bhāshini,Bhāshini,S G2 R2 G2 M2 P D1 N2 S,S N2 D1 P M2 G2 R1 S,0.0,Śanmukhapriyā,S-G2-R2-G2-M2-P-D1-N2-S,S-N2-D1-P-M2-G2-R1-S,False,1,Bhāshini,56.0
+Chintāmani,Chintāmani,S G2 R2 G2 M2 G2 R2 G2 P M2 P D2 N2 S,S N2 D2 P M2 G2 R2 S,0.0,Śanmukhapriyā,S-G2-R2-G2-M2-G2-R2-G2-P-M2-P-D2-N2-S,S-N2-D2-P-M2-G2-R2-S,False,1,Chintāmani,56.0
+Dhanakari,Dhanakari,S G2 P D1 N2 S,S N2 D1 M2 G2 S,0.0,Śanmukhapriyā,S-G2-P-D1-N2-S,S-N2-D1-M2-G2-S,False,1,Dhanakari,56.0
+Garigadya,Garigadya,N2 S G2 M2 P D1 N2,D1 P M2 G2 R2 S,0.0,Śanmukhapriyā,N2-S-G2-M2-P-D1-N2,D1-P-M2-G2-R2-S,False,1,Garigadya,56.0
+Gopikathilakam,Gopikathilakam,S R2 G2 M2 P N2 S,S N2 P M2 G2 R2 S,0.0,Śanmukhapriyā,S-R2-G2-M2-P-N2-S,S-N2-P-M2-G2-R2-S,True,1,Gopikathilakam,56.0
+Kokilanandhi,Kokilanandhi,S G2 M2 D1 N2 S,S N2 D1 P M2 G2 S,0.0,Śanmukhapriyā,S-G2-M2-D1-N2-S,S-N2-D1-P-M2-G2-S,False,1,Kokilanandhi,56.0
+Rājeshwari,Rājeshwari,S R2 G2 P N2 S,S N2 D1 P M1 G2 S,0.0,Śanmukhapriyā,S-R2-G2-P-N2-S,S-N2-D1-P-M1-G2-S,False,1,Rājeshwari,56.0
+Samudrapriyā,Samudrapriyā,S G2 M2 P N2 S,S N2 P M2 G2 S,0.0,Śanmukhapriyā,S-G2-M2-P-N2-S,S-N2-P-M2-G2-S,True,1,Samudrapriyā,56.0
+Shanmukhi (Trimoorti),Shanmukhi (Trimoorti),S R1 G2 M2 D1 N2 S,S N2 D1 M2 G2 R1 S,0.0,Śanmukhapriyā,S-R1-G2-M2-D1-N2-S,S-N2-D1-M2-G2-R1-S,True,1,Shanmukhi (Trimoorti),56.0
+Sumanasaranjani,Sumanasaranjani,S G2 M2 P N2 S,S N2 P M2 G2 S,0.0,Śanmukhapriyā,S-G2-M2-P-N2-S,S-N2-P-M2-G2-S,True,1,Sumanasaranjani,56.0
+Vasukari,Vasukari,S G2 M2 P D1 N2 S,S N2 D1 M2 G2 S,0.0,Śanmukhapriyā,S-G2-M2-P-D1-N2-S,S-N2-D1-M2-G2-S,False,1,Vasukari,56.0
+57 Simhendramadhyamam(Sumadhyuti),Simhendramadhyamam(Sumadhyuti),S R2 G2 M2 P D1 N3 S,S N3 D1 P M2 G2 R2 S,1.0,Simhendramadhyamam(Sumadhyuti),S-R2-G2-M2-P-D1-N3-S,S-N3-D1-P-M2-G2-R2-S,True,1,Simhendramadhyamam(Sumadhyuti),57.0
+Ānandavalli,Ānandavalli,S G2 M2 P N3 S,S N3 P M2 G2 S,0.0,Simhendramadhyamam(Sumadhyuti),S-G2-M2-P-N3-S,S-N3-P-M2-G2-S,True,1,Ānandavalli,57.0
+Ghantana,Ghantana,S R2 G2 M2 D1 N3 S,S N3 D1 M2 G2 R2 S,0.0,Simhendramadhyamam(Sumadhyuti),S-R2-G2-M2-D1-N3-S,S-N3-D1-M2-G2-R2-S,True,1,Ghantana,57.0
+Jayachoodāmani,Jayachoodāmani,S G2 M2 P D1 S,S N3 D1 P M2 G2 R2 S,0.0,Simhendramadhyamam(Sumadhyuti),S-G2-M2-P-D1-S,S-N3-D1-P-M2-G2-R2-S,False,1,Jayachoodāmani,57.0
+Pranavapriyā,Pranavapriyā,S R2 M2 P N3 S,S N3 P M2 G2 R2 S,0.0,Simhendramadhyamam(Sumadhyuti),S-R2-M2-P-N3-S,S-N3-P-M2-G2-R2-S,False,1,Pranavapriyā,57.0
+Sarvāngi,Sarvāngi,S R2 M2 D1 N3 S,S N3 D1 M2 G2 S R3 S,0.0,Simhendramadhyamam(Sumadhyuti),S-R2-M2-D1-N3-S,S-N3-D1-M2-G2-S-R3-S,False,1,Sarvāngi,57.0
+Seshanādam,Seshanādam,S R2 G2 M2 P D1 S,S N3 D1 P M2 G2 R2 S,0.0,Simhendramadhyamam(Sumadhyuti),S-R2-G2-M2-P-D1-S,S-N3-D1-P-M2-G2-R2-S,False,1,Seshanādam,57.0
+Suddha,Suddha,S R2 G2 M2 P N3 S,S N3 P M2 G2 R2 S,0.0,Simhendramadhyamam(Sumadhyuti),S-R2-G2-M2-P-N3-S,S-N3-P-M2-G2-R2-S,True,1,Suddha,57.0
+Sunādapriyā,Sunādapriyā,S R2 G2 M2 P S,S N3 D1 P M2 G2 R2 S,0.0,Simhendramadhyamam(Sumadhyuti),S-R2-G2-M2-P-S,S-N3-D1-P-M2-G2-R2-S,False,1,Sunādapriyā,57.0
+Urmikā,Urmikā,S R2 G2 M2 P N3 S,S N3 P M2 G2 R2 S,0.0,Simhendramadhyamam(Sumadhyuti),S-R2-G2-M2-P-N3-S,S-N3-P-M2-G2-R2-S,True,1,Urmikā,57.0
+Vijayasaraswathi,Vijayasaraswathi,S G2 M2 P D1 N3 S,S N3 P M2 G2 R2 S,0.0,Simhendramadhyamam(Sumadhyuti),S-G2-M2-P-D1-N3-S,S-N3-P-M2-G2-R2-S,False,1,Vijayasaraswathi,57.0
+58 Hemavati,Hemavati,S R2 G2 M2 P D2 N2 S,S N2 D2 P M2 G2 R2 S,1.0,Hemavati,S-R2-G2-M2-P-D2-N2-S,S-N2-D2-P-M2-G2-R2-S,True,1,Hemavati,58.0
+Deshisimhāravam,Deshisimhāravam,S R2 G2 M2 P D2 N2 S,S N2 D2 P M2 G2 R2 S,0.0,Hemavati,S-R2-G2-M2-P-D2-N2-S,S-N2-D2-P-M2-G2-R2-S,True,1,Deshisimhāravam,58.0
+Chandrarekhā,Chandrarekhā,S R2 G2 M2 P D2 S,S N2 D2 M2 G2 R2 S,0.0,Hemavati,S-R2-G2-M2-P-D2-S,S-N2-D2-M2-G2-R2-S,False,1,Chandrarekhā,58.0
+Hamsabhramari,Hamsabhramari,S R2 G2 M2 P D2 S,S N2 D2 P M2 G2 R2 S,0.0,Hemavati,S-R2-G2-M2-P-D2-S,S-N2-D2-P-M2-G2-R2-S,False,1,Hamsabhramari,58.0
+Hemāmbari,Hemāmbari,S R2 G2 M2 P D2 N2 S,S P M2 G2 R2 S,0.0,Hemavati,S-R2-G2-M2-P-D2-N2-S,S-P-M2-G2-R2-S,False,1,Hemāmbari,58.0
+Hemapriya,Hemapriya,S R2 G2 M2 D2 S,S D2 M2 G2 R2 S,0.0,Hemavati,S-R2-G2-M2-D2-S,S-D2-M2-G2-R2-S,True,1,Hemapriya,58.0
+Kshemakari,Kshemakari,S R2 M2 D2 N2 S,S N2 D2 M2 R2 S,0.0,Hemavati,S-R2-M2-D2-N2-S,S-N2-D2-M2-R2-S,True,1,Kshemakari,58.0
+Madhukowns,Madhukowns,S G2 M2 P N2 P S,S N2 P M2 G2 S,0.0,Hemavati,S-G2-M2-P-N2-P-S,S-N2-P-M2-G2-S,False,1,Madhukowns,58.0
+Shakthiroopini,Shakthiroopini,S G2 M2 D2 S,S N2 D2 M2 G2 S,0.0,Hemavati,S-G2-M2-D2-S,S-N2-D2-M2-G2-S,False,1,Shakthiroopini,58.0
+Simhārava,Simhārava,S R2 M2 P N2 S,S N2 P M2 R2 G2 R2 S,0.0,Hemavati,S-R2-M2-P-N2-S,S-N2-P-M2-R2-G2-R2-S,False,1,Simhārava,58.0
+Vijayasāranga,Vijayasāranga,S R2 G2 M2 P D2 S,S N2 D2 M2 G2 R2 S,0.0,Hemavati,S-R2-G2-M2-P-D2-S,S-N2-D2-M2-G2-R2-S,False,1,Vijayasāranga,58.0
+Vijayashrāngi,Vijayashrāngi,S R2 G2 M2 P D2 S,S N2 D2 M2 G2 R2 S,0.0,Hemavati,S-R2-G2-M2-P-D2-S,S-N2-D2-M2-G2-R2-S,False,1,Vijayashrāngi,58.0
+Yāgini,Yāgini,S R2 M2 P N2 S,S N2 P M2 R2 S,0.0,Hemavati,S-R2-M2-P-N2-S,S-N2-P-M2-R2-S,True,1,Yāgini,58.0
+59 Dharmavati,Dharmavati,S R2 G2 M2 P D2 N3 S,S N3 D2 P M2 G2 R2 S,1.0,Dharmavati,S-R2-G2-M2-P-D2-N3-S,S-N3-D2-P-M2-G2-R2-S,True,1,Dharmavati,59.0
+Dhāmavathi,Dhāmavathi,S R2 G2 M2 P D2 N3 S,S N3 D2 P M2 G2 R2 S,0.0,Dharmavati,S-R2-G2-M2-P-D2-N3-S,S-N3-D2-P-M2-G2-R2-S,True,1,Dhāmavathi,59.0
+Sri Tyagaraja (Raga created by Mahesh Mahadev)[6],Sri Tyagaraja (Raga created by Mahesh Mahadev)[6],S G2 M2 P N3 S,S N3 P M2 G2 R2 S,0.0,Dharmavati,S-G2-M2-P-N3-S,S-N3-P-M2-G2-R2-S,False,1,Sri Tyagaraja (Raga created by Mahesh Mahadev)[6],59.0
+Gowrikriya,Gowrikriya,S G2 M2 P D2 N3 S,S N3 D2 N3 P M2 G2 S,0.0,Dharmavati,S-G2-M2-P-D2-N3-S,S-N3-D2-N3-P-M2-G2-S,False,1,Gowrikriya,59.0
+Karmukhāvati,Karmukhāvati,S R2 G2 M2 D2 N3 S,S N3 D2 M2 G2 R2 S,0.0,Dharmavati,S-R2-G2-M2-D2-N3-S,S-N3-D2-M2-G2-R2-S,True,1,Karmukhāvati,59.0
+Karpoora Bharani,Karpoora Bharani,S R2 G2 P M2 P D2 S,S D2 P M2 P G2 R2 S,0.0,Dharmavati,S-R2-G2-P-M2-P-D2-S,S-D2-P-M2-P-G2-R2-S,True,1,Karpoora Bharani,59.0
+Lalitasimharavam,Lalitasimharavam,S R2 G2 M2 P S,S N3 P M2 G2 R2 S,0.0,Dharmavati,S-R2-G2-M2-P-S,S-N3-P-M2-G2-R2-S,False,1,Lalitasimharavam,59.0
+Madhumālti {Hindustani},Madhumālti {Hindustani},N3 S G2 M2 P S,S N3 D2 P M2 G2 R2 S (Anya swara* : M1),0.0,Dharmavati,N3-S-G2-M2-P-S,S-N3-D2-P-M2-G2-R2-S (Anya swara*-: M1),False,1,Madhumālti {Hindustani},59.0
+Madhuvanthi {Hindustani},Madhuvanthi {Hindustani},S G2 M2 P N3 S,S N3 D2 P M2 G2 R2 S,0.0,Dharmavati,S-G2-M2-P-N3-S,S-N3-D2-P-M2-G2-R2-S,False,1,Madhuvanthi {Hindustani},59.0
+Moharanjani,Moharanjani,S R2 G2 P D2 S,S N3 D2 M2 G2 S,0.0,Dharmavati,S-R2-G2-P-D2-S,S-N3-D2-M2-G2-S,False,1,Moharanjani,59.0
+Ranjani,Ranjani,S R2 G2 M2 D2 S,S N3 D2 M2 G2 S,0.0,Dharmavati,S-R2-G2-M2-D2-S,S-N3-D2-M2-G2-S,False,1,Ranjani,59.0
+Varada,Varada,S R2 M2 P N3 S,S N3 P M2 R2 S,0.0,Dharmavati,S-R2-M2-P-N3-S,S-N3-P-M2-R2-S,True,1,Varada,59.0
+Vijayanāgari,Vijayanāgari,S R2 G2 M2 P D2 S,S D2 P M2 G2 R2 S,0.0,Dharmavati,S-R2-G2-M2-P-D2-S,S-D2-P-M2-G2-R2-S,True,1,Vijayanāgari,59.0
+Vishveshwarapriyā,Vishveshwarapriyā,S R2 M2 P N3 S,S N3 D2 P M2 R2 S,0.0,Dharmavati,S-R2-M2-P-N3-S,S-N3-D2-P-M2-R2-S,False,1,Vishveshwarapriyā,59.0
+60 Nītimati,Nītimati,S R2 G2 M2 P D3 N3 S,S N3 D3 P M2 G2 R2 S,1.0,Nītimati,S-R2-G2-M2-P-D3-N3-S,S-N3-D3-P-M2-G2-R2-S,True,1,Nītimati,60.0
+Nisshadham,Nisshadham,S R2 G2 M2 P D3 N3 S,S N3 P M2 G2 R2 S,0.0,Nītimati,S-R2-G2-M2-P-D3-N3-S,S-N3-P-M2-G2-R2-S,False,1,Nisshadham,60.0
+Amarasenapriyā,Amarasenapriyā,S R2 M2 P N2 S,S N3 P M2 G2 R2 S,0.0,Nītimati,S-R2-M2-P-N2-S,S-N3-P-M2-G2-R2-S,False,1,Amarasenapriyā,60.0
+Deshyagānavaridhi,Deshyagānavaridhi,S R2 G2 M2 P D3 N3 P S,S N3 S P M2 G2 R2 S,0.0,Nītimati,S-R2-G2-M2-P-D3-N3-P-S,S-N3-S-P-M2-G2-R2-S,False,1,Deshyagānavaridhi,60.0
+Hamsanādam,Hamsanādam,S R2 M2 P D3 N3 S,S N3 D3 P M2 R2 S,0.0,Nītimati,S-R2-M2-P-D3-N3-S,S-N3-D3-P-M2-R2-S,True,1,Hamsanādam,60.0
+Kaikavashi,Kaikavashi,S R2 G2 M2 P D3 N3 S,S N3 P M2 G2 R2 S,0.0,Nītimati,S-R2-G2-M2-P-D3-N3-S,S-N3-P-M2-G2-R2-S,False,1,Kaikavashi,60.0
+Nuthanachandrikā,Nuthanachandrikā,S R2 G2 M2 P D3 N3 S,S N3 P D3 N3 P M2 G2 S,0.0,Nītimati,S-R2-G2-M2-P-D3-N3-S,S-N3-P-D3-N3-P-M2-G2-S,False,1,Nuthanachandrikā,60.0
+Rathnasāranga,Rathnasāranga,S R2 G2 M2 P N3 S,S N3 D3 P M2 G2 R2 S,0.0,Nītimati,S-R2-G2-M2-P-N3-S,S-N3-D3-P-M2-G2-R2-S,False,1,Rathnasāranga,60.0
+61 Kāntāmani,Kāntāmani,S R2 G3 M2 P D1 N1 S,S N1 D1 P M2 G3 R2 S,1.0,Kāntāmani,S-R2-G3-M2-P-D1-N1-S,S-N1-D1-P-M2-G3-R2-S,True,1,Kāntāmani,61.0
+Kunthalam,Kunthalam,S R2 G3 M2 P D1 S,S N1 D1 P M2 G3 R2 S,0.0,Kāntāmani,S-R2-G3-M2-P-D1-S,S-N1-D1-P-M2-G3-R2-S,False,1,Kunthalam,61.0
+Kanakakusumāvali,Kanakakusumāvali,S R2 G3 M2 P D2 S,S D2 P M2 G3 R2 S,0.0,Kāntāmani,S-R2-G3-M2-P-D2-S,S-D2-P-M2-G3-R2-S,True,1,Kanakakusumāvali,61.0
+Shruthiranjani,Shruthiranjani,S R2 G3 M2 P D1 N1,N1 D1 P M2 G3 R2 S,0.0,Kāntāmani,S-R2-G3-M2-P-D1-N1,N1-D1-P-M2-G3-R2-S,True,1,Shruthiranjani,61.0
+62 Riśabhapriyā,Riśabhapriyā,S R2 G3 M2 P D1 N2 S,S N2 D1 P M2 G3 R2 S,1.0,Riśabhapriyā,S-R2-G3-M2-P-D1-N2-S,S-N2-D1-P-M2-G3-R2-S,True,1,Riśabhapriyā,62.0
+Rathipriyā,Rathipriyā,S R2 G3 M2 P D1 N2 S,S N2 D1 P M2 G3 R2 S,0.0,Riśabhapriyā,S-R2-G3-M2-P-D1-N2-S,S-N2-D1-P-M2-G3-R2-S,True,1,Rathipriyā,62.0
+Gopriya,Gopriya,S R2 G3 M2 D1 N2 S,S N2 D1 M2 G3 R2 S,0.0,Riśabhapriyā,S-R2-G3-M2-D1-N2-S,S-N2-D1-M2-G3-R2-S,True,1,Gopriya,62.0
+Poornasāveri,Poornasāveri,S R2 M2 P D1 S,S N2 D1 P M2 G3 R2 S,0.0,Riśabhapriyā,S-R2-M2-P-D1-S,S-N2-D1-P-M2-G3-R2-S,False,1,Poornasāveri,62.0
+Rathnabhānu,Rathnabhānu,S R2 M2 P N2 D1 N2 S,S N2 D1 P M2 G3 R2 S,0.0,Riśabhapriyā,S-R2-M2-P-N2-D1-N2-S,S-N2-D1-P-M2-G3-R2-S,False,1,Rathnabhānu,62.0
+Suddha Sāranga,Suddha Sāranga,S G3 M2 P N2 S,S D1 P M2 G3 S,0.0,Riśabhapriyā,S-G3-M2-P-N2-S,S-D1-P-M2-G3-S,False,1,Suddha Sāranga,62.0
+63 Latāngi,Latāngi,S R2 G3 M2 P D1 N3 S,S N3 D1 P M2 G3 R2 S,1.0,Latāngi,S-R2-G3-M2-P-D1-N3-S,S-N3-D1-P-M2-G3-R2-S,True,1,Latāngi,63.0
+Geethapriyā,Geethapriyā,S R2 G3 M2 P D1 N3 S,S N3 D1 P M2 G3 R2 S,0.0,Latāngi,S-R2-G3-M2-P-D1-N3-S,S-N3-D1-P-M2-G3-R2-S,True,1,Geethapriyā,63.0
+Chitrachandrika,Chitrachandrika,S G3 R2 G3 M2 P N3 D1 S,S N3 D1 M2 G3 R2 S,0.0,Latāngi,S-G3-R2-G3-M2-P-N3-D1-S,S-N3-D1-M2-G3-R2-S,False,1,Chitrachandrika,63.0
+Hamsalatha,Hamsalatha,S R2 G3 P N3 S,S N3 D1 P M2 G3 R2 S,0.0,Latāngi,S-R2-G3-P-N3-S,S-N3-D1-P-M2-G3-R2-S,False,1,Hamsalatha,63.0
+Kananapriyā,Kananapriyā,S R2 G3 M2 P M2 D1 N3 S,S D1 N3 P M2 G3 R2 S,0.0,Latāngi,S-R2-G3-M2-P-M2-D1-N3-S,S-D1-N3-P-M2-G3-R2-S,False,1,Kananapriyā,63.0
+Karunākari,Karunākari,S M2 P D1 N3 D1 S,S N3 D1 P M2 S,0.0,Latāngi,S-M2-P-D1-N3-D1-S,S-N3-D1-P-M2-S,False,1,Karunākari,63.0
+Lalithāngi,Lalithāngi,S R2 G3 M2 D1 N3 S,S N3 D1 M2 G3 R2 S,0.0,Latāngi,S-R2-G3-M2-D1-N3-S,S-N3-D1-M2-G3-R2-S,True,1,Lalithāngi,63.0
+Ramani,Ramani,S G3 M2 P N3 S,S N3 D1 P M2 G3 S,0.0,Latāngi,S-G3-M2-P-N3-S,S-N3-D1-P-M2-G3-S,False,1,Ramani,63.0
+Rathnakānthi,Rathnakānthi,S R2 G3 M2 P N3 S,S N3 P M2 G3 R2 S,0.0,Latāngi,S-R2-G3-M2-P-N3-S,S-N3-P-M2-G3-R2-S,True,1,Rathnakānthi,63.0
+Raviswaroopini,Raviswaroopini,S G3 M2 P D1 N3 S,S N3 D1 P M2 G3 S,0.0,Latāngi,S-G3-M2-P-D1-N3-S,S-N3-D1-P-M2-G3-S,True,1,Raviswaroopini,63.0
+Sajjananandhi,Sajjananandhi,S R2 G3 M2 P D1 N3 S,S N3 D1 M2 G3 R2 S,0.0,Latāngi,S-R2-G3-M2-P-D1-N3-S,S-N3-D1-M2-G3-R2-S,False,1,Sajjananandhi,63.0
+Skandamanorama,Skandamanorama,S R2 M2 P N3 S,S N3 P M2 R2 S,0.0,Latāngi,S-R2-M2-P-N3-S,S-N3-P-M2-R2-S,True,1,Skandamanorama,63.0
+64 Vāchaspati,Vāchaspati,S R2 G3 M2 P D2 N2 S,S N2 D2 P M2 G3 R2 S,1.0,Vāchaspati,S-R2-G3-M2-P-D2-N2-S,S-N2-D2-P-M2-G3-R2-S,True,1,Vāchaspati,64.0
+Bhooshāvathi,Bhooshāvathi,S R2 G3 M2 P D2 N2 S,S N2 D2 P M2 G3 R2 S,0.0,Vāchaspati,S-R2-G3-M2-P-D2-N2-S,S-N2-D2-P-M2-G3-R2-S,True,1,Bhooshāvathi,64.0
+Bhagavataranjana,Bhagavataranjana,S R2 M2 P D2 N2 S,S N2 D2 P M2 G3 R2 S,0.0,Vāchaspati,S-R2-M2-P-D2-N2-S,S-N2-D2-P-M2-G3-R2-S,False,1,Bhagavataranjana,64.0
+Bhogeeshwari,Bhogeeshwari,S R2 G3 P D2 N2 D2 S,S N2 D2 P M2 G3 R2 S,0.0,Vāchaspati,S-R2-G3-P-D2-N2-D2-S,S-N2-D2-P-M2-G3-R2-S,False,1,Bhogeeshwari,64.0
+Bhooshāvali,Bhooshāvali,S R2 G3 M2 P D2 S,S N2 D2 P M2 G3 R2 S,0.0,Vāchaspati,S-R2-G3-M2-P-D2-S,S-N2-D2-P-M2-G3-R2-S,False,1,Bhooshāvali,64.0
+Dwigāndhārabhooshani,Dwigāndhārabhooshani,S R1 G2 G3 G2 P D2 S,S D2 P G2 G3 G2 R1 S D2 S,0.0,Vāchaspati,S-R1-G2-G3-G2-P-D2-S,S-D2-P-G2-G3-G2-R1-S-D2-S,False,1,Dwigāndhārabhooshani,64.0
+Gaganamohini,Gaganamohini,S G3 P D2 N2 S,S N2 P M2 G3 S,0.0,Vāchaspati,S-G3-P-D2-N2-S,S-N2-P-M2-G3-S,False,1,Gaganamohini,64.0
+Gurupriya,Gurupriya,S R2 G3 M2 D2 N2 S,S N2 D2 M2 G3 R2 S,0.0,Vāchaspati,S-R2-G3-M2-D2-N2-S,S-N2-D2-M2-G3-R2-S,True,1,Gurupriya,64.0
+Hrdhini,Hrdhini,S G3 M2 P N2 S,S N2 P M2 G3 S,0.0,Vāchaspati,S-G3-M2-P-N2-S,S-N2-P-M2-G3-S,True,1,Hrdhini,64.0
+Mangalakari,Mangalakari,S R2 P M2 P D2 N2 S,S N2 D2 P G3 R2 S,0.0,Vāchaspati,S-R2-P-M2-P-D2-N2-S,S-N2-D2-P-G3-R2-S,False,1,Mangalakari,64.0
+Mukthidāyini,Mukthidāyini,S G3 M2 P D2 N2 S,S N2 D2 P M2 G3 S,0.0,Vāchaspati,S-G3-M2-P-D2-N2-S,S-N2-D2-P-M2-G3-S,True,1,Mukthidāyini,64.0
+Nādhabrahma,Nādhabrahma,S P M2 P D2 N2 S,S N2 D2 P M2 G3 S,0.0,Vāchaspati,S-P-M2-P-D2-N2-S,S-N2-D2-P-M2-G3-S,False,1,Nādhabrahma,64.0
+Pranavākāri,Pranavākāri,P N2 D2 N2 S R2 G3 M2,P M2 G3 R2 S N2 D2 N2 P,0.0,Vāchaspati,P-N2-D2-N2-S-R2-G3-M2,P-M2-G3-R2-S-N2-D2-N2-P,False,1,Pranavākāri,64.0
+Saraswathi,Saraswathi,S R2 M2 P D2 S,S N2 D2 P M2 R2 S,0.0,Vāchaspati,S-R2-M2-P-D2-S,S-N2-D2-P-M2-R2-S,False,1,Saraswathi,64.0
+Shivaranjani (Original),Shivaranjani (Original),S R2 G3 M2 D2 P N2 S,S N2 D2 P D2 M2 G3 R2 S,0.0,Vāchaspati,S-R2-G3-M2-D2-P-N2-S,S-N2-D2-P-D2-M2-G3-R2-S,False,1,Shivaranjani (Original),64.0
+Triveni,Triveni,S R2 M2 P D2 N2 S,S N2 D2 P M2 R2 S,0.0,Vāchaspati,S-R2-M2-P-D2-N2-S,S-N2-D2-P-M2-R2-S,True,1,Triveni,64.0
+Utthari,Utthari,S G3 M2 P D2 N2 S,S N2 D2 M2 G3 S,0.0,Vāchaspati,S-G3-M2-P-D2-N2-S,S-N2-D2-M2-G3-S,False,1,Utthari,64.0
+65 Mechakalyāni,Mechakalyāni,S R2 G3 M2 P D2 N3 S,S N3 D2 P M2 G3 R2 S,1.0,Mechakalyāni,S-R2-G3-M2-P-D2-N3-S,S-N3-D2-P-M2-G3-R2-S,True,1,Mechakalyāni,65.0
+Shānthakalyāni,Shānthakalyāni,S R2 G3 M2 P D2 N3 S,S N3 D2 P M2 G3 R2 S,0.0,Mechakalyāni,S-R2-G3-M2-P-D2-N3-S,S-N3-D2-P-M2-G3-R2-S,True,1,Shānthakalyāni,65.0
+Amritha Kalyani (Raga created by Mahesh Mahadev)[4],Amritha Kalyani (Raga created by Mahesh Mahadev)[4],S G3 M2 P N3 S,S N3 D2 P M2 G3 R2 S,0.0,Mechakalyāni,S-G3-M2-P-N3-S,S-N3-D2-P-M2-G3-R2-S,False,1,Amritha Kalyani (Raga created by Mahesh Mahadev)[4],65.0
+Amritha Behāg,Amritha Behāg,S M2 G3 P N3 S,D2 N3 D2 M2 G3 S,0.0,Mechakalyāni,S-M2-G3-P-N3-S,D2-N3-D2-M2-G3-S,False,1,Amritha Behāg,65.0
+Aprameya,Aprameya,S R2 M2 P D2 S,S N3 D2 M2 G3 M2 R2 S,0.0,Mechakalyāni,S-R2-M2-P-D2-S,S-N3-D2-M2-G3-M2-R2-S,False,1,Aprameya,65.0
+Bhoopkalyāni,Bhoopkalyāni,S R2 G3 P D2 S,S N3 D2 P M2 G3 R2 S,0.0,Mechakalyāni,S-R2-G3-P-D2-S,S-N3-D2-P-M2-G3-R2-S,False,1,Bhoopkalyāni,65.0
+Bhoopāli {Hindustani},Bhoopāli {Hindustani},S R2 G3 P D2 S,S D2 P G3 R2 S,0.0,Mechakalyāni,S-R2-G3-P-D2-S,S-D2-P-G3-R2-S,True,1,Bhoopāli {Hindustani},65.0
+Chandrakāntha,Chandrakāntha,S R2 G3 M2 P D2 N3 S,S N3 D2 N3 P M2 G3 R2 S,0.0,Mechakalyāni,S-R2-G3-M2-P-D2-N3-S,S-N3-D2-N3-P-M2-G3-R2-S,False,1,Chandrakāntha,65.0
+Hameer {Hindustani},Hameer {Hindustani},S R2 S G3 M1 D2 N3 D2 S,S N3 D2 N3 P G3 M1 D2 M2 P D2 P G3 M1 R2 S (Anya swara* : M1),0.0,Mechakalyāni,S-R2-S-G3-M1-D2-N3-D2-S,S-N3-D2-N3-P-G3-M1-D2-M2-P-D2-P-G3-M1-R2-S (Anya swara*-: M1),False,1,Hameer {Hindustani},65.0
+Hameer Kalyāni {carnatic interpretation of Kedar},Hameer Kalyāni {carnatic interpretation of Kedar},S P M2 P D2 N3 S,S N3 D2 P M2 M1 G3 P M1 R2 S,0.0,Mechakalyāni,S-P-M2-P-D2-N3-S,S-N3-D2-P-M2-M1-G3-P-M1-R2-S,False,1,Hameer Kalyāni {carnatic interpretation of Kedar},65.0
+Hamsakalyāni,Hamsakalyāni,S R2 G3 P N3 S,S N3 D2 P M2 G3 R2 S,0.0,Mechakalyāni,S-R2-G3-P-N3-S,S-N3-D2-P-M2-G3-R2-S,False,1,Hamsakalyāni,65.0
+Kalyānadāyini,Kalyānadāyini,S R2 G3 M2 D2 N3 S,S N3 D2 M2 G3 R2 S,0.0,Mechakalyāni,S-R2-G3-M2-D2-N3-S,S-N3-D2-M2-G3-R2-S,True,1,Kalyānadāyini,65.0
+Kannadamaruva,Kannadamaruva,S G3 M2 P D2 N3 S,S N3 D2 P M2 G3 S,0.0,Mechakalyāni,S-G3-M2-P-D2-N3-S,S-N3-D2-P-M2-G3-S,True,1,Kannadamaruva,65.0
+Kedār {Hindustani},Kedār {Hindustani},S *M1(G3)P D2 N3 S,S N3 D2 P M2 P *M1 S R2 S (Anya swara* : M1),0.0,Mechakalyāni,S-*M1(G3)P-D2-N3-S,S-N3-D2-P-M2-P-*M1-S-R2-S (Anya swara*-: M1),False,1,Kedār {Hindustani},65.0
+Kowmoda,Kowmoda,S R2 G3 M2 N3 S,S N3 P M2 G3 S,0.0,Mechakalyāni,S-R2-G3-M2-N3-S,S-N3-P-M2-G3-S,False,1,Kowmoda,65.0
+Kunthalashreekānti,Kunthalashreekānti,S G3 M2 P D2 N3 S,S N3 P M2 G3 R2 S,0.0,Mechakalyāni,S-G3-M2-P-D2-N3-S,S-N3-P-M2-G3-R2-S,False,1,Kunthalashreekānti,65.0
+Mohana Kalyāni,Mohana Kalyāni,S R2 G3 P D2 S,S N3 D2 P M2 G3 R2 S,0.0,Mechakalyāni,S-R2-G3-P-D2-S,S-N3-D2-P-M2-G3-R2-S,False,1,Mohana Kalyāni,65.0
+Mrgānandhana,Mrgānandhana,S R2 G3 D2 N3 S,S N3 D2 M2 D2 G3 R2 S,0.0,Mechakalyāni,S-R2-G3-D2-N3-S,S-N3-D2-M2-D2-G3-R2-S,False,1,Mrgānandhana,65.0
+Nada Kalyani (Raga created by Mahesh Mahadev)[4],Nada Kalyani (Raga created by Mahesh Mahadev)[4],S R2 M2 P N3 S,S N3 D2 M2 G3 R2 S,0.0,Mechakalyāni,S R2 M2 P N3 S,S-N3-D2-M2-G3-R2-S,False,1,Nada Kalyani (Raga created by Mahesh Mahadev)[4],65.0
+Nāndhakalyāni,Nāndhakalyāni,S G3 M2 D2 N3 S,S N3 D2 M2 G3 M2 R2 S,0.0,Mechakalyāni,S-G3-M2-D2-N3-S,S-N3-D2-M2-G3-M2-R2-S,False,1,Nāndhakalyāni,65.0
+Pramodhini,Pramodhini,S G3 M2 P D2 S,S D2 P M2 G3 S,0.0,Mechakalyāni,S-G3-M2-P-D2-S,S-D2-P-M2-G3-S,True,1,Pramodhini,65.0
+Rajasadhaka (Raga created by Mahesh Mahadev)[4],Rajasadhaka (Raga created by Mahesh Mahadev)[4],S R2 G3 P D2 S,S N3 P M2 R2 S,0.0,Mechakalyāni,S-R2-G3-P-D2-S,S-N3-P-M2-R2-S,False,1,Rajasadhaka (Raga created by Mahesh Mahadev)[4],65.0
+Sāranga,Sāranga,S R2 G3 M2 P D2 N3 S,S N3 D2 P M2 R2 G3 M1 R2 S,0.0,Mechakalyāni,S-R2-G3-M2-P-D2-N3-S,S-N3-D2-P-M2-R2-G3-M1-R2-S,False,1,Sāranga,65.0
+Sāranga Tārangini,Sāranga Tārangini,S R2 M2 P D2 N3 S,S N3 D2 P M2 R2 S,0.0,Mechakalyāni,S-R2-M2-P-D2-N3-S,S-N3-D2-P-M2-R2-S,True,1,Sāranga Tārangini,65.0
+Shilangi,Shilangi,S G3 M2 P N3 S,S N3 P M2 G3 S,0.0,Mechakalyāni,S-G3-M2-P-N3-S,S-N3-P-M2-G3-S,True,1,Shilangi,65.0
+Shuddha Sārang {Hindustani},Shuddha Sārang {Hindustani},N3 S R2 M2 P N3 S,S N3 D2 P M2 P M1 R2 S N3 S (Anya swara* : M1),0.0,Mechakalyāni,N3-S-R2-M2-P-N3-S,S-N3-D2-P-M2-P-M1-R2-S-N3-S (Anya swara*-: M1),False,1,Shuddha Sārang {Hindustani},65.0
+Suddha Koshala,Suddha Koshala,S G3 M2 P S,S N3 D2 M2 G3 R2 S,0.0,Mechakalyāni,S-G3-M2-P-S,S-N3-D2-M2-G3-R2-S,False,1,Suddha Koshala,65.0
+Shyām Kalyān {Hindustani},Shyām Kalyān {Hindustani},N3 S R2 M2 P N3 S,S N3 D2 P M2 P D2 P G3 M1 P G3 M1 R2 S N3 S (Anya swara* : M1),0.0,Mechakalyāni,N3-S-R2-M2-P-N3-S,S-N3-D2-P-M2-P-D2-P-G3-M1-P-G3-M1-R2-S-N3-S (Anya swara*-: M1),False,1,Shyām Kalyān {Hindustani},65.0
+Sunādavinodini / Hindol of Hindustani,Sunādavinodini / Hindol of Hindustani,S G3 M2 D2 N3 S,S N3 D2 M2 G3 S,0.0,Mechakalyāni,S-G3-M2-D2-N3-S,S-N3-D2-M2-G3-S,True,1,Sunādavinodini / Hindol of Hindustani,65.0
+Swayambhooshwara Rāga,Swayambhooshwara Rāga,S G3 P S,S P G3 S,0.0,Mechakalyāni,S-G3-P-S,S-P-G3-S,True,1,Swayambhooshwara Rāga,65.0
+Vandanadhārini,Vandanadhārini,S R2 M2 P D2 S,S D2 P M2 R2 S,0.0,Mechakalyāni,S-R2-M2-P-D2-S,S-D2-P-M2-R2-S,True,1,Vandanadhārini,65.0
+Vivāhapriyā [7],Vivāhapriyā [7],S R2 M2 P D2 N3 S,S N3 D2 P M2 R2 S,0.0,Mechakalyāni,S-R2-M2-P-D2-N3-S,S-N3-D2-P-M2-R2-S,True,1,Vivāhapriyā [7],65.0
+Yamuna Kalyāni / Yaman Kalyan {Hindustani},Yamuna Kalyāni / Yaman Kalyan {Hindustani},S R2 G3 M2 P D2 N3 S,S N3 D2 P M2 G3 M1 G3 R2 S (Anya swara* : M1),0.0,Mechakalyāni,S-R2-G3-M2-P-D2-N3-S,S-N3-D2-P-M2-G3-M1-G3-R2-S (Anya swara*-: M1),False,1,Yamuna Kalyāni / Yaman Kalyan {Hindustani},65.0
+66 Chitrāmbari,Chitrāmbari,S R2 G3 M2 P D3 N3 S,S N3 D3 P M2 G3 R2 S,1.0,Chitrāmbari,S-R2-G3-M2-P-D3-N3-S,S-N3-D3-P-M2-G3-R2-S,True,1,Chitrāmbari,66.0
+Chaturāngini,Chaturāngini,S R2 G3 M2 P N3 S,S N3 D3 N3 P G3 M2 G3 R2 S,0.0,Chitrāmbari,S-R2-G3-M2-P-N3-S,S-N3-D3-N3-P-G3-M2-G3-R2-S,False,1,Chaturāngini,66.0
+Amritavarshini,Amritavarshini,S G3 M2 P N3 S,S N3 P M2 G3 S,0.0,Chitrāmbari,S-G3-M2-P-N3-S,S-N3-P-M2-G3-S,True,1,Amritavarshini,66.0
+Chitrasindhu,Chitrasindhu,S G3 M2 P N3 S,S N3 D3 P M2 G3 R2 S,0.0,Chitrāmbari,S-G3-M2-P-N3-S,S-N3-D3-P-M2-G3-R2-S,False,1,Chitrasindhu,66.0
+Churnikavinodhini,Churnikavinodhini,S R2 G3 M2 P D3 N3 S,S N3 D3 N3 P M2 G3 R2 S,0.0,Chitrāmbari,S-R2-G3-M2-P-D3-N3-S,S-N3-D3-N3-P-M2-G3-R2-S,False,1,Churnikavinodhini,66.0
+Vijayakoshalam,Vijayakoshalam,S R2 G3 M2 P S,S N3 P M2 G3 S,0.0,Chitrāmbari,S-R2-G3-M2-P-S,S-N3-P-M2-G3-S,False,1,Vijayakoshalam,66.0
+67 Sucharitrā,Sucharitrā,S R3 G3 M2 P D1 N1 S,S N1 D1 P M2 G3 R3 S,1.0,Sucharitrā,S-R3-G3-M2-P-D1-N1-S,S-N1-D1-P-M2-G3-R3-S,True,1,Sucharitrā,67.0
+Santhāna Manjari,Santhāna Manjari,S R3 G3 M2 P D1 S,S N1 D1 P M2 R3 S,0.0,Sucharitrā,S-R3-G3-M2-P-D1-S,S-N1-D1-P-M2-R3-S,False,1,Santhāna Manjari,67.0
+68 Jyothisvarūpiṇi,Jyothisvarūpiṇi,S R3 G3 M2 P D1 N2 S,S N2 D1 P M2 G3 R3 S,1.0,Jyothisvarūpiṇi,S-R3-G3-M2-P-D1-N2-S,S-N2-D1-P-M2-G3-R3-S,True,1,Jyothisvarūpiṇi,68.0
+Jyothi,Jyothi,S R3 G3 M2 P D1 N2 S,S N2 D1 P M2 G3 S,0.0,Jyothisvarūpiṇi,S-R3-G3-M2-P-D1-N2-S,S-N2-D1-P-M2-G3-S,False,1,Jyothi,68.0
+Deepavarāli,Deepavarāli,S R3 M2 P N2 S,S N2 P M2 G3 R3 S,0.0,Jyothisvarūpiṇi,S-R3-M2-P-N2-S,S-N2-P-M2-G3-R3-S,False,1,Deepavarāli,68.0
+Jyothishmathi,Jyothishmathi,S R3 G3 M2 P S,S N2 D1 M2 P M2 G3 R3 S,0.0,Jyothisvarūpiṇi,S-R3-G3-M2-P-S,S-N2-D1-M2-P-M2-G3-R3-S,False,1,Jyothishmathi,68.0
+Rāmagiri,Rāmagiri,S R3 M2 G3 M2 P D1 N2 S,S D1 N2 D1 P M2 G3 R3 S,0.0,Jyothisvarūpiṇi,S-R3-M2-G3-M2-P-D1-N2-S,S-D1-N2-D1-P-M2-G3-R3-S,False,1,Rāmagiri,68.0
+69 Dhātuvardhani,Dhātuvardhani,S R3 G3 M2 P D1 N3 S,S N3 D1 P M2 G3 R3 S,1.0,Dhātuvardhani,S-R3-G3-M2-P-D1-N3-S,S-N3-D1-P-M2-G3-R3-S,True,1,Dhātuvardhani,69.0
+Dhowtha Panchamam,Dhowtha Panchamam,S R3 G3 M2 P N3 P S,S N3 D1 P M2 R3 G3 M2 R3 S,0.0,Dhātuvardhani,S-R3-G3-M2-P-N3-P-S,S-N3-D1-P-M2-R3-G3-M2-R3-S,False,1,Dhowtha Panchamam,69.0
+Dhwithiyapanchamam,Dhwithiyapanchamam,S R3 G3 M2 P N3 P S,S N3 D1 P M2 R3 M2 G3 R3 S,0.0,Dhātuvardhani,S-R3-G3-M2-P-N3-P-S,S-N3-D1-P-M2-R3-M2-G3-R3-S,False,1,Dhwithiyapanchamam,69.0
+Sumukham,Sumukham,S R3 M2 N3 S,S N3 M2 R3 S,0.0,Dhātuvardhani,S-R3-M2-N3-S,S-N3-M2-R3-S,True,1,Sumukham,69.0
+Tavapriyā,Tavapriyā,S R3 M2 P N3 S,S N3 D1 P M2 G3 R3 S,0.0,Dhātuvardhani,S-R3-M2-P-N3-S,S-N3-D1-P-M2-G3-R3-S,False,1,Tavapriyā,69.0
+70 Nāsikābhūśaṇi,Nāsikābhūśaṇi,S R3 G3 M2 P D2 N2 S,S N2 D2 P M2 G3 R3 S,1.0,Nāsikābhūśaṇi,S-R3-G3-M2-P-D2-N2-S,S-N2-D2-P-M2-G3-R3-S,True,1,Nāsikābhūśaṇi,70.0
+Nāsāmani,Nāsāmani,S R3 S M2 P D2 N2 S,S N2 D2 P M2 G3 R3 S,0.0,Nāsikābhūśaṇi,S-R3-S-M2-P-D2-N2-S,S-N2-D2-P-M2-G3-R3-S,False,1,Nāsāmani,70.0
+Marakathagowla,Marakathagowla,S R3 M2 P D2 N2 S,S N2 D2 P M2 G3 R3 S,0.0,Nāsikābhūśaṇi,S-R3-M2-P-D2-N2-S,S-N2-D2-P-M2-G3-R3-S,False,1,Marakathagowla,70.0
+Thilakamandāri,Thilakamandāri,S R3 M2 P D2 S,S D2 P M2 G3 R3 S,0.0,Nāsikābhūśaṇi,S-R3-M2-P-D2-S,S-D2-P-M2-G3-R3-S,False,1,Thilakamandāri,70.0
+71 Kōsalam,Kōsalam,S R3 G3 M2 P D2 N3 S,S N3 D2 P M2 G3 R3 S,1.0,Kōsalam,S-R3-G3-M2-P-D2-N3-S,S-N3-D2-P-M2-G3-R3-S,True,1,Kōsalam,71.0
+Kusumākaram,Kusumākaram,S R3 G3 M2 P D2 N3 S,S N3 D2 P M2 G3 R3 S,0.0,Kōsalam,S-R3-G3-M2-P-D2-N3-S,S-N3-D2-P-M2-G3-R3-S,True,1,Kusumākaram,71.0
+Ayodhya,Ayodhya,S G3 M2 P N3 S,S D2 P M2 G3 M2 R3 S,0.0,Kōsalam,S-G3-M2-P-N3-S,S-D2-P-M2-G3-M2-R3-S,False,1,Ayodhya,71.0
+72 Rasikapriyā,Rasikapriyā,S R3 G3 M2 P D3 N3 S,S N3 D3 P M2 G3 R3 S,1.0,Rasikapriyā,S-R3-G3-M2-P-D3-N3-S,S-N3-D3-P-M2-G3-R3-S,True,1,Rasikapriyā,72.0
+Rasamanjari,Rasamanjari,S R3 G3 M2 P D3 N3 S,S N3 D3 P M2 G3 R3 S,0.0,Rasikapriyā,S-R3-G3-M2-P-D3-N3-S,S-N3-D3-P-M2-G3-R3-S,True,1,Rasamanjari,72.0
+Hamsagiri,Hamsagiri,S R3 G3 M2 P D3 N3 S,S N3 P D3 N3 P M2 G3 S,0.0,Rasikapriyā,S-R3-G3-M2-P-D3-N3-S,S-N3-P-D3-N3-P-M2-G3-S,False,1,Hamsagiri,72.0
+Ishtārangini,Ishtārangini,S R3 M2 P N3 S,S N3 D3 P M2 G3 R3 S,0.0,Rasikapriyā,S-R3-M2-P-N3-S,S-N3-D3-P-M2-G3-R3-S,False,1,Ishtārangini,72.0
+Nāgagiri,Nāgagiri,S G3 M2 P D2 P S,S D2 P M2 G3 S,0.0,Rasikapriyā,S-G3-M2-P-D2-P-S,S-D2-P-M2-G3-S,False,1,Nāgagiri,72.0
