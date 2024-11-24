@@ -1,49 +1,62 @@
 body {
     font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     margin: 0;
     overflow: hidden;
-    background-color:#eef4f9; 
+    background-color:#eef6ff;
+    height: 100vh;
 }
 
 #main {
-    text-align: center;
+    display: flex;
     width: 100%;
-    position: relative; 
+    height: 100vh;
+}
+
+.chart-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.chart-heading {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+    margin-bottom: 40px;
+    font-weight: bold;
 }
 
 #chart {
-    /* Make chart container flex to fit available space */
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    /* Add max-height to ensure chart doesn't overflow */
-    max-height: calc(100vh - 100px); /* Account for navigation height */
 }
 
 .navigation-container {
+    width: 50%;
     display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    justify-content: flex-start;
     align-items: center;
-    justify-content: center;
-    gap: 10px;
-    margin: 10px auto;
-    width: 100%;
-    min-height: 60px; 
 }
 
 #trail {
-    display: inline-flex;
+    display: flex;
     align-items: center;
+    justify-content: center;
     font-weight: bold;
     font-size: large;
     padding: 10px;
-    min-height: 30px; /* Reserve space even when empty */
+    min-height: 30px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    width: 90%;
+    text-align: center;
 }
 
 #trail .trailpart {
@@ -55,7 +68,8 @@ body {
     position: relative;
     background: #f0f0f0;
     color: #333;
-    margin-right: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
 }
 
 #trail .trailpart:after {
@@ -71,15 +85,70 @@ body {
 }
 
 #explanation {
-    display: inline-block;
-    font-weight:bolder;
-    font-size:x-large;
-    color:rgb(32, 32, 142);
-    /* margin-top: 10px; */
-    min-height: 30px; /* Reserve space even when empty */
-    min-width: 140px; /* Reserve minimum width */
+    font-weight: bolder;
+    font-size: x-large;
+    color: rgb(32, 32, 142);
+    min-height: 30px;
+    padding: 0px;
+    text-align: center;
+    width: 90%;
 }
 
-#chart {
-    margin-bottom: 10px; /* Add some space between chart and navigation */
+#derived-raagams {
+    width: 100%;
+    margin-top: 0px;
+    display: none;
+    font-size:medium;
+}
+
+#derived-raagams table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #ecf6ff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+#derived-raagams thead {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+#derived-raagams tbody {
+    display: block;
+    max-height: 300px; /* Height of 5 rows (assuming each row is ~40px) */
+    overflow-y: auto;
+}
+
+#derived-raagams thead tr,
+#derived-raagams tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+#derived-raagams th, 
+#derived-raagams td {
+    padding: 5px;
+    text-align: left;
+}
+
+#derived-raagams th {
+    background-color: rgb(32, 32, 142);
+    color: white;
+    font-weight: bold;
+}
+
+/* #derived-raagams tbody tr:hover {
+    background-color: #859ed4f1;
+} */
+
+#derived-raagams-title {
+    color: rgb(32, 32, 142);
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
 }

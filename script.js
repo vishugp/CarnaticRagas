@@ -4,6 +4,7 @@ const radius = Math.min(width, height) / 2 - 50;
 let selectedNode = null;
 let isPlayingSequence = false;
 let currentBreadcrumbNodes = []; // Store current breadcrumb nodes
+let raagamsData = [];
 
 const baseColors = [
     "#8A2BE2", // Violet
@@ -73,6 +74,157 @@ async function playSequence(notes, depths, ascending = true) {
         .style("z-index", "0");
 }
 
+function updateDerivedRaagams(raga_rank) {
+    const derivedRaagams = raagamsData.filter(row => row.Raga_Rank === raga_rank);
+    const tableBody = d3.select("#derived-raagams-body");
+    
+    // Clear existing rows
+    tableBody.html("");
+    
+    // Add new rows with click functionality
+    derivedRaagams.forEach(raagam => {
+        const row = tableBody.append("tr")
+            .style("cursor", "pointer")
+            .on("click", async function() {
+                if (!isPlayingSequence) {
+                    isPlayingSequence = true;
+                    
+                    // Parse the paths into arrays of notes
+                    const aarohanam = raagam.path.split("-");
+                    const avarohanam = raagam.avro_path.split("-");
+                    
+                    // Map depths for the notes (1-based indexing)
+                    const aarohanamDepths = aarohanam.map((_, i) => i + 1);
+                    const avarohanamDepths = avarohanam.map((_, i) => avarohanam.length - i);
+                    
+                    // Highlight the clicked row
+                    d3.select(this)
+                        .style("background-color", "#f0f0f0")
+                        .style("transition", "background-color 0.3s");
+
+                    // Update breadcrumb trail if it exists
+                    const trailElements = d3.select("#trail").selectAll(".trailpart");
+                    if (!trailElements.empty()) {
+                        // Play ascending sequence (aarohanam)
+                        for (let i = 0; i < aarohanam.length; i++) {
+                            // Reset all highlights
+                            trailElements
+                                .style("transform", "scale(1)")
+                                .style("box-shadow", "none")
+                                .style("z-index", "0");
+                            
+                            // Find and highlight matching note in breadcrumb
+                            trailElements.each(function(d, index) {
+                                if (d.data.name === aarohanam[i]) {
+                                    // Special handling for Sa (S)
+                                    if (d.data.name === 'S') {
+                                        // In aarohanam, use first S for all occurrences except the last
+                                        const isLastSa = i === aarohanam.length - 1;
+                                        const isFirstSaInBreadcrumb = index === 0;
+                                        
+                                        if ((isLastSa && !isFirstSaInBreadcrumb) || 
+                                            (!isLastSa && isFirstSaInBreadcrumb)) {
+                                            d3.select(this)
+                                                .style("transform", "scale(1.1)")
+                                                .style("box-shadow", "0 0 14px #FFA500")
+                                                .style("z-index", "1");
+                                        }
+                                    } else {
+                                        // For all other notes, highlight as normal
+                                        d3.select(this)
+                                            .style("transform", "scale(1.1)")
+                                            .style("box-shadow", "0 0 14px #FFA500")
+                                            .style("z-index", "1");
+                                    }
+                                }
+                            });
+                            
+                            playAudioWithOctave(aarohanam[i], aarohanamDepths[i], 0);
+                            await sleep(500);
+                        }
+                        
+                        await sleep(1000); // Pause between ascending and descending
+                        
+                        // Play descending sequence (avarohanam)
+                        for (let i = 0; i < avarohanam.length; i++) {
+                            // Reset all highlights
+                            trailElements
+                                .style("transform", "scale(1)")
+                                .style("box-shadow", "none")
+                                .style("z-index", "0");
+                            
+                            // Find and highlight matching note in breadcrumb
+                            trailElements.each(function(d, index) {
+                                if (d.data.name === avarohanam[i]) {
+                                    // Special handling for Sa (S)
+                                    if (d.data.name === 'S') {
+                                        // In avarohanam, use second S for all occurrences except the first
+                                        const isFirstSa = i === 0;
+                                        const isFirstSaInBreadcrumb = index === 0;
+                                        
+                                        if ((isFirstSa && !isFirstSaInBreadcrumb) || 
+                                            (!isFirstSa && isFirstSaInBreadcrumb)) {
+                                            d3.select(this)
+                                                .style("transform", "scale(1.1)")
+                                                .style("box-shadow", "0 0 14px #FFA500")
+                                                .style("z-index", "1");
+                                        }
+                                    } else {
+                                        // For all other notes, highlight as normal
+                                        d3.select(this)
+                                            .style("transform", "scale(1.1)")
+                                            .style("box-shadow", "0 0 14px #FFA500")
+                                            .style("z-index", "1");
+                                    }
+                                }
+                            });
+                            
+                            playAudioWithOctave(avarohanam[i], avarohanamDepths[i], 0);
+                            await sleep(500);
+                        }
+                        
+                        // Reset all highlights at the end
+                        trailElements
+                            .style("transform", "scale(1)")
+                            .style("box-shadow", "none")
+                            .style("z-index", "0");
+                    }
+                    
+                    // Reset row highlighting
+                    d3.select(this)
+                        .style("background-color", "")
+                        .style("transition", "background-color 0.3s");
+                    
+                    isPlayingSequence = false;
+                }
+            })
+            .on("mouseover", function() {
+                if (!isPlayingSequence) {
+                    d3.select(this)
+                        .style("background-color", "#f5f5f5")
+                        .style("transition", "background-color 0.3s");
+                }
+            })
+            .on("mouseout", function() {
+                if (!isPlayingSequence) {
+                    d3.select(this)
+                        .style("background-color", "")
+                        .style("transition", "background-color 0.3s");
+                }
+            });
+            
+        // Add cells to the row
+        row.selectAll("td")
+            .data([raagam.raaga, raagam.path, raagam.avro_path])
+            .enter()
+            .append("td")
+            .text(d => d);
+    });
+    
+    // Show the table
+    d3.select("#derived-raagams").style("display", "block");
+}
+
 function createSunburst(json) {
     // Track arrow key states
     const keyStates = {
@@ -111,7 +263,7 @@ function createSunburst(json) {
                         if (i === index) {
                             d3.select(this)
                                 .style("transform", "scale(1.1)")
-                                .style("box-shadow", "0 0 14px #FFD700")
+                                .style("box-shadow", "0 0 14px #FFA500")
                                 .style("z-index", "1");
                             
                             setTimeout(() => {
@@ -187,11 +339,12 @@ function createSunburst(json) {
     function resetVisualization() {
         if (!isPlayingSequence) {
             selectedNode = null;
-            currentBreadcrumbNodes = []; // Clear breadcrumb nodes
+            currentBreadcrumbNodes = [];
             paths.style("opacity", 1);
             labels.style("visibility", "visible");
             d3.select("#trail").selectAll("*").remove();
             d3.select("#explanation").style("visibility", "hidden");
+            d3.select("#derived-raagams").style("display", "none"); // Add this line
         }
     }
 
@@ -235,7 +388,7 @@ function createSunburst(json) {
             return `rotate(${angle}) translate(${r},0) rotate(${angle > 90 ? 180 : 0})`;
         })
         .attr("text-anchor", d => ((d.x0 + d.x1) / 2) > Math.PI ? "end" : "start")
-        .style("font-size", "8px")
+        .style("font-size", "12px")
         .style("fill", "black")
         .style("visibility", "visible")
         .text(d => d.data.name);
@@ -288,6 +441,12 @@ function createSunburst(json) {
                 d3.select("#explanation")
                     .html(`<b>${raagaName}</b>`)
                     .style("visibility", "");
+                    
+                // Add this line to update derived raagams
+                const matchingRaagam = raagamsData.find(r => r.raaga === raagaName);
+                if (matchingRaagam) {
+                    updateDerivedRaagams(matchingRaagam.Raga_Rank);
+                }
             }
         }
         
@@ -330,7 +489,7 @@ function createSunburst(json) {
                 if (!isPlayingSequence) {
                     d3.select(this)
                         .style("transform", "scale(1.1)")
-                        .style("box-shadow", "0 0 14px #FFD700")
+                        .style("box-shadow", "0 0 14px #FFA500")
                         .style("z-index", "1");
                     
                     setTimeout(() => {
@@ -415,8 +574,8 @@ Promise.all([
     d3.csv("Data/Tabular/Raagams.csv"),
     loadColormap()
 ]).then(([data]) => {
+    raagamsData = data; // Store the full data
     const filteredData = data.filter(row => row.Melakarta === "1.0");
-    
     const json = buildHierarchy(filteredData);
     createSunburst(json);
 });
