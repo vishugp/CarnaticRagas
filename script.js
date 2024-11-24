@@ -5,6 +5,8 @@ let selectedNode = null;
 let isPlayingSequence = false;
 let currentBreadcrumbNodes = []; // Store current breadcrumb nodes
 let raagamsData = [];
+let tone = "0490_Chaos_sf2_file"
+
 
 const baseColors = [
     "#8A2BE2", // Violet
@@ -323,6 +325,8 @@ function createSunburst(json) {
         .append("g")
         .attr("transform", `translate(${width / 2}, ${height / 2})`);
 
+
+
     function handleOutsideClick(event) {
         const chartElement = document.querySelector('#chart svg');
         const explanationElement = document.querySelector('#explanation');
@@ -348,6 +352,14 @@ function createSunburst(json) {
         }
     }
 
+    document.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape') {
+            d3.selectAll('*').interrupt();
+            
+            resetVisualization();
+        }
+    });
+
     function cleanup() {
         document.removeEventListener('click', handleOutsideClick);
     }
@@ -367,19 +379,12 @@ function createSunburst(json) {
         .innerRadius(d => (d.depth / maxDepth) * radius)
         .outerRadius(d => ((d.depth + 1) / maxDepth) * radius);
 
-    const paths = svg.selectAll("path")
-        .data(root.descendants())
-        .enter().append("path")
-        .attr("display", d => d.depth ? null : "none")
-        .attr("d", arc)
-        .style("stroke", "#fff")
-        .style("fill", d => getColorByName(d))
-        .style("fill-opacity", 0.7)
-        .on("mouseover", mouseover)
-        .on("click", click)
-        .on("mouseleave", mouseleave);
 
-    const labels = svg.selectAll("text")
+    // Add a group for labels and ensure it is appended before the paths
+    const labelLayer = svg.append("g").attr("class", "label-layer");
+
+    // Add labels to the label layer
+    const labels = labelLayer.selectAll("text")
         .data(root.descendants())
         .enter().append("text")
         .attr("transform", function (d) {
@@ -392,6 +397,21 @@ function createSunburst(json) {
         .style("fill", "black")
         .style("visibility", "visible")
         .text(d => d.data.name);
+
+    // Append paths after labels to ensure they are on top
+    const paths = svg.append("g").attr("class", "path-layer")
+        .selectAll("path")
+        .data(root.descendants())
+        .enter().append("path")
+        .attr("display", d => d.depth ? null : "none")
+        .attr("d", arc)
+        .style("stroke", "#fff")
+        .style("fill", d => getColorByName(d))
+        .style("fill-opacity", 0.7)
+        .on("mouseover", mouseover)
+        .on("click", click)
+        .on("mouseleave", mouseleave);
+
 
     function mouseover(event, d) {
         if (selectedNode || isPlayingSequence) return;
@@ -532,10 +552,10 @@ function playAudioWithOctave(noteName, level, octaveShift = 0) {
     const audioContext = new AudioContext();
 
     const player = new WebAudioFontPlayer();
-    player.loader.startLoad(audioContext, "https://surikov.github.io/webaudiofontdata/sound/0010_Chaos_sf2_file.js", "_tone_0010_Chaos_sf2_file");
+    player.loader.startLoad(audioContext, "https://surikov.github.io/webaudiofontdata/sound/0460_FluidR3_GM_sf2_file.js", "_tone_0460_FluidR3_GM_sf2_file");
     player.loader.waitLoad(() => {
         const midiNote = mapNoteToMIDI(noteName, level) + (octaveShift * 12);
-        player.queueWaveTable(audioContext, audioContext.destination, _tone_0010_Chaos_sf2_file, 0, midiNote, 1);
+        player.queueWaveTable(audioContext, audioContext.destination, _tone_0460_FluidR3_GM_sf2_file, 0, midiNote, 1);
     });
 }
 

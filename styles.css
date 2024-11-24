@@ -105,8 +105,8 @@ body {
     width: 100%;
     border-collapse: collapse;
     background: #ecf6ff;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
-    border-radius: 6px;
+    box-shadow: 0 1px 7px rgba(0,0,0,0.2);
+    border-radius: 7px;
     overflow: hidden;
 }
 
@@ -120,6 +120,12 @@ body {
     display: block;
     max-height: 300px; /* Height of 5 rows (assuming each row is ~40px) */
     overflow-y: auto;
+}
+
+#derived-raagams td:first-child {
+    font-weight: bold; /* Make the text bold */
+    color: rgb(32, 32, 142);
+    text-align: left; /* Align text to the left */
 }
 
 #derived-raagams thead tr,
@@ -146,7 +152,7 @@ body {
 } */
 
 #derived-raagams-title {
-    color: rgb(32, 32, 142);
+    color: rgb(0, 0, 0);
     font-size: 1.2em;
     font-weight: bold;
     margin-bottom: 10px;
