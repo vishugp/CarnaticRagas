@@ -1,20 +1,21 @@
 const width = 600;
 const height = 600;
-const radius = Math.min(width, height) / 2 - 50; // Leave padding for strokes or labels
+const radius = Math.min(width, height) / 2 - 50;
 let selectedNode = null;
+let isPlayingSequence = false; // Add flag to track if sequence is playing
 
 const baseColors = [
     "#8A2BE2", // Violet
     "#4B0082", // Indigo
     "#0000FF", // Blue
     "#008000", // Green
-    "#FFFF00", // Yellow
+    "#FFD500", // Yellow
     "#FFA500", // Orange
     "#FF0000"  // Red
 ];
 
 function getColorByDepth(d) {
-    const baseColor = baseColors[d.depth % baseColors.length];
+    const baseColor = baseColors[(d.depth-1) % baseColors.length];
     const lightenFactor = 0.1;
     return d3.color(baseColor).brighter(lightenFactor);
 }
@@ -36,44 +37,64 @@ function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-async function playSequence(notes, depth) {
+async function playSequence(notes, depths, ascending = true) {
     const noteDelay = 500; // 500ms between notes
+    const trailElements = d3.select("#trail").selectAll(".trailpart");
+    
     for (let i = 0; i < notes.length; i++) {
-        playAudio(notes[i], depth[i]); 
+        // Highlight current note
+        trailElements
+            .style("transform", (d, index) => {
+                const isCurrentNote = d.data.name === notes[i] && 
+                    ((ascending && index === i) || (!ascending && index === notes.length - 1 - i));
+                return isCurrentNote ? "scale(1.1)" : "scale(1)";
+            })
+            .style("box-shadow", (d, index) => {
+                const isCurrentNote = d.data.name === notes[i] && 
+                    ((ascending && index === i) || (!ascending && index === notes.length - 1 - i));
+                return isCurrentNote ? "0 0 18px #FFA500" : "none";
+            })
+            .style("z-index", (d, index) => {
+                const isCurrentNote = d.data.name === notes[i] && 
+                    ((ascending && index === i) || (!ascending && index === notes.length - 1 - i));
+                return isCurrentNote ? "1" : "0";
+            });
+
+        // Play the note
+        playAudio(notes[i], depths[i]);
         await sleep(noteDelay);
     }
+
+    // Reset all highlights after sequence
+    trailElements
+        .style("transform", "scale(1)")
+        .style("box-shadow", "none")
+        .style("z-index", "0");
 }
 
 function createSunburst(json) {
-
     d3.select("#explanation")
         .style("cursor", "pointer")
         .on("click", async function(event) {
-            // Stop the click from bubbling up to the document
             event.stopPropagation();
             
-            if (selectedNode) {
-                // Get the path from root to selected node
+            if (selectedNode && !isPlayingSequence) {
+                isPlayingSequence = true;
                 const sequence = selectedNode.ancestors().reverse().slice(1);
                 const notes = sequence.map(d => d.data.name);
                 const depths = sequence.map(d => d.depth);
                 
-                // Play Aarohanam (ascending)
-                await playSequence(notes, depths);
-                
-                // Small pause between ascending and descending
+                // Play ascending sequence
+                await playSequence(notes, depths, true);
                 await sleep(1000);
-                
-                // Play Avarohanam (descending)
-                await playSequence(notes.reverse(), depths.reverse());
+                // Play descending sequence
+                await playSequence(notes.reverse(), depths.reverse(), false);
+                isPlayingSequence = false;
             }
         });
 
-        
-    // Add click handler for document
     document.addEventListener('click', handleOutsideClick);
 
-    // Create the SVG element
     const svg = d3.select("#chart").append("svg")
         .attr("width", width)
         .attr("height", height)
@@ -86,34 +107,29 @@ function createSunburst(json) {
     function handleOutsideClick(event) {
         const chartElement = document.querySelector('#chart svg');
         const explanationElement = document.querySelector('#explanation');
+        const trailElement = document.querySelector('#trail');
         
-        // Only reset if click is outside both the chart and explanation
         if (selectedNode && 
             !chartElement.contains(event.target) && 
-            !explanationElement.contains(event.target)) {
+            !explanationElement.contains(event.target) &&
+            !trailElement.contains(event.target)) {
             resetVisualization();
         }
     }
 
     function resetVisualization() {
-        selectedNode = null;
-        paths.style("opacity", 1);
-        labels.style("visibility", "visible");
-        d3.select("#trail").selectAll("*").remove();
-        d3.select("#explanation").style("visibility", "hidden");
+        if (!isPlayingSequence) {
+            selectedNode = null;
+            paths.style("opacity", 1);
+            labels.style("visibility", "visible");
+            d3.select("#trail").selectAll("*").remove();
+            d3.select("#explanation").style("visibility", "hidden");
+        }
     }
 
-    // Clean up function to remove event listener when needed
     function cleanup() {
         document.removeEventListener('click', handleOutsideClick);
     }
-
-
-    // const svg = d3.select("#chart").append("svg")
-    //     .attr("width", width)
-    //     .attr("height", height)
-    //     .append("g")
-    //     .attr("transform", `translate(${width / 2}, ${height / 2})`);
 
     const partition = d3.partition().size([2 * Math.PI, radius * radius]);
 
@@ -153,15 +169,15 @@ function createSunburst(json) {
         .attr("text-anchor", d => ((d.x0 + d.x1) / 2) > Math.PI ? "end" : "start")
         .style("font-size", "8px")
         .style("fill", "black")
-        .style("visibility", "visible")  // Start with all labels visible
+        .style("visibility", "visible")
         .text(d => d.data.name);
 
     function mouseover(event, d) {
-        if (selectedNode) return;
+        if (selectedNode || isPlayingSequence) return;
 
         const raagaName = d.data.raaga || "";
         d3.select("#explanation")
-            .html(`<b>${raagaName}</b>`)
+            .html(`${raagaName}`)
             .style("visibility", "");
 
         paths.style("opacity", 0.3);
@@ -170,32 +186,19 @@ function createSunburst(json) {
         paths.filter(pathD => sequenceArray.some(seqD => seqD === pathD))
             .style("opacity", 1);
 
-        // Show labels for the entire selected path
         labels.style("visibility", l => {
-            // Check if the label's node is in the selected path (ancestors)
             const isInPath = sequenceArray.includes(l);
-            // Check if the label's node is a descendant of the selected node
             const isDescendant = l.ancestors().includes(d);
-            
             return (isInPath || isDescendant) ? "visible" : "hidden";
         });
 
         updateBreadcrumbs(sequenceArray);
-
-        // playAudio(d.data.name, d.depth);
     }
 
-    // function click(event, d) {
-    //     // Play audio with the current level (d.depth determines the level)
-    //     playAudio(d.data.name, d.depth);
-    // }
-
     function click(event, d) {
-        // Stop event from bubbling to document
         event.stopPropagation();
         
-        // Only handle clicks on leaf nodes (nodes without children)
-        if (!d.children && !d._children) {
+        if (!d.children && !d._children && !isPlayingSequence) {
             if (selectedNode === d) {
                 resetVisualization();
             } else {
@@ -223,17 +226,8 @@ function createSunburst(json) {
         playAudio(d.data.name, d.depth);
     }
 
-    // function mouseleave() {
-    //     paths.style("opacity", 1);
-    //     // Show all labels again when nothing is selected
-    //     labels.style("visibility", "visible");
-    //     d3.select("#trail").selectAll("*").remove();
-    //     d3.select("#explanation").style("visibility", "hidden");
-    // }
-
     function mouseleave() {
-        // Only clear highlighting if no node is selected
-        if (!selectedNode) {
+        if (!selectedNode && !isPlayingSequence) {
             paths.style("opacity", 1);
             labels.style("visibility", "visible");
             d3.select("#trail").selectAll("*").remove();
@@ -241,19 +235,50 @@ function createSunburst(json) {
         }
     }
 
-    function updateBreadcrumbs(nodeArray, percentage) {
+    function updateBreadcrumbs(nodeArray) {
         const trail = d3.select("#trail").selectAll("div")
             .data(nodeArray);
+
+        trail.exit().remove();
+
+        trail
+            .style("color", "white")
+            .style("background-color", d => getColorByDepth(d))
+            .text(d => d.data.name);
 
         trail.enter()
             .append("div")
             .attr("class", "trailpart")
+            .style("cursor", "pointer")
             .style("color", "white")
             .style("background-color", d => getColorByDepth(d))
-            .text(d => d.data.name);
+            .style("transition", "all 0.2s ease-in-out")  // Add smooth transition
+            .text(d => d.data.name)
+            .on("click", function(event, d) {
+                event.stopPropagation();
+                if (!isPlayingSequence) {
+                    // Add temporary highlight effect when clicked individually
+                    d3.select(this)
+                        .style("transform", "scale(1.1)")
+                        .style("box-shadow", "0 0 14px #FFD700")
+                        .style("z-index", "1");
+                    
+                    setTimeout(() => {
+                        if (!isPlayingSequence) {
+                            d3.select(this)
+                                .style("transform", "scale(1)")
+                                .style("box-shadow", "none")
+                                .style("z-index", "0");
+                        }
+                    }, 300);
+                    
+                    playAudio(d.data.name, d.depth);
+                }
+            });
     }
 }
 
+// Rest of the code remains the same...
 function buildHierarchy(csvData) {
     const root = { name: "", children: [] };
     csvData.forEach(row => {
@@ -275,68 +300,45 @@ function buildHierarchy(csvData) {
 }
 
 function playAudio(noteName, level) {
-    // Initialize AudioContext
     const AudioContext = window.AudioContext || window.webkitAudioContext;
     const audioContext = new AudioContext();
 
-    // Initialize WebAudioFontPlayer
     const player = new WebAudioFontPlayer();
-    player.loader.startLoad(audioContext, "https://surikov.github.io/webaudiofontdata/sound/0250_Aspirin_sf2_file.js", "_tone_0250_Aspirin_sf2_file");
+    player.loader.startLoad(audioContext, "https://surikov.github.io/webaudiofontdata/sound/0010_Chaos_sf2_file.js", "_tone_0010_Chaos_sf2_file");
     player.loader.waitLoad(() => {
-        // Map noteName to a MIDI note or a predefined tone
         const midiNote = mapNoteToMIDI(noteName, level);
-
-       
-
-        // Play the note
-        player.queueWaveTable(audioContext, audioContext.destination, _tone_0250_Aspirin_sf2_file, 0, midiNote, 1); // duration: 2 seconds
+        player.queueWaveTable(audioContext, audioContext.destination, _tone_0010_Chaos_sf2_file, 0, midiNote, 1);
     });
 }
 
-// Helper function to map note names or raaga to MIDI notes
 function mapNoteToMIDI(noteName, level) {
     const noteMapping = {
-        // Shuddha (natural) swaras
-        "S": 60,       // C4
-
-        // Rishabham (Re) variations
-        "R1": 61,       // C#4 (Komal Re)
-        "R2": 62,       // D4 (Shuddha Re)
-        "R3": 63,       // D#4 (Teevra Re)
-
-        // Gandharam (Ga) variations
-        "G1": 62,       // D4 (Shuddha Ga = Same as Shuddha Re)
-        "G2": 63,       // D#4 (Komal Ga)
-        "G3": 64,       // E4 (Teevra Ga)
-
-        // Madhyamam (Ma) variations
-        "M1": 65,       // F4 (Shuddha Ma)
-        "M2": 66,       // F#4 (Teevra Ma)
-
-        "P": 67,       // G4
-
-        // Dhaivatam (Dha) variations
-        "D1": 68,       // G#4 (Komal Dha)
-        "D2": 69,       // A4 (Shuddha Dha)
-        "D3": 70,       // A#4 (Teevra Dha)
-
-        // Nishadam (Ni) variations
-        "N1": 69,       // A4 (Shuddha Ni = Same as Shuddha Dha)
-        "N2": 70,       // A#4 (Komal Ni)
-        "N3": 71        // B4 (Teevra Ni)
+        "S": 60,
+        "R1": 61,
+        "R2": 62,
+        "R3": 63,
+        "G1": 62,
+        "G2": 63,
+        "G3": 64,
+        "M1": 65,
+        "M2": 66,
+        "P": 67,
+        "D1": 68,
+        "D2": 69,
+        "D3": 70,
+        "N1": 69,
+        "N2": 70,
+        "N3": 71
     };
 
-    // Return the MIDI note number for the given noteName
     midiNote = noteMapping[noteName] 
 
     if (noteName === "S" && level > 1) {
-        midiNote = 72; // C5 for higher octave Sa
+        midiNote = 72;
     }
 
     return midiNote;
 }
-
-
 
 Promise.all([
     d3.csv("Data/Tabular/Melakarta_Raagams.csv"),

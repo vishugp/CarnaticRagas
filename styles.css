@@ -6,6 +6,7 @@ body {
     height: 100vh;
     margin: 0;
     overflow: hidden;
+    background-color:#eef4f9; 
 }
 
 #main {
@@ -39,6 +40,8 @@ body {
 #trail {
     display: inline-flex;
     align-items: center;
+    font-weight: bold;
+    font-size: large;
     padding: 10px;
     min-height: 30px; /* Reserve space even when empty */
 }
@@ -69,8 +72,10 @@ body {
 
 #explanation {
     display: inline-block;
-    color: #000000;
-    margin-top: 20px;
+    font-weight:bolder;
+    font-size:x-large;
+    color:rgb(27, 27, 62);
+    /* margin-top: 10px; */
     min-height: 30px; /* Reserve space even when empty */
     min-width: 140px; /* Reserve minimum width */
 }
